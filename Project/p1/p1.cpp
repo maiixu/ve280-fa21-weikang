@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-09-26 23:10:16
- * @LastEditTime: 2021-09-28 19:46:46
+ * @LastEditTime: 2021-09-28 20:57:19
  * @LastEditors: Please set LastEditors
  * @Description: VE280 2021 Fall Project 1
  * @FilePath: \Project\p1\p1.cpp
@@ -10,8 +10,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-// #include <cstdlib>
-// TODO: debug test
+// TODO: debug test iostream
 
 using namespace std;
 
@@ -32,12 +31,17 @@ string judge(int number, int type);
 
 int main()
 {
-    int number, type;
+    int number = 0, type = 0;
     // Ensure the input number is within range
-    while (number > 10000000 || number < 0 || ((type != 1) && (type != 2) && (type != 3) && (type != 4)))
+    while (number > 10000000 || number <= 0 || ((type != 1) && (type != 2) && (type != 3) && (type != 4)))
     {
         cout << "Please enter the integer and the test choice: ";
         cin >> number >> type;
+        if (cin.fail())
+        {
+            cin.clear();
+            cin.ignore(100, '\n');
+        }
     }
     string answer = judge(number, type);
     cout << answer << endl;
@@ -47,7 +51,7 @@ int main()
 bool isTriangle(int number)
 {
     int temp = sqrt(2 * number);
-    for (int i = 0; i < temp; i++)
+    for (int i = 0; i <= temp; i++)
     {
         if (number == 0.5 * temp * (temp + 1))
         {
@@ -61,7 +65,7 @@ bool isPower(int number)
 {
     for (int i = 0; i <= sqrt(number); i++)
     {
-        for (int j = 2; j <= sqrt(number); j++)
+        for (int j = 2; j <= number; j++)
         {
             if (number == pow((double)i, j))
             {
@@ -77,25 +81,26 @@ bool isSquareSum(int number)
     int sum = 0;
     for (int i = 0; i <= sqrt(number); i++)
     {
-        // TODO : j最大值
-        for (int j = 0; (i+j) <= sqrt(number); j++)
+        for (int j = 0; (i + j) <= sqrt(number); j++)
         {
-            sum = sum + (i + j) ^ 2;
+            sum = sum + (i + j) * (i + j);
             if (sum == number)
             {
                 return true;
             }
         }
+        sum = 0;
     }
     return false;
 }
 
 bool isAbundant(int number)
 {
-    int divisor[500000];
+    int divisor[500000] = {0};
     int sum = 0;
     int fig = 0;
-    for (int i = 1; i ^ 2 <= number; i++)
+    // Collect divisors larger than 1
+    for (int i = 2; i * i <= number; i++)
     {
         if (number % i == 0)
         {
@@ -106,9 +111,10 @@ bool isAbundant(int number)
     }
     for (int i = 0; i < fig; i++)
     {
-        sum = sum + divisor[fig];
+        sum = sum + divisor[i];
     }
-    if (sum > number)
+    // Adding divisor 1 to sum
+    if ((sum + 1) > number)
     {
         return true;
     }
