@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-09-26 23:10:16
- * @LastEditTime: 2021-09-28 15:05:25
+ * @LastEditTime: 2021-09-28 19:46:46
  * @LastEditors: Please set LastEditors
  * @Description: VE280 2021 Fall Project 1
  * @FilePath: \Project\p1\p1.cpp
@@ -11,7 +11,7 @@
 #include <string>
 #include <cmath>
 // #include <cstdlib>
-// TODO: comment debug test
+// TODO: debug test
 
 using namespace std;
 
@@ -36,7 +36,7 @@ int main()
     // Ensure the input number is within range
     while (number > 10000000 || number < 0 || ((type != 1) && (type != 2) && (type != 3) && (type != 4)))
     {
-        cout << "Please enter the integer and the test choice: " << endl;
+        cout << "Please enter the integer and the test choice: ";
         cin >> number >> type;
     }
     string answer = judge(number, type);
@@ -78,7 +78,7 @@ bool isSquareSum(int number)
     for (int i = 0; i <= sqrt(number); i++)
     {
         // TODO : j最大值
-        for (int j = 0; j <= sqrt(number); j++)
+        for (int j = 0; (i+j) <= sqrt(number); j++)
         {
             sum = sum + (i + j) ^ 2;
             if (sum == number)
