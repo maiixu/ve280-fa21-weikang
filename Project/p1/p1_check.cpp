@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-09-26 23:10:16
- * @LastEditTime: 2021-10-03 21:28:39
+ * @LastEditTime: 2021-10-05 22:59:02
  * @LastEditors: Please set LastEditors
  * @Description: VE280 2021 Fall Project 1
  * @FilePath: \Project\p1\p1.cpp
@@ -30,7 +30,7 @@ string judge(int number, int type);
 int main()
 {
     ofstream out("output.txt", ios::out);
-    for (int i = 0; i < 100; i++)
+    for (int i = 9730000; i < 9740000; i++)
     {
         for (int j = 1; j < 5; j++)
         {
@@ -57,9 +57,13 @@ bool isTriangle(int number)
 
 bool isPower(int number)
 {
+    if (number == 1)
+    {
+        return true;
+    }
     for (int i = 0; i <= sqrt(number); i++)
     {
-        for (int j = 2; j <= number; j++)
+        for (int j = 2; j <= log2(number); j++)
         {
             if (number == pow((double)i, j))
             {

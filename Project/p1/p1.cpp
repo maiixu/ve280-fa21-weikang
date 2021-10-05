@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-09-26 23:10:16
- * @LastEditTime: 2021-09-28 20:57:19
+ * @LastEditTime: 2021-10-05 22:56:25
  * @LastEditors: Please set LastEditors
  * @Description: VE280 2021 Fall Project 1
  * @FilePath: \Project\p1\p1.cpp
@@ -63,9 +63,13 @@ bool isTriangle(int number)
 
 bool isPower(int number)
 {
+    if (number == 1)
+    {
+        return true;
+    }
     for (int i = 0; i <= sqrt(number); i++)
     {
-        for (int j = 2; j <= number; j++)
+        for (int j = 2; j <= log2(number); j++)
         {
             if (number == pow((double)i, j))
             {
