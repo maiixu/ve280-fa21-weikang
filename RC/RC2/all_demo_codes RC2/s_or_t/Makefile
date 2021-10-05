@@ -1,11 +1,10 @@
-all: s_or_t
+all: test
 
-s_or_t:main.o study.o touch_fish.o
-	g++ -o s_or_t main.o study.o touch_fish.o
+test: main.o study.o touch_fish.o
+	g++ -o test main.o study.o touch_fish.o
 
 main.o: main.cpp
 	g++ -c main.cpp
-
 
 study.o: study.cpp
 	g++ -c study.cpp
@@ -14,5 +13,4 @@ touch_fish.o: touch_fish.cpp
 	g++ -c touch_fish.cpp
 
 clean:
-	rm -f s_or_t *.o
-
+	rm -f test *.o
