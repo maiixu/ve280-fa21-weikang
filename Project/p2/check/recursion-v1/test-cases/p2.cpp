@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-12 10:28:22
- * @LastEditTime: 2021-10-24 00:54:02
+ * @LastEditTime: 2021-10-15 16:46:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p2\p2.cpp
@@ -13,7 +13,7 @@
 // EFFECTS: Returns true if the imput n is odd
 // Applied in filter_odd()
 static bool isOdd(int n) {
-    return (n % 2 != 0) ? true : false;
+    return (n % 2 == 1) ? true : false;
 }
 
 // EFFECTS: Returns true if the imput n is even
@@ -115,11 +115,9 @@ list_t filter_even(list_t list) {
 }
 
 list_t filter(list_t list, bool (*fn)(int)) {
-    // First judge whether the list is empty
     if (list_isEmpty(list)) {
         return list_make();
     }
-    // Then insert the judging condition
     if (fn(list_first(list))) {
         return append(list_make(list_first(list), list_make()),
                       filter(list_rest(list), fn));
@@ -132,21 +130,15 @@ list_t filter(list_t list, bool (*fn)(int)) {
 list_t insert_list(list_t first, list_t second, unsigned int n) {
     list_t first_right = chop_first(first, n);
     list_t first_left = reverse(chop_first(reverse(first), (size(first) - n)));
-    // Didn't apply recursion, simply append left and right to a new list.
     return append(append(first_left, second), first_right);
 }
 
 list_t chop(list_t list, unsigned int n) {
-    if (n <= 0) {
-        return list;
-    }
-    else {
-        list = reverse(list);
-        // first reverse, then chop first n elements, then reverse back
-        list = chop_first(list, n);
-        list = reverse(list);
-        return list;
-    }
+    list = reverse(list);
+    // first reverse, then chop first n elements, then reverse back
+    list = chop_first(list, n);
+    list = reverse(list);
+    return list;
 }
 
 int tree_sum(tree_t tree) {
@@ -160,20 +152,18 @@ bool tree_search(tree_t tree, int key) {
     if (tree_isEmpty(tree)) {
         return false;
     }
-    return tree_search(tree_left(tree), key) || tree_search(tree_right(tree), key) || (tree_elt(tree) == key);
+    return tree_search(tree_left(tree), key) || tree_search(tree_right(tree), key) || tree_elt(tree) == key;
 }
 
 int depth(tree_t tree) {
     if (tree_isEmpty(tree)) {
         return 0;
     }
-    // 1 is for the depth of the top of the tree
     return 1 + getMax(depth(tree_left(tree)), depth(tree_right(tree)));
 }
 
 int tree_min(tree_t tree) {
     if (tree_isEmpty(tree)) {
-        // So that the return value won't affect the later-on results
         return MAX_INT;
     }
     return getMin(tree_elt(tree), getMin(tree_min(tree_right(tree)), tree_min(tree_left(tree))));
@@ -190,7 +180,6 @@ bool tree_hasPathSum(tree_t tree, int sum) {
     if (tree_isEmpty(tree)) {
         return false;
     }
-    // Ending condition, found!
     else if (tree_elt(tree) == sum && tree_isEmpty(tree_right(tree)) && tree_isEmpty(tree_left(tree))) {
         return true;
     }
@@ -201,14 +190,13 @@ bool covered_by(tree_t A, tree_t B) {
     if (tree_isEmpty(A)) {
         return true;
     }
-    else if (tree_isEmpty(B)) {
+    if (tree_isEmpty(B)) {
         return false;
     }
-    return (covered_by(tree_left(A), tree_left(B)) && covered_by(tree_right(A), tree_right(B)) && tree_elt(A) == tree_elt(B));
+    return covered_by(tree_left(A), tree_left(B)) && covered_by(tree_right(A), tree_right(B)) && tree_elt(A) == tree_elt(B);
 }
 
 bool contained_by(tree_t A, tree_t B) {
-    // If covered, it must be contained
     if (covered_by(A, B)) {
         return true;
     }
