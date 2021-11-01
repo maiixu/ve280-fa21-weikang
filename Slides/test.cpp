@@ -1,13 +1,15 @@
 /*
  * @Author: your name
  * @Date: 2021-10-05 18:03:54
- * @LastEditTime: 2021-10-05 20:38:32
+ * @LastEditTime: 2021-11-01 22:28:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p1\test.cpp
  */
 
 #include <iostream>
+#include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -49,4 +51,8 @@ int main()
     cout << "y = " << &y << endl;
     return 0;
     */
+    string foo = "Hello, world!";
+    int bar = 0;
+    cout << foo << setw(20) << bar << endl;
+    return 0;
 }
