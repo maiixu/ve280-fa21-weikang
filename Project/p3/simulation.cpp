@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-30 11:25:12
- * @LastEditTime: 2021-11-01 23:45:52
+ * @LastEditTime: 2021-11-02 00:39:13
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p3\simulation.cpp
@@ -38,10 +38,9 @@ Simulation::Simulation(int argc, char *argv[]) {
     // Initialize round
     getRounds(atoi(argv[3]));
     // Initialize world
+    world = new world_t;
     getSpecies(argv[1]);
-    cout << "Great You Are Right!3" << endl;
     initWorld(argv[2]);
-    cout << "Great You Are Right!4" << endl;
 }
 
 species_t Simulation::trans_sp(string species, string path) {
@@ -84,25 +83,18 @@ void Simulation::getRounds(int rounds) {
 void Simulation::getSpecies(string speciesFile) {
     string speciesArray[MAXSPECIES + 1];
     ifstream speciesStream;
-    cout << "Great You Are Right! A" << endl;
     speciesStream.open(speciesFile);
     int i = 0;
     string line;
-    cout << "Great You Are Right! B" << endl;
     while (getline(speciesStream, line)) {
         speciesArray[i] = line;
         i++;
     }
-    cout << "Great You Are Right! C" << endl;
     world->numSpecies = i - 1;
-    cout << "Great You Are Right! F" << endl;
     for (int j = 0; j < world->numSpecies; j++) {
-        cout << "Great You Are Right! G" << endl;
         world->species[j] = trans_sp(speciesArray[j + 1], speciesArray[0]);
     }
-    cout << "Great You Are Right! D" << endl;
     speciesStream.close();
-    cout << "Great You Are Right! E" << endl;
 }
 
 void Simulation::initWorld(string worldFile) {
@@ -120,7 +112,7 @@ void Simulation::initWorld(string worldFile) {
         istringstream is(line);
         is >> creatureFile[i];
         for (int j = 0; j < world->numSpecies; j++) {
-            if (creatureFile[j] == world->species[j].name) {
+            if (creatureFile[i] == world->species[j].name) {
                 species_t *p = &(world->species[j]);
                 world->creatures[i].species = p;
             }
@@ -158,10 +150,32 @@ void Simulation::printGrid(const grid_t &grid) {
     for (int i = 0; i < world->grid.height; i++) {
         for (int j = 0; j < world->grid.width; j++) {
             if (world->grid.squares[i][j] != NULL)
-                cout << grid.squares[i][j]->species->name.substr(0, 2) << " ";
+                switch (grid.squares[i][j]->direction) {
+                case EAST:
+                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                         << "e"
+                         << " ";
+                    break;
+                case WEST:
+                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                         << "w"
+                         << " ";
+                    break;
+                case NORTH:
+                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                         << "n"
+                         << " ";
+                    break;
+                case SOUTH:
+                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                         << "s"
+                         << " ";
+                    break;
+                }
             else
                 cout << "____ ";
         }
+        cout << endl;
     }
 }
 

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-30 11:25:04
- * @LastEditTime: 2021-11-01 09:49:05
+ * @LastEditTime: 2021-11-02 00:02:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p3\simulation.h
@@ -16,7 +16,9 @@ using namespace std;
 class Simulation {
 public:
     Simulation(int argc, char *argv[]);
-    ~Simulation(){};
+    ~Simulation() {
+        delete world;
+    };
     void simulate(); // The whole process
 
 private:
