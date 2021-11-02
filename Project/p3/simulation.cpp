@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-30 11:25:12
- * @LastEditTime: 2021-11-02 00:39:13
+ * @LastEditTime: 2021-11-02 20:20:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p3\simulation.cpp
@@ -68,6 +68,9 @@ species_t Simulation::trans_sp(string species, string path) {
             spStream >> optCode2;
             if (optCode2[0] >= 48 && optCode2[0] <= 57) {
                 result.program[size].address = stoi(optCode2, 0, 10);
+            }
+            else {
+                result.program[size].address = 1000; // A large enough number
             }
         }
     }
@@ -142,32 +145,31 @@ void Simulation::initWorld(string worldFile) {
         i++;
     }
     world->numCreatures = i;
-    // TODO: 问问指针在类里面需不需要初始化
     worldStream.close();
 }
 
-void Simulation::printGrid(const grid_t &grid) {
+void Simulation::printGrid() {
     for (int i = 0; i < world->grid.height; i++) {
         for (int j = 0; j < world->grid.width; j++) {
             if (world->grid.squares[i][j] != NULL)
-                switch (grid.squares[i][j]->direction) {
+                switch (world->grid.squares[i][j]->direction) {
                 case EAST:
-                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                    cout << world->grid.squares[i][j]->species->name.substr(0, 2) << "_"
                          << "e"
                          << " ";
                     break;
                 case WEST:
-                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                    cout << world->grid.squares[i][j]->species->name.substr(0, 2) << "_"
                          << "w"
                          << " ";
                     break;
                 case NORTH:
-                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                    cout << world->grid.squares[i][j]->species->name.substr(0, 2) << "_"
                          << "n"
                          << " ";
                     break;
                 case SOUTH:
-                    cout << grid.squares[i][j]->species->name.substr(0, 2) << "_"
+                    cout << world->grid.squares[i][j]->species->name.substr(0, 2) << "_"
                          << "s"
                          << " ";
                     break;
@@ -179,6 +181,208 @@ void Simulation::printGrid(const grid_t &grid) {
     }
 }
 
+creature_t *Simulation::getCreature(point_t location) {
+    return world->grid.squares[location.r][location.c];
+}
+
+bool Simulation::ifInside(point_t location) {
+    return (location.r >= 0 && location.r <= world->grid.width && location.c >= 0 && location.c <= world->grid.height);
+}
+
+bool Simulation::ifSame(creature_t *a, point_t location) {
+    return a->species->name == getCreature(location)->species->name;
+}
+
+void Simulation::hop(creature_t *creature) {
+    point_t target = adjacentPoint(creature->location, creature->direction);
+    if ((getCreature(target) == NULL) && ifInside(target)) {
+        creature->location = target;
+    }
+}
+
+void Simulation::left(creature_t *creature) {
+    creature->direction = leftFrom(creature->direction);
+}
+
+void Simulation::right(creature_t *creature) {
+    creature->direction = rightFrom(creature->direction);
+}
+
+void Simulation::infect(creature_t *creature) {
+    point_t target = adjacentPoint(creature->location, creature->direction);
+    if ((getCreature(target) != NULL) && ifInside(target)) {
+        getCreature(target)->programID = 0;
+        getCreature(target)->species = creature->species;
+    }
+}
+
+void Simulation::ifEmpty(creature_t *creature, int n) {
+    point_t target = adjacentPoint(creature->location, creature->direction);
+    if (((getCreature(target) == NULL) && ifInside(target))) {
+        creature->programID = n;
+        operation(creature, getInstruction(*creature)); //FIXME: Might have some bug
+    }
+    else {
+        creature->programID = (creature->programID + 1) % creature->species->programSize;
+        operation(creature, getInstruction(*creature));
+    }
+}
+
+void Simulation::ifWall(creature_t *creature, int n) {
+    point_t target = adjacentPoint(creature->location, creature->direction);
+    if (((getCreature(target) == NULL) && !ifInside(target))) {
+        creature->programID = n;
+        operation(creature, getInstruction(*creature)); //FIXME: Might have some bug
+    }
+    else {
+        creature->programID = (creature->programID + 1) % creature->species->programSize;
+        operation(creature, getInstruction(*creature));
+    }
+}
+
+void Simulation::ifSame(creature_t *creature, int n) {
+    point_t target = adjacentPoint(creature->location, creature->direction);
+    if (((getCreature(target) == NULL) && ifSame(creature, target))) {
+        creature->programID = n;
+        operation(creature, getInstruction(*creature)); //FIXME: Might have some bug
+    }
+    else {
+        creature->programID = (creature->programID + 1) % creature->species->programSize;
+        operation(creature, getInstruction(*creature));
+    }
+}
+
+void Simulation::ifEnemy(creature_t *creature, int n) {
+    point_t target = adjacentPoint(creature->location, creature->direction);
+    if (((getCreature(target) == NULL) && !ifSame(creature, target))) {
+        creature->programID = n;
+        operation(creature, getInstruction(*creature)); //FIXME: Might have some bug
+    }
+    else {
+        creature->programID = (creature->programID + 1) % creature->species->programSize;
+        operation(creature, getInstruction(*creature));
+    }
+}
+
+void Simulation::go(creature_t *creature, int n) {
+    creature->programID = n;
+    operation(creature, getInstruction(*creature)); //FIXME: Might have some bug
+}
+
+void Simulation::operation(creature_t *creature, instruction_t instr) {
+    switch (instr.op) {
+    case HOP:
+        hop(creature);
+        break;
+    case LEFT:
+        left(creature);
+        break;
+    case RIGHT:
+        right(creature);
+        break;
+    case INFECT:
+        infect(creature);
+        break;
+    case IFEMPTY:
+        ifEmpty(creature, instr.address);
+        break;
+    case IFWALL:
+        ifWall(creature, instr.address);
+        break;
+    case IFSAME:
+        ifSame(creature, instr.address);
+        break;
+    case IFENEMY:
+        ifEnemy(creature, instr.address);
+        break;
+    case GO:
+        go(creature, instr.address);
+        break;
+    }
+}
+
+void Simulation::simulateCreature() {
+    for (int i = 0; i < world->numCreatures; i++) {
+        cout << "Great you are right. A" << endl;
+        operation(getCreature(world->creatures[i].location), getInstruction(world->creatures[i]));
+        world->creatures[i].programID = (world->creatures[i].programID + 1) % world->creatures[i].species->programSize;
+    }
+}
+
 void Simulation::simulate() {
-    printGrid(world->grid);
+    printGrid();
+    for (int i = 0; i < round; i++) {
+        simulateCreature();
+        cout << "Great you are right. B" << endl;
+        printGrid();
+        cout << "Great you are right. C" << endl;
+    }
+}
+
+direction_t leftFrom(direction_t dir) {
+    switch (dir) {
+    case EAST:
+        return NORTH;
+        break;
+    case NORTH:
+        return WEST;
+        break;
+    case WEST:
+        return SOUTH;
+        break;
+    case SOUTH:
+        return EAST;
+        break;
+    default:
+        return dir;
+        break;
+    }
+}
+
+direction_t rightFrom(direction_t dir) {
+    switch (dir) {
+    case EAST:
+        return SOUTH;
+        break;
+    case NORTH:
+        return EAST;
+        break;
+    case WEST:
+        return NORTH;
+        break;
+    case SOUTH:
+        return WEST;
+        break;
+    default:
+        return dir;
+        break;
+    }
+}
+
+point_t adjacentPoint(point_t pt, direction_t dir) {
+    switch (dir) {
+    case EAST:
+        pt.r = pt.r + 1;
+        return pt;
+        break;
+    case NORTH:
+        pt.c = pt.c - 1;
+        return pt;
+        break;
+    case WEST:
+        pt.r = pt.r - 1;
+        return pt;
+        break;
+    case SOUTH:
+        pt.c = pt.c + 1;
+        return pt;
+        break;
+    default:
+        return pt;
+        break;
+    }
+}
+
+instruction_t getInstruction(const creature_t &creature) {
+    return creature.species->program[creature.programID];
 }
