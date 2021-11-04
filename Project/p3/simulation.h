@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-30 11:25:04
- * @LastEditTime: 2021-11-02 20:18:48
+ * @LastEditTime: 2021-11-02 23:55:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p3\simulation.h
@@ -77,3 +77,10 @@ direction_t rightFrom(direction_t dir);
 
 instruction_t getInstruction(const creature_t &creature);
 // EFFECTS: Returns the current instruction of "creature".
+
+// TODO:
+// 1. 看看有没有能分出来的方程，debug输出ifenemy
+// 2. 多加一些try catch throw，写error class
+// 3. 过joj
+// 4. 对拍
+// 5. 写注释
