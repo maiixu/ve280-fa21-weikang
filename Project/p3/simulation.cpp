@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-30 11:25:12
- * @LastEditTime: 2021-11-02 23:40:07
+ * @LastEditTime: 2021-11-08 02:32:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p3\simulation.cpp
@@ -11,13 +11,72 @@
 #include <fstream>
 #include <sstream>
 
-// TODO: Put all argument in a check class operated at the beginning.
-/* else {
-        ifVerbose = false;
-        cout << "Error: Missing arguments!" << endl;
-        cout << "Usage: ./p3 <species-summary> <world-file> <rounds> [v|verbose]" << endl;
-    } */
-// initWorld(world, argc[], argv);
+void checkArgument() {
+    cout << "Error: Missing arguments!" << endl;
+    cout << "Usage: ./p3 <species-summary> <world-file> <rounds> [v|verbose]" << endl;
+}
+
+void checkRound() {
+    if (stoi(argv[3]) < 0) {
+        cout << "Error: Number of simulation rounds is negative!" << endl;
+        return false;
+    }
+    return true;
+}
+
+void checkFileOpen() {
+    ifstream worldStream(argv[2]);
+    if (!worldStream.is_open()) {
+        cout << "Error: Cannot open file <filename>!" << endl;
+        return false;
+    }
+    ifstream speciesStream(argv[1]);
+    if (!speciesStream.is_open()) {
+        cout << "Error: Cannot open file <filename>!" << endl;
+        return false;
+    }
+    ifstream speciesStream_;
+    speciesStream_.open(argv[1]);
+    string line;
+    while (getline(speciesStream_, line)) {
+        ifstream _speciesStream(line);
+        if (!_speciesStream.is_open()) {
+            cout << "Error: Cannot open file <filename>!" << endl;
+            return false;
+        }
+    }
+    speciesStream_.close();
+}
+
+void checkMaxSpecies() {
+    ifstream speciesStream(argv[1]);
+    if (speciesStream.is_open()) {
+        ifstream speciesStream;
+        speciesStream.open(argv[1]);
+        int i = 0;
+        string line;
+        while (getline(speciesStream, line)) {
+            i++;
+        }
+        int numSpecies = i - 1;
+        if (numSpecies >= MAXSPECIES) {
+            return false;
+        }
+        speciesStream.close();
+    }
+    return true;
+}
+
+void checkMaxProgram() {
+    return false;
+    // TODO: 干嘛的？
+}
+
+void checkInstruction() {
+}
+
+void checkMaxCreatures() {
+}
 
 Simulation::Simulation(int argc, char *argv[]) {
     // Initialize ifVerbose
@@ -72,17 +131,6 @@ species_t Simulation::trans_sp(string species, string path) {
             }
         }
         if (line.empty()) { break; }
-        /*
-        if (!line.empty()) {
-            string optCode2;
-            spStream >> optCode2;
-            if (optCode2[0] >= 48 && optCode2[0] <= 57) {
-                result.program[size].address = stoi(optCode2, 0, 10);
-            }
-            else {
-                result.program[size].address = 1000; // A large enough number
-            }
-        } */
     }
     result.programSize = size;
     opStream.close();

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-30 11:25:04
- * @LastEditTime: 2021-11-02 23:55:57
+ * @LastEditTime: 2021-11-08 02:30:45
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \p3\simulation.h
@@ -13,6 +13,19 @@
 
 using namespace std;
 
+void check();
+void checkArgument();
+void checkRound();
+void checkFileOpen();
+void checkMaxSpecies();
+void checkMaxProgram();
+void checkInstruction();
+void checkMaxCreatures();
+void checkUnknownSpecies();
+void checkUnknownDirection();
+void checkGridHeight();
+void checkInBound();
+void checkOverlap();
 class Simulation {
     //OVERVIEW: xxxxx
 public:
