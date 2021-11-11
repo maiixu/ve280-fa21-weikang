@@ -1,7 +1,7 @@
 /*
  * @Author: Mai Xu
  * @Date: 2021-10-30 11:25:04
- * @LastEditTime: 2021-11-11 13:25:39
+ * @LastEditTime: 2021-11-11 15:31:58
  * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\simulation.h
  */
@@ -68,12 +68,12 @@ void errorGridWidth();
 //
 // EFFECTS: Output error message into stdcout stream
 
-void errorInBound(string name, point_t location);
+void errorInBound(string name, point_t location, int width, int height, string dir);
 // MODIFIES: cout
 //
 // EFFECTS: Output error message into stdcout stream
 
-void errorOverlap(string name1, string name2);
+void errorOverlap(string name1, string name2, point_t location1, string dir1, point_t location2, string dir2);
 // MODIFIES: cout
 //
 // EFFECTS: Output error message into stdcout stream

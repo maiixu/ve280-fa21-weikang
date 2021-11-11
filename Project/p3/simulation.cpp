@@ -1,7 +1,7 @@
 /*
  * @Author: Mai Xu
  * @Date: 2021-10-30 11:25:12
- * @LastEditTime: 2021-11-11 14:33:08
+ * @LastEditTime: 2021-11-11 18:17:43
  * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\simulation.cpp
  */
@@ -25,12 +25,12 @@ void errorFileOpen(string err) {
 
 void errorMaxSpecies() {
     cout << "Error: Too many species!" << endl;
-    cout << "Maximal number of species is <MAXSPECIES>." << endl;
+    cout << "Maximal number of species is " << MAXSPECIES << "." << endl;
 }
 
 void errorMaxProgram(string err) {
     cout << "Error: Too many instructions for species " << err << endl;
-    cout << "Maximal number of instructions is <MAXPROGRAM>." << endl;
+    cout << "Maximal number of instructions is " << MAXPROGRAM << "." << endl;
 }
 
 void errorInstruction(string m) {
@@ -39,7 +39,7 @@ void errorInstruction(string m) {
 
 void errorMaxCreatures() {
     cout << "Error: Too many creatures!" << endl;
-    cout << "Maximal number of creatures is <MAXCREATURES>." << endl;
+    cout << "Maximal number of creatures is " << MAXCREATURES << "." << endl;
 }
 
 void errorUnknownSpecies(string m) {
@@ -58,13 +58,13 @@ void errorGridWidth() {
     cout << "Error: The grid width is illegal!" << endl;
 }
 
-void errorInBound(string name, point_t location) {
-    cout << "Error: Creature (" << name << ") is out of bound!" << endl;
-    cout << "The grid size is " << location.r << "-by-" << location.c << "." << endl;
+void errorInBound(string name, point_t location, int width, int height, string dir) {
+    cout << "Error: Creature (" << name << " " << dir << " " << location.r << " " << location.c << ") is out of bound!" << endl;
+    cout << "The grid size is " << height << "-by-" << width << "." << endl;
 }
 
-void errorOverlap(string name1, string name2) {
-    cout << "Error: Creature (" << name1 << ") overlaps with creature (" << name2 << ")!" << endl;
+void errorOverlap(string name1, string name2, point_t location1, string dir1, point_t location2, string dir2) {
+    cout << "Error: Creature (" << name1 << " " << dir1 << " " << location1.r << " " << location1.c << ") overlaps with creature (" << name2 << " " << dir2 << " " << location2.r << " " << location2.c << ")!" << endl;
 }
 
 Simulation::Simulation(int argc, char *argv[]) {
@@ -87,26 +87,14 @@ Simulation::Simulation(int argc, char *argv[]) {
     }
     else {
         errorArgument();
-        throw false;
+        exit(0);
     }
     // Initialize round
-    try {
-        getRounds(atoi(argv[3]));
-    } catch (bool exception) {
-        throw false;
-    }
+    getRounds(atoi(argv[3]));
     // Initialize world
     world = new world_t;
-    try {
-        getSpecies(argv[1]);
-    } catch (bool exception) {
-        throw false;
-    }
-    try {
-        initWorld(argv[2]);
-    } catch (bool exception) {
-        throw false;
-    }
+    getSpecies(argv[1]);
+    initWorld(argv[2]);
 }
 
 species_t Simulation::trans_sp(string species, string path) {
@@ -116,7 +104,7 @@ species_t Simulation::trans_sp(string species, string path) {
     ifstream opStream(speciesPath);
     if (!opStream.is_open()) {
         errorFileOpen(speciesPath);
-        throw false;
+        exit(0);
     }
     string line;
     int size = 0;
@@ -146,15 +134,16 @@ species_t Simulation::trans_sp(string species, string path) {
         if (line.empty()) { break; }
         if (judge == false) {
             errorInstruction(optCode);
-            throw false;
+            opStream.close();
+            exit(0);
         }
     }
+    opStream.close();
     result.programSize = size;
     if (result.programSize >= MAXPROGRAM) {
         errorMaxProgram(result.name);
-        throw false;
+        exit(0);
     }
-    opStream.close();
     return result;
 }
 
@@ -162,7 +151,7 @@ void Simulation::getRounds(int rounds) {
     round = rounds;
     if (round < 0) {
         errorRound();
-        throw false;
+        exit(0);
     }
 }
 
@@ -170,7 +159,8 @@ void Simulation::getSpecies(string speciesFile) {
     string speciesArray[MAXSPECIES + 1];
     ifstream speciesStream(speciesFile);
     if (!speciesStream.is_open()) {
-        throw false;
+        errorFileOpen(speciesFile);
+        exit(0);
     }
     int i = 0;
     string line;
@@ -178,20 +168,15 @@ void Simulation::getSpecies(string speciesFile) {
         speciesArray[i] = line;
         i++;
     }
+    speciesStream.close();
     world->numSpecies = i - 1;
     if (world->numSpecies >= MAXSPECIES) {
         errorMaxSpecies();
-        throw false;
+        exit(0);
     }
     for (int j = 0; j < (int)world->numSpecies; j++) {
-        try {
-            world->species[j] = trans_sp(speciesArray[j + 1], speciesArray[0]);
-        } catch (string exception) {
-            errorFileOpen(exception);
-            throw false;
-        }
+        world->species[j] = trans_sp(speciesArray[j + 1], speciesArray[0]);
     }
-    speciesStream.close();
 }
 
 string Simulation::getDirection(creature_t a) {
@@ -218,20 +203,22 @@ void Simulation::initWorld(string worldFile) {
     ifstream worldStream(worldFile);
     if (!worldStream.is_open()) {
         errorFileOpen(worldFile);
-        throw false;
+        exit(0);
     }
     string line;
     getline(worldStream, line);
     world->grid.height = stoi(line, 0, 10);
     if (world->grid.height >= MAXHEIGHT) {
         errorGridHeight();
-        throw false;
+        worldStream.close();
+        exit(0);
     }
     getline(worldStream, line);
     world->grid.width = stoi(line, 0, 10);
-    if (world->grid.height >= MAXHEIGHT) {
+    if (world->grid.width >= MAXHEIGHT) {
         errorGridWidth();
-        throw false;
+        worldStream.close();
+        exit(0);
     }
     int i = 0;
     while (getline(worldStream, line)) {
@@ -247,7 +234,8 @@ void Simulation::initWorld(string worldFile) {
         }
         if (judge == false) {
             errorUnknownSpecies(creatureFile[i]);
-            throw false;
+            worldStream.close();
+            exit(0);
         }
         string temp;
         is >> temp;
@@ -265,36 +253,38 @@ void Simulation::initWorld(string worldFile) {
         }
         else {
             errorUnknownDirection(temp);
-            throw false;
+            worldStream.close();
+            exit(0);
         }
+        worldStream.close();
         int r, c;
         is >> r;
         is >> c;
         world->creatures[i].location.r = r;
         world->creatures[i].location.c = c;
         if (!ifInside(world->creatures[i].location)) {
-            errorInBound(world->creatures[i].species->name, world->creatures[i].location);
-            throw false;
+            errorInBound(world->creatures[i].species->name, world->creatures[i].location, world->grid.height, world->grid.width, getDirection(world->creatures[i]));
+            exit(0);
         }
         world->creatures[i].programID = 0;
         creature_t *p = &(world->creatures[i]);
         world->grid.squares[r][c] = p;
         i++;
+        if ((unsigned int)i >= MAXCREATURES) {
+            errorMaxCreatures();
+            exit(0);
+        }
+        // FIXME: MAXCREATURES算不算呢
     }
-    for (int i = 0; i < (int)world->numCreatures; i++) {
-        for (int j = 0; j < (int)world->numCreatures; j++) {
-            if (world->creatures[i].location.r == world->creatures[j].location.r && world->creatures[i].location.c == world->creatures[j].location.c) {
-                errorOverlap(world->creatures[i].species->name, world->creatures[j].species->name);
-                throw false;
+    world->numCreatures = i;
+    for (int a = 0; a < (int)world->numCreatures; a++) {
+        for (int j = 0; j < a; j++) {
+            if ((world->creatures[a].location.r == world->creatures[j].location.r) && (world->creatures[a].location.c == world->creatures[j].location.c)) {
+                errorOverlap(world->creatures[a].species->name, world->creatures[j].species->name, world->creatures[a].location, getDirection(world->creatures[a]), world->creatures[j].location, getDirection(world->creatures[j]));
+                exit(0);
             }
         }
     }
-    world->numCreatures = i;
-    if ((unsigned int)i >= MAXCREATURES) {
-        errorMaxCreatures();
-        throw false;
-    }
-    worldStream.close();
 }
 
 void Simulation::printGrid() {
@@ -353,10 +343,12 @@ bool Simulation::isSame(creature_t *a, point_t location) {
 
 void Simulation::hop(creature_t *creature) {
     point_t target = adjacentPoint(creature->location, creature->direction);
-    if ((getCreature(target) == NULL) && ifInside(target)) {
-        world->grid.squares[creature->location.r][creature->location.c] = NULL;
-        creature->location = target;
-        world->grid.squares[creature->location.r][creature->location.c] = creature;
+    if (ifInside(target)) {
+        if (!getCreature(target)) {
+            world->grid.squares[creature->location.r][creature->location.c] = NULL;
+            creature->location = target;
+            world->grid.squares[creature->location.r][creature->location.c] = creature;
+        }
     }
 }
 
@@ -370,44 +362,58 @@ void Simulation::right(creature_t *creature) {
 
 void Simulation::infect(creature_t *creature) {
     point_t target = adjacentPoint(creature->location, creature->direction);
-    if ((getCreature(target) != NULL) && ifInside(target)) {
-        getCreature(target)->programID = 0;
-        getCreature(target)->species = creature->species;
+    if (ifInside(target)) {
+        if (getCreature(target)) {
+            getCreature(target)->programID = 0;
+            getCreature(target)->species = creature->species;
+        }
     }
 }
 
 void Simulation::ifEmpty(creature_t *creature, int n) {
     point_t target = adjacentPoint(creature->location, creature->direction);
-    if (((getCreature(target) == NULL) && ifInside(target))) {
-        creature->programID = n - 1;
-        operation(creature, creature->species->program[creature->programID]); //FIXME: Might have some bug
+    if (ifInside(target)) {
+        if (!getCreature(target)) {
+            creature->programID = n - 1;
+            operation(creature, creature->species->program[creature->programID]);
+        }
+        else {
+            creature->programID++;
+            operation(creature, creature->species->program[creature->programID]);
+        }
     }
     else {
-        creature->programID = creature->programID + 1;
+        creature->programID++;
         operation(creature, creature->species->program[creature->programID]);
     }
 }
 
 void Simulation::ifWall(creature_t *creature, int n) {
     point_t target = adjacentPoint(creature->location, creature->direction);
-    if (((getCreature(target) == NULL) && !ifInside(target))) {
+    if (!ifInside(target)) {
         creature->programID = n - 1;
-        operation(creature, creature->species->program[creature->programID]); //FIXME: Might have some bug
+        operation(creature, creature->species->program[creature->programID]);
     }
     else {
-        creature->programID = creature->programID + 1;
+        creature->programID++;
         operation(creature, creature->species->program[creature->programID]);
     }
 }
 
 void Simulation::ifSame(creature_t *creature, int n) {
     point_t target = adjacentPoint(creature->location, creature->direction);
-    if (((getCreature(target) != NULL) && isSame(creature, target))) {
-        creature->programID = n - 1;
-        operation(creature, creature->species->program[creature->programID]); //FIXME: Might have some bug
+    if (ifInside(target)) {
+        if (getCreature(target) && isSame(creature, target)) {
+            creature->programID = n - 1;
+            operation(creature, creature->species->program[creature->programID]);
+        }
+        else {
+            creature->programID = creature->programID + 1;
+            operation(creature, creature->species->program[creature->programID]);
+        }
     }
     else {
-        creature->programID = creature->programID + 1;
+        creature->programID++;
         operation(creature, creature->species->program[creature->programID]);
     }
 }
@@ -415,15 +421,9 @@ void Simulation::ifSame(creature_t *creature, int n) {
 void Simulation::ifEnemy(creature_t *creature, int n) {
     point_t target = adjacentPoint(creature->location, creature->direction);
     if (ifInside(target)) {
-        if (getCreature(target)) {
-            if (!isSame(creature, target)) {
-                creature->programID = n - 1;
-                operation(creature, creature->species->program[creature->programID]);
-            }
-            else {
-                creature->programID++;
-                operation(creature, creature->species->program[creature->programID]);
-            }
+        if (getCreature(target) && !isSame(creature, target)) {
+            creature->programID = n - 1;
+            operation(creature, creature->species->program[creature->programID]);
         }
         else {
             creature->programID++;
@@ -438,7 +438,7 @@ void Simulation::ifEnemy(creature_t *creature, int n) {
 
 void Simulation::go(creature_t *creature, int n) {
     creature->programID = n - 1;
-    operation(creature, creature->species->program[creature->programID]); //FIXME: Might have some bug
+    operation(creature, creature->species->program[creature->programID]);
 }
 
 void Simulation::operation(creature_t *creature, instruction_t instr) {
