@@ -1,11 +1,11 @@
 /*
- * @Author: your name
+ * @Author: Mai Xu
  * @Date: 2021-10-30 11:25:04
- * @LastEditTime: 2021-11-08 02:30:45
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @LastEditTime: 2021-11-11 13:25:39
+ * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\simulation.h
  */
+
 #include "world_type.h"
 #include <cstdlib>
 #include <string>
@@ -13,68 +13,70 @@
 
 using namespace std;
 
-void check();
-void checkArgument();
-void checkRound();
-void checkFileOpen();
-void checkMaxSpecies();
-void checkMaxProgram();
-void checkInstruction();
-void checkMaxCreatures();
-void checkUnknownSpecies();
-void checkUnknownDirection();
-void checkGridHeight();
-void checkInBound();
-void checkOverlap();
-class Simulation {
-    //OVERVIEW: xxxxx
-public:
-    Simulation(int argc, char *argv[]);
-    ~Simulation() {
-        delete world;
-    };
-    void simulate(); // The whole process
+void errorArgument();
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
 
-private:
-    string info[5]; // Store the argv in cpp string form
-    int round;
-    bool ifVerbose;
-    world_t *world;
+void errorRound();
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
 
-    species_t trans_sp(string species, string path); // Translate a string representation into a species
-    void getRounds(int rounds);                      // Initialize round
-    void getSpecies(string speciesFile);             // Get species path and string from a file and initialize species and numSpecies in world
-    void initWorld(string worldFile);                // Initialize the rest part of world
+void errorFileOpen(string err);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
 
-    void printGrid(); // Print a grid representation of the creature world.
-    creature_t *getCreature(point_t location);
-    // REQUIRES: location is inside the grid.
-    //
-    // EFFECTS: Returns a pointer to the creature at "location" in "grid".
-    bool ifInside(point_t location);              // Judge whether the point is inside the grid.
-    bool ifSame(creature_t *a, point_t location); // Judge whether the two species are the same
+void errorMaxSpecies();
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
 
-    void hop(creature_t *creature);                            // Apply opt_code hop
-    void left(creature_t *creature);                           // Apply opt_code left
-    void right(creature_t *creature);                          // Apply opt_code right
-    void infect(creature_t *creature);                         // Apply opt_code infect
-    void ifEmpty(creature_t *creature, int n);                 // Apply opt_code ifEmpty
-    void ifWall(creature_t *creature, int n);                  // Apply opt_code ifWall
-    void ifSame(creature_t *creature, int n);                  // Apply opt_code ifSame
-    void ifEnemy(creature_t *creature, int n);                 // Apply opt_code ifEnemy
-    void go(creature_t *creature, int n);                      // Apply opt_code go
-    void operation(creature_t *creature, instruction_t instr); // Operate different opt_code according to their instruction
-    void simulateCreature();
-    // REQUIRES: creature is inside the grid.
-    //
-    // MODIFIES: creature, grid, cout.
-    //
-    // EFFECTS: Simulate one turn of "creature" and update the creature,
-    //          the infected creature, and the grid if necessary.
-    //          The creature programID is always updated. The function
-    //          also prints to the stdout the procedure. If verbose is
-    //          true, it prints more information.
-};
+void errorMaxProgram(string err);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorInstruction(string err);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorMaxCreatures();
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorUnknownSpecies(string err);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorUnknownDirection(string err);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorGridHeight();
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorGridWidth();
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorInBound(string name, point_t location);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
+
+void errorOverlap(string name1, string name2);
+// MODIFIES: cout
+//
+// EFFECTS: Output error message into stdcout stream
 
 point_t adjacentPoint(point_t pt, direction_t dir);
 // EFFECTS: Returns a point that results from moving one square
@@ -91,9 +93,145 @@ direction_t rightFrom(direction_t dir);
 instruction_t getInstruction(const creature_t &creature);
 // EFFECTS: Returns the current instruction of "creature".
 
+class Simulation {
+    //OVERVIEW: The whole simulation of the simple world process
+    //          with error check inside the construction function.
+
+public:
+    Simulation(int argc, char *argv[]);
+    // MODIFIES: this class simulation.
+    //
+    // EFFECTS: Initialize the simulation class and its properties with
+    //          input arguments from terminal commands.
+
+    ~Simulation() {
+        delete world;
+    };
+    // MODIFIES: this class simulation.
+    //
+    // EFFECTS: Delete the simulation class instance.
+
+    void simulate();
+    // MODIFIES: this class simulation and its properties, cout.
+    //
+    // EFFECTS: Simulate the whole world by rounds.
+
+private:
+    string info[5];
+    // Store the argv in cpp string form
+
+    int round;
+    // Simulation rounds
+
+    bool ifVerbose;
+    // Whether to print out the simulation state detailedly
+
+    world_t *world;
+    // Store the current simulation state
+
+    species_t trans_sp(string species, string path);
+    // MODIFIES: create a species struct.
+    //
+    // EFFECTS: Translate a string representation into a species by opening a file with file path and targXet species file.
+
+    void getRounds(int rounds);
+    // MODIFIES: the <round> property in simulation class.
+    //
+    // EFFECTS: Initialize the <round> property in simulation class.
+
+    void getSpecies(string speciesFile);
+    // MODIFIES: the <species> and <numSpecies> properties in the world struct.
+    //
+    // EFFECTS: Get species path and string from a file and initialize the <species> and <numSpecies> properties in the world struct.
+
+    string getDirection(creature_t a);
+
+    void initWorld(string worldFile);
+    // MODIFIES: the rest of the properties in the world struct.
+    //
+    // EFFECTS: Initialize the rest part of world struct.
+
+    void printGrid();
+    // EFFECTS: Print a grid representation of the creature world.
+
+    creature_t *getCreature(point_t location);
+    // REQUIRES: location is inside the grid.
+    //
+    // EFFECTS: Returns a pointer to the creature at "location" in "grid".
+
+    bool ifInside(point_t location);
+    // EFFECTS: Returns a bool that judges whether the point is inside the grid.
+    //          Returns false if the point is outside the grid.
+
+    bool isSame(creature_t *a, point_t location);
+    // EFFECTS: Judge whether the two species are the same.
+    //          Returns true if the two species are the same.
+
+    void hop(creature_t *creature);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code hop to the creature.
+
+    void left(creature_t *creature);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code left to the creature.
+
+    void right(creature_t *creature);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code right to the creature.
+
+    void infect(creature_t *creature);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code infect to the creature.
+
+    void ifEmpty(creature_t *creature, int n);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code ifEmpty to the creature.
+
+    void ifWall(creature_t *creature, int n);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code ifWall to the creature.
+
+    void ifSame(creature_t *creature, int n);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS:  Apply opt_code ifSame to the creature.
+
+    void ifEnemy(creature_t *creature, int n);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code ifEnemy to the creature.
+
+    void go(creature_t *creature, int n);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply opt_code go to the creature.
+
+    void operation(creature_t *creature, instruction_t instr);
+    // MODIFIES: The input creature.
+    //
+    // EFFECTS: Apply different opt_code to the creature according to their instruction.
+
+    void simulateCreature();
+    // REQUIRES: creature is inside the grid.
+    //
+    // MODIFIES: simulation class, creature, cout.
+    //
+    // EFFECTS: Simulate one turn of "creature" and update the creature,
+    //          the infected creature, and the grid if necessary.
+    //          The creature programID is always updated. The function
+    //          also prints to the stdout the procedure. If verbose is
+    //          true, it prints more information.
+};
+
 // TODO:
 // 1. 看看有没有能分出来的方程，debug输出ifenemy
+// 2. verbose 输出
 // 2. 多加一些try catch throw，写error class
 // 3. 过joj
 // 4. 对拍
-// 5. 写注释

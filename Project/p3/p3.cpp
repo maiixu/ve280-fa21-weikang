@@ -1,9 +1,8 @@
 /*
- * @Author: your name
+ * @Author: Mai Xu
  * @Date: 2021-10-30 14:36:16
- * @LastEditTime: 2021-11-08 02:12:51
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @LastEditTime: 2021-11-08 20:27:05
+ * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\p3.cpp
  */
 
