@@ -2,7 +2,7 @@
 
 CC = g++
 
-MAINSRCS = p4.cpp
+MAINSRCS = p3.cpp
 OTHSRCS = simulation.cpp
 SRCS = $(MAINSRCS) $(OTHSRCS)
 OBJS = $(SRCS:.cpp=.o)
@@ -11,7 +11,7 @@ TARGETS = $(MAINSRCS:.cpp=)
 CFLAGS = -g -Wall
 
 %.o: %.cpp
-	$(CC) $(CFLAGS) -o $@ -c $< 
+	$(CC) $(CFLAGS) -o $@ -c $<
 
 all: $(TARGETS)
 
@@ -24,4 +24,4 @@ memcheck: $(TARGETS)
 clean:
 	rm -f $(OBJS) $(TARGETS)
 
-.PHONY: all clean memcheck 
+.PHONY: all clean memcheck

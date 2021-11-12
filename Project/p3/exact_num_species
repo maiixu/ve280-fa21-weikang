@@ -5,4 +5,7 @@ hop
 lrover
 rrover
 alt_rover
+left
+right
 landmine
+path_finder
