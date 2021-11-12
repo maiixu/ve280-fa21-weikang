@@ -1,7 +1,7 @@
 /*
  * @Author: Mai Xu
  * @Date: 2021-10-30 11:25:04
- * @LastEditTime: 2021-11-11 15:31:58
+ * @LastEditTime: 2021-11-12 17:35:05
  * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\simulation.h
  */
@@ -145,6 +145,18 @@ private:
     // EFFECTS: Get species path and string from a file and initialize the <species> and <numSpecies> properties in the world struct.
 
     string getDirection(creature_t a);
+    //EFFECTS: Get direction from creature.
+
+    void initDirection(string temp, int i);
+    // MODIFIES: the world struct
+    //
+    //EFFECTS: Initialize the direction in the world struct.
+
+    void judgeHeightWidth();
+    //EFFECTS: judge whether hight and width are in bound.
+
+    void judgeOverlap();
+    // EFFECTS: judge whether the creatures overlap with each other.
 
     void initWorld(string worldFile);
     // MODIFIES: the rest of the properties in the world struct.
@@ -230,8 +242,8 @@ private:
 };
 
 // TODO:
-// 1. 看看有没有能分出来的方程，debug输出ifenemy
-// 2. verbose 输出
-// 2. 多加一些try catch throw，写error class
-// 3. 过joj
-// 4. 对拍
+// 1.拆分函数(Optional)
+// 2.一个个testcase过
+// 3. 对拍答案
+// 4. 注释 && codecheck
+// 5. 别忘了再传JOJ！！！！！

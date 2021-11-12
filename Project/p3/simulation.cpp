@@ -1,7 +1,7 @@
 /*
  * @Author: Mai Xu
  * @Date: 2021-10-30 11:25:12
- * @LastEditTime: 2021-11-11 18:17:43
+ * @LastEditTime: 2021-11-12 17:38:47
  * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\simulation.cpp
  */
@@ -85,6 +85,7 @@ Simulation::Simulation(int argc, char *argv[]) {
             info[i] = argv[i];
         }
     }
+    // Argument Error Judge
     else {
         errorArgument();
         exit(0);
@@ -101,14 +102,14 @@ species_t Simulation::trans_sp(string species, string path) {
     species_t result;
     result.name = species;
     string speciesPath = path + "/" + species;
+    string line;
+    int size = 0;
+    opcode_t opt[9] = {HOP, LEFT, RIGHT, INFECT, IFEMPTY, IFENEMY, IFSAME, IFWALL, GO}; // For optcode check
     ifstream opStream(speciesPath);
-    if (!opStream.is_open()) {
+    if (!opStream.is_open()) { // File Open Error Judge
         errorFileOpen(speciesPath);
         exit(0);
     }
-    string line;
-    int size = 0;
-    opcode_t opt[9] = {HOP, LEFT, RIGHT, INFECT, IFEMPTY, IFENEMY, IFSAME, IFWALL, GO};
     while (getline(opStream, line)) {
         istringstream spStream;
         spStream.str(line);
@@ -136,14 +137,14 @@ species_t Simulation::trans_sp(string species, string path) {
             errorInstruction(optCode);
             opStream.close();
             exit(0);
-        }
+        } // Instruction Error Judge
     }
     opStream.close();
     result.programSize = size;
     if (result.programSize >= MAXPROGRAM) {
         errorMaxProgram(result.name);
         exit(0);
-    }
+    } // Max Program Error Judge
     return result;
 }
 
@@ -152,7 +153,7 @@ void Simulation::getRounds(int rounds) {
     if (round < 0) {
         errorRound();
         exit(0);
-    }
+    } // Error Round Judge
 }
 
 void Simulation::getSpecies(string speciesFile) {
@@ -161,7 +162,7 @@ void Simulation::getSpecies(string speciesFile) {
     if (!speciesStream.is_open()) {
         errorFileOpen(speciesFile);
         exit(0);
-    }
+    } // Error File Open
     int i = 0;
     string line;
     while (getline(speciesStream, line)) {
@@ -173,10 +174,10 @@ void Simulation::getSpecies(string speciesFile) {
     if (world->numSpecies >= MAXSPECIES) {
         errorMaxSpecies();
         exit(0);
-    }
+    } // Error Max Species
     for (int j = 0; j < (int)world->numSpecies; j++) {
         world->species[j] = trans_sp(speciesArray[j + 1], speciesArray[0]);
-    }
+    } // translate to species
 }
 
 string Simulation::getDirection(creature_t a) {
@@ -198,6 +199,47 @@ string Simulation::getDirection(creature_t a) {
     }
 }
 
+void Simulation::judgeHeightWidth() {
+    if (world->grid.height >= MAXHEIGHT) {
+        errorGridHeight();
+        throw false;
+    }
+    if (world->grid.width >= MAXWIDTH) {
+        errorGridWidth();
+        throw false;
+    }
+}
+
+void Simulation::initDirection(string temp, int i) {
+    if (temp == "east") {
+        world->creatures[i].direction = EAST;
+    }
+    else if (temp == "west") {
+        world->creatures[i].direction = WEST;
+    }
+    else if (temp == "north") {
+        world->creatures[i].direction = NORTH;
+    }
+    else if (temp == "south") {
+        world->creatures[i].direction = SOUTH;
+    }
+    else {
+        errorUnknownDirection(temp);
+        throw false;
+    }
+}
+
+void Simulation::judgeOverlap() {
+    for (int a = 0; a < (int)world->numCreatures; a++) {
+        for (int j = 0; j < a; j++) {
+            if ((world->creatures[a].location.r == world->creatures[j].location.r) && (world->creatures[a].location.c == world->creatures[j].location.c)) {
+                errorOverlap(world->creatures[a].species->name, world->creatures[j].species->name, world->creatures[a].location, getDirection(world->creatures[a]), world->creatures[j].location, getDirection(world->creatures[j]));
+                exit(0);
+            }
+        }
+    }
+}
+
 void Simulation::initWorld(string worldFile) {
     string creatureFile[MAXCREATURES];
     ifstream worldStream(worldFile);
@@ -208,15 +250,11 @@ void Simulation::initWorld(string worldFile) {
     string line;
     getline(worldStream, line);
     world->grid.height = stoi(line, 0, 10);
-    if (world->grid.height >= MAXHEIGHT) {
-        errorGridHeight();
-        worldStream.close();
-        exit(0);
-    }
     getline(worldStream, line);
     world->grid.width = stoi(line, 0, 10);
-    if (world->grid.width >= MAXHEIGHT) {
-        errorGridWidth();
+    try {
+        judgeHeightWidth();
+    } catch (bool exception) {
         worldStream.close();
         exit(0);
     }
@@ -237,54 +275,33 @@ void Simulation::initWorld(string worldFile) {
             worldStream.close();
             exit(0);
         }
-        string temp;
-        is >> temp;
-        if (temp == "east") {
-            world->creatures[i].direction = EAST;
-        }
-        else if (temp == "west") {
-            world->creatures[i].direction = WEST;
-        }
-        else if (temp == "north") {
-            world->creatures[i].direction = NORTH;
-        }
-        else if (temp == "south") {
-            world->creatures[i].direction = SOUTH;
-        }
-        else {
-            errorUnknownDirection(temp);
+        is >> line;
+        try {
+            initDirection(line, i);
+        } catch (bool exception) {
             worldStream.close();
             exit(0);
         }
-        worldStream.close();
-        int r, c;
-        is >> r;
-        is >> c;
-        world->creatures[i].location.r = r;
-        world->creatures[i].location.c = c;
+        is >> world->creatures[i].location.r;
+        is >> world->creatures[i].location.c;
         if (!ifInside(world->creatures[i].location)) {
             errorInBound(world->creatures[i].species->name, world->creatures[i].location, world->grid.height, world->grid.width, getDirection(world->creatures[i]));
+            worldStream.close();
             exit(0);
         }
         world->creatures[i].programID = 0;
         creature_t *p = &(world->creatures[i]);
-        world->grid.squares[r][c] = p;
+        world->grid.squares[world->creatures[i].location.r][world->creatures[i].location.c] = p;
         i++;
-        if ((unsigned int)i >= MAXCREATURES) {
+        if ((unsigned int)i > MAXCREATURES) {
             errorMaxCreatures();
+            worldStream.close();
             exit(0);
         }
-        // FIXME: MAXCREATURES算不算呢
     }
+    worldStream.close();
     world->numCreatures = i;
-    for (int a = 0; a < (int)world->numCreatures; a++) {
-        for (int j = 0; j < a; j++) {
-            if ((world->creatures[a].location.r == world->creatures[j].location.r) && (world->creatures[a].location.c == world->creatures[j].location.c)) {
-                errorOverlap(world->creatures[a].species->name, world->creatures[j].species->name, world->creatures[a].location, getDirection(world->creatures[a]), world->creatures[j].location, getDirection(world->creatures[j]));
-                exit(0);
-            }
-        }
-    }
+    judgeOverlap();
 }
 
 void Simulation::printGrid() {
