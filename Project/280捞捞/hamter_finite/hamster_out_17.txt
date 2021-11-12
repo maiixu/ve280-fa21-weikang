@@ -1,0 +1,1627 @@
+Initial state
+FQ_n FQ_w ____ FQ_s FQ_w 
+____ BU_w ____ BU_e UP_s 
+FQ_n ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Round 1
+Creature (UP south 1 4) takes action:
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+____ BU_w ____ BU_e UP_e 
+FQ_n ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+____ BU_w ____ BU_e UP_e 
+FQ_n ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+____ BU_w ____ BU_e UP_e 
+FQ_n ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Creature (BUURJ east 4 1) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+____ BU_w ____ BU_e UP_e 
+FQ_n ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Creature (FQMMHF north 2 0) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Creature (FQMMHF north 0 0) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ ____ FQ_w BU_w FQ_n 
+FQ_s ____ ____ UP_e BU_w 
+FQ_s BU_e FQ_n UP_n UP_n 
+Creature (FQMMHF north 4 2) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ ____ FQ_w BU_w FQ_n 
+FQ_s ____ FQ_n UP_e BU_w 
+FQ_s BU_e ____ UP_n UP_n 
+Creature (UP east 3 3) takes action:
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ ____ FQ_w BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_n 
+Creature (UP north 4 4) takes action:
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ ____ FQ_w BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (BUURJ west 2 3) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ ____ FQ_w BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (FQMMHF west 2 2) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (BUURJ west 3 4) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (FQMMHF south 0 3) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (BUURJ west 1 1) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (BUURJ east 1 3) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_n UP_w 
+Creature (UP north 4 3) takes action:
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_e 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_w UP_w 
+Round 2
+Creature (UP east 1 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 18: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e UP_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_w UP_w 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_w UP_w 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s BU_e ____ UP_w UP_w 
+Creature (BUURJ east 4 1) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s ____ BU_e UP_w UP_w 
+Creature (FQMMHF north 1 0) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s ____ BU_e UP_w UP_w 
+Creature (FQMMHF north 0 0) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s ____ BU_e UP_w UP_w 
+Creature (FQMMHF north 3 2) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_n BU_w 
+FQ_s ____ BU_e UP_w UP_w 
+Creature (UP north 3 3) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_w 
+Creature (UP west 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 18: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w ____ BU_w FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (BUURJ west 2 3) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (FQMMHF west 2 1) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (BUURJ west 3 4) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ BU_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (FQMMHF south 0 3) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (BUURJ west 1 1) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_w UP_s 
+Creature (UP west 4 3) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_s UP_s 
+Round 3
+Creature (FQMMHF north 1 4) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_n 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_s UP_s 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 4: left
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_s UP_s 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e UP_s UP_s 
+Creature (BUURJ east 4 2) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e BU_s UP_s 
+Creature (FQMMHF north 1 0) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e BU_s UP_s 
+Creature (FQMMHF north 0 0) takes action:
+Instruction 4: left
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_n UP_w BU_w 
+FQ_s ____ BU_e BU_s UP_s 
+Creature (FQMMHF north 3 2) takes action:
+Instruction 4: left
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_w BU_w 
+FQ_s ____ BU_e BU_s UP_s 
+Creature (UP west 3 3) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_s BU_w 
+FQ_s ____ BU_e BU_s UP_s 
+Creature (UP south 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 18: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ FQ_w BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_s BU_w 
+FQ_s ____ BU_e BU_s UP_e 
+Creature (BUURJ west 2 2) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+____ BU_w BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_s BU_w 
+FQ_s ____ BU_e BU_s UP_e 
+Creature (BUURJ west 2 1) takes action:
+Instruction 1: hop
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_s BU_w 
+FQ_s ____ BU_e BU_s UP_e 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_s BU_w 
+FQ_s ____ BU_e BU_s UP_e 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 4: left
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w UP_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (BUURJ west 3 4) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_w FQ_w ____ FQ_s FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF south 0 3) takes action:
+Instruction 4: left
+FQ_w FQ_w ____ FQ_e FQ_w 
+FQ_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (BUURJ west 1 1) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (BUURJ south 4 3) takes action:
+Instruction 1: hop
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Round 4
+Creature (FQMMHF north 1 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_w 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF west 2 4) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (BUURJ east 4 2) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (BUURJ north 1 0) takes action:
+Instruction 1: hop
+FQ_w FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF west 0 0) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_w BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (FQMMHF west 3 2) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (BUURJ south 3 3) takes action:
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_e 
+Creature (UP east 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 18: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w ____ BU_w ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_n 
+Creature (BUURJ west 2 2) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_n 
+Creature (BUURJ west 2 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_n 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_e ____ BU_e BU_s UP_n 
+Creature (FQMMHF east 4 0) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (BUURJ west 3 4) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (BUURJ west 1 1) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (BUURJ south 4 3) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Round 5
+Creature (FQMMHF north 1 4) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_e BU_s UP_n 
+Creature (BUURJ east 4 2) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ north 1 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF north 0 0) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w ____ ____ FQ_n 
+FQ_s ____ FQ_n BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF north 3 2) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ south 3 3) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (UP north 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_w FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ west 2 1) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ west 2 0) takes action:
+Instruction 10: ifwall 12
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 19: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_w 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ west 3 4) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_w ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ west 1 1) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ south 4 3) takes action:
+Instruction 10: ifwall 12
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 19: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Round 6
+Creature (FQMMHF north 1 4) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ south 4 2) takes action:
+Instruction 18: ifsame 20
+Instruction 19: hop
+FQ_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 1 0) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 0 0) takes action:
+Instruction 1: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF north 2 2) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ south 3 3) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (UP west 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 2 1) takes action:
+Instruction 18: ifsame 20
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ west 2 0) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 3 4) takes action:
+Instruction 18: ifsame 20
+Instruction 19: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 1 1) takes action:
+Instruction 18: ifsame 20
+Instruction 19: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ south 4 3) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Round 7
+Creature (FQMMHF north 1 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ south 4 2) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 1 0) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 0 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF north 2 2) takes action:
+Instruction 4: left
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ south 3 3) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (UP south 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 18: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_e 
+Creature (BUURJ north 2 1) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_e 
+Creature (BUURJ west 2 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_w ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_e 
+Creature (FQMMHF west 0 1) takes action:
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_s ____ BU_s BU_s UP_e 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 4: left
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ north 3 4) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ north 1 1) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ south 4 3) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Round 8
+Creature (FQMMHF north 1 4) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ south 4 2) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_n BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ north 1 0) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ north 0 0) takes action:
+Instruction 10: ifwall 12
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 19: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_w ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (FQMMHF west 2 2) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_s BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (BUURJ south 3 3) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_e ____ BU_s BU_s UP_e 
+Creature (UP east 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 18: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_e ____ BU_s BU_s UP_n 
+Creature (BUURJ north 2 1) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_e ____ BU_s BU_s UP_n 
+Creature (BUURJ west 2 0) takes action:
+Instruction 10: ifwall 12
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 19: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_e ____ BU_s BU_s UP_n 
+Creature (FQMMHF north 0 1) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_e ____ BU_s BU_s UP_n 
+Creature (FQMMHF east 4 0) takes action:
+Instruction 5: go 10
+Instruction 10: ifsame 13
+Instruction 11: ifenemy 12
+Instruction 12: right
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ north 3 4) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ north 1 1) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ south 4 3) takes action:
+Instruction 10: ifwall 12
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 19: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Round 9
+Creature (FQMMHF north 1 4) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF north 2 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ south 4 2) takes action:
+Instruction 10: ifwall 12
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 19: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ east 1 0) takes action:
+Instruction 18: ifsame 20
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ north 0 0) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n ____ FQ_e FQ_n 
+BU_w BU_n FQ_n ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (FQMMHF north 2 2) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ ____ BU_w BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (BUURJ west 3 3) takes action:
+Instruction 18: ifsame 20
+Instruction 19: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_n 
+Creature (UP north 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 2 1) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ west 2 0) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF north 0 1) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 13: go 1
+Instruction 1: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ FQ_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 3 4) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n FQ_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 1 1) takes action:
+Instruction 10: ifwall 12
+Instruction 11: infect
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ south 4 3) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Round 10
+Creature (FQMMHF north 1 4) takes action:
+Instruction 2: ifsame 7
+Instruction 7: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 2 4) takes action:
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF south 3 0) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ south 4 2) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ east 1 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ north 0 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (FQMMHF north 1 2) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s ____ BU_w ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (BUURJ west 3 2) takes action:
+Instruction 20: go 1
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_w 
+Creature (UP west 4 4) takes action:
+Instruction 17: ifenemy 19
+Instruction 19: ifwall 22
+Instruction 20: ifempty 21
+Instruction 21: go 22
+Instruction 22: go 1
+Instruction 1: ifenemy 2
+Instruction 2: go 16
+Instruction 16: left
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_n ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 2 1) takes action:
+Instruction 15: ifsame 17
+Instruction 17: right
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ west 2 0) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 0 1) takes action:
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF south 4 0) takes action:
+Instruction 2: ifsame 7
+Instruction 3: infect
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 3 4) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF west 0 4) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF east 0 3) takes action:
+Instruction 10: ifsame 13
+Instruction 13: go 1
+Instruction 1: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ north 1 1) takes action:
+Instruction 12: ifenemy 18
+Instruction 13: ifwall 19
+Instruction 14: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (FQMMHF east 1 3) takes action:
+Instruction 8: ifempty 12
+Instruction 9: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 
+Creature (BUURJ south 4 3) takes action:
+Instruction 2: go 9
+Instruction 9: hop
+BU_n BU_n ____ FQ_e FQ_w 
+BU_e BU_n FQ_n FQ_e FQ_n 
+BU_w BU_e ____ ____ BU_n 
+FQ_s BU_w ____ ____ BU_n 
+FQ_s ____ BU_s BU_s UP_s 

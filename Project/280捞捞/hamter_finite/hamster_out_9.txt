@@ -1,0 +1,1961 @@
+Initial state
+GB_w BN_e SO_n BN_s GB_n 
+BN_n GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_e SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_s 
+Round 1
+Creature (SORJGNFJ east 3 2) takes action:
+Instruction 1: right
+GB_w BN_e SO_n BN_s GB_n 
+BN_n GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_s 
+Creature (GBPPGFX east 1 4) takes action:
+Instruction 1: hop
+GB_w BN_e SO_n BN_s GB_n 
+BN_n GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_s 
+Creature (BNHG north 1 0) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w BN_e SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_s 
+Creature (BNHG east 0 1) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_s 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_s 
+Creature (SORJGNFJ south 4 4) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_w 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_e SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_w 
+Creature (SORJGNFJ east 2 3) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_w 
+Creature (GBPPGFX south 2 1) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_s 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_w 
+Creature (SORJGNFJ south 2 4) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_s SO_w SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_w 
+Creature (SORJGNFJ west 3 1) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_s SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_e SO_w 
+Creature (SORJGNFJ east 4 3) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_s GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_s SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (BNHG south 0 3) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_s SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (BNHG south 3 0) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (GBPPGFX north 0 4) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (GBPPGFX west 0 0) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_n SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (SORJGNFJ north 3 3) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_s 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (SORJGNFJ south 3 4) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_w 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (GBPPGFX north 1 1) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_w 
+GB_e GB_e SO_w SO_s SO_w 
+Creature (SORJGNFJ west 4 2) takes action:
+Instruction 1: right
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_e GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (BNHG east 1 2) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (GBPPGFX east 4 1) takes action:
+Instruction 1: hop
+GB_w BN_n SO_n BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (SORJGNFJ north 0 2) takes action:
+Instruction 1: right
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_s SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Round 2
+Creature (SORJGNFJ south 3 2) takes action:
+Instruction 2: right
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (GBPPGFX east 1 4) takes action:
+Instruction 2: infect
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (BNHG west 1 0) takes action:
+Instruction 26: infect
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (BNHG north 0 1) takes action:
+Instruction 26: infect
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 2: infect
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_w 
+Creature (SORJGNFJ west 4 4) takes action:
+Instruction 2: right
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_n 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 2: infect
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_n 
+Creature (SORJGNFJ south 2 3) takes action:
+Instruction 2: right
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_w 
+BN_e SO_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_n 
+Creature (GBPPGFX south 2 1) takes action:
+Instruction 2: infect
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_w 
+BN_e GB_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_n 
+Creature (SORJGNFJ west 2 4) takes action:
+Instruction 2: right
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e GB_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_n 
+Creature (GBPPGFX north 3 1) takes action:
+Instruction 1: hop
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e GB_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_s SO_n 
+Creature (SORJGNFJ south 4 3) takes action:
+Instruction 2: right
+GB_w BN_n SO_e BN_e GB_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e GB_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (BNHG east 0 3) takes action:
+Instruction 26: infect
+GB_w BN_n SO_e BN_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e GB_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (BNHG east 3 0) takes action:
+Instruction 26: infect
+GB_w BN_n SO_e BN_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 2: infect
+GB_w BN_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (BNHG north 0 4) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 19: hop
+GB_w BN_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (GBPPGFX west 0 0) takes action:
+Instruction 2: infect
+GB_w BN_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_e SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (SORJGNFJ east 3 3) takes action:
+Instruction 2: right
+GB_w BN_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_w 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (SORJGNFJ west 3 4) takes action:
+Instruction 2: right
+GB_w BN_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_n 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (GBPPGFX north 1 1) takes action:
+Instruction 2: infect
+GB_w GB_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_n 
+GB_e GB_e SO_n SO_w SO_n 
+Creature (SORJGNFJ north 4 2) takes action:
+Instruction 2: right
+GB_w GB_n SO_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_n 
+GB_e GB_e SO_e SO_w SO_n 
+Creature (BNHG north 1 2) takes action:
+Instruction 26: infect
+GB_w GB_n BN_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_n 
+GB_e GB_e SO_e SO_w SO_n 
+Creature (GBPPGFX east 4 1) takes action:
+Instruction 2: infect
+GB_w GB_n BN_e GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Creature (BNHG east 0 2) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_w SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Round 3
+Creature (SORJGNFJ west 3 2) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Creature (GBPPGFX east 1 4) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Creature (BNHG west 1 0) takes action:
+Instruction 27: ifsame 34
+Instruction 28: ifwall 31
+Instruction 31: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Creature (GBPPGFX north 0 1) takes action:
+Instruction 1: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_n 
+Creature (SORJGNFJ north 4 4) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_w 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_w SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_w 
+Creature (SORJGNFJ west 2 3) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_w 
+Creature (GBPPGFX south 2 1) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_n 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_w 
+Creature (SORJGNFJ north 2 4) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_n SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_w 
+Creature (BNHG north 3 1) takes action:
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_w SO_w 
+Creature (SORJGNFJ west 4 3) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX east 0 3) takes action:
+Instruction 1: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (BNHG east 3 0) takes action:
+Instruction 27: ifsame 34
+Instruction 34: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (BNHG north 0 4) takes action:
+Instruction 20: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX west 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_s SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (SORJGNFJ south 3 3) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_n 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (SORJGNFJ north 3 4) takes action:
+Instruction 3: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX north 1 1) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX east 4 2) takes action:
+Instruction 1: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (BNHG north 1 2) takes action:
+Instruction 27: ifsame 34
+Instruction 34: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX east 4 1) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (BNHG north 0 2) takes action:
+Instruction 26: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Round 4
+Creature (SORJGNFJ south 3 2) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_e 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX east 1 4) takes action:
+Instruction 5: ifsame 11
+Instruction 6: ifenemy 16
+Instruction 7: right
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (BNHG west 1 0) takes action:
+Instruction 32: hop
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX north 0 1) takes action:
+Instruction 2: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_w 
+Creature (SORJGNFJ west 4 4) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_s 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_s SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_s 
+Creature (SORJGNFJ south 2 3) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_s ____ SO_e SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_s 
+Creature (GBPPGFX south 2 1) takes action:
+Instruction 5: ifsame 11
+Instruction 6: ifenemy 16
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_w 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_s 
+Creature (SORJGNFJ west 2 4) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_s 
+Creature (BNHG west 3 1) takes action:
+Instruction 26: infect
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_s SO_s 
+Creature (SORJGNFJ south 4 3) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_n BN_n GB_e BN_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (GBPPGFX east 0 3) takes action:
+Instruction 2: infect
+GB_w GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (BNHG east 3 0) takes action:
+Instruction 35: ifsame 36
+Instruction 36: go 1
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 19: hop
+GB_w GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_w GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (GBPPGFX north 0 4) takes action:
+Instruction 1: hop
+GB_w GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (GBPPGFX west 0 0) takes action:
+Instruction 5: ifsame 11
+Instruction 6: ifenemy 16
+Instruction 7: right
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_e SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (SORJGNFJ east 3 3) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_w 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (SORJGNFJ west 3 4) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_s 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (GBPPGFX north 1 1) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_s 
+GB_e GB_e GB_e SO_e SO_s 
+Creature (GBPPGFX east 4 2) takes action:
+Instruction 2: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG north 1 2) takes action:
+Instruction 35: ifsame 36
+Instruction 36: go 1
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 19: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 4 1) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG north 0 2) takes action:
+Instruction 27: ifsame 34
+Instruction 28: ifwall 31
+Instruction 31: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_e SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Round 5
+Creature (SORJGNFJ east 3 2) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_s 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX south 1 4) takes action:
+Instruction 8: go 16
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG west 1 0) takes action:
+Instruction 33: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX north 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 12: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (SORJGNFJ south 4 4) takes action:
+Instruction 7: ifsame 11
+Instruction 8: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 12: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_e SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (SORJGNFJ east 2 3) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_w ____ SO_s SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX west 2 1) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_s 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (SORJGNFJ south 2 4) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG west 3 1) takes action:
+Instruction 27: ifsame 34
+Instruction 34: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 4 3) takes action:
+Instruction 1: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 0 3) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG east 3 0) takes action:
+Instruction 20: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 12: hop
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX north 0 4) takes action:
+Instruction 2: infect
+GB_n GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX north 0 0) takes action:
+Instruction 8: go 16
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_n SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (SORJGNFJ north 3 3) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_s 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (SORJGNFJ south 3 4) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX north 1 1) takes action:
+Instruction 12: hop
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 4 2) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG north 1 2) takes action:
+Instruction 20: hop
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 4 1) takes action:
+Instruction 12: hop
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG north 0 2) takes action:
+Instruction 32: hop
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_s SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Round 6
+Creature (SORJGNFJ south 3 2) takes action:
+Instruction 2: right
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_w 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX west 1 4) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (BNHG west 1 0) takes action:
+Instruction 34: infect
+GB_e GB_n BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX north 0 1) takes action:
+Instruction 5: ifsame 11
+Instruction 6: ifenemy 16
+Instruction 7: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_s 
+Creature (SORJGNFJ south 4 4) takes action:
+Instruction 9: ifenemy 15
+Instruction 10: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_e GB_e GB_e GB_e SO_w 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_s SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e SO_w 
+Creature (SORJGNFJ south 2 3) takes action:
+Instruction 2: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e SO_w 
+Creature (GBPPGFX north 2 1) takes action:
+Instruction 22: infect
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_w 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e SO_w 
+Creature (SORJGNFJ west 2 4) takes action:
+Instruction 2: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e SO_w 
+Creature (BNHG west 3 1) takes action:
+Instruction 35: ifsame 36
+Instruction 36: go 1
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 19: hop
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e SO_w 
+Creature (GBPPGFX east 4 3) takes action:
+Instruction 2: infect
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX east 0 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_e BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (BNHG east 3 0) takes action:
+Instruction 21: left
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_n GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX north 0 4) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_e GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX east 0 0) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_e SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (SORJGNFJ east 3 3) takes action:
+Instruction 2: right
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_w 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (SORJGNFJ west 3 4) takes action:
+Instruction 2: right
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_n BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_n 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX north 1 1) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_n 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX east 4 2) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_n GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_n 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (BNHG north 1 2) takes action:
+Instruction 21: left
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_n 
+GB_s GB_e GB_e GB_e GB_w 
+Creature (GBPPGFX east 4 1) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (BNHG north 0 2) takes action:
+Instruction 33: hop
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_w SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Round 7
+Creature (SORJGNFJ west 3 2) takes action:
+Instruction 3: left
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX north 1 4) takes action:
+Instruction 22: infect
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (BNHG west 1 0) takes action:
+Instruction 35: ifsame 36
+Instruction 36: go 1
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 19: hop
+GB_s GB_e BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX east 0 1) takes action:
+Instruction 8: go 16
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_s GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX south 2 0) takes action:
+Instruction 15: right
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX west 4 4) takes action:
+Instruction 1: hop
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_s GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX south 4 0) takes action:
+Instruction 15: right
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_n ____ SO_w SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (SORJGNFJ west 2 3) takes action:
+Instruction 3: left
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_n ____ SO_s SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX north 2 1) takes action:
+Instruction 23: right
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_e ____ SO_s SO_n 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (SORJGNFJ north 2 4) takes action:
+Instruction 3: left
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (BNHG west 3 1) takes action:
+Instruction 20: hop
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX east 4 3) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX east 0 3) takes action:
+Instruction 12: hop
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_n BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (BNHG north 3 0) takes action:
+Instruction 22: ifsame 36
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_e GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX east 1 3) takes action:
+Instruction 15: right
+GB_s GB_s BN_n GB_e GB_n 
+BN_w GB_e BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX north 0 4) takes action:
+Instruction 5: ifsame 11
+Instruction 6: ifenemy 16
+Instruction 7: right
+GB_s GB_s BN_n GB_e GB_e 
+BN_w GB_e BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX south 0 0) takes action:
+Instruction 22: infect
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_e BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_s SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (SORJGNFJ south 3 3) takes action:
+Instruction 3: left
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_e BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_n 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (SORJGNFJ north 3 4) takes action:
+Instruction 3: left
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_e BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_w 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX east 1 1) takes action:
+Instruction 15: right
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_w 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX east 4 2) takes action:
+Instruction 12: hop
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_w GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_w 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (BNHG west 1 2) takes action:
+Instruction 22: ifsame 36
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_w 
+GB_w GB_s GB_e GB_e GB_w 
+Creature (GBPPGFX south 4 1) takes action:
+Instruction 15: right
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (BNHG north 0 2) takes action:
+Instruction 34: infect
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_s SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Round 8
+Creature (SORJGNFJ south 3 2) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_n 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX north 1 4) takes action:
+Instruction 23: right
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX west 1 0) takes action:
+Instruction 1: hop
+GB_s GB_s BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX south 0 1) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_w GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX west 2 0) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX west 4 4) takes action:
+Instruction 2: infect
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_w GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX west 4 0) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_e ____ SO_s SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (SORJGNFJ south 2 3) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_e ____ SO_e SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX east 2 1) takes action:
+Instruction 24: left
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_n ____ SO_e SO_w 
+BN_w BN_w SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (SORJGNFJ west 2 4) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_w SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (BNHG west 3 1) takes action:
+Instruction 21: left
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX east 4 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: infect
+GB_s GB_w BN_n GB_e GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX east 0 3) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_s GB_w BN_n GB_s GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (BNHG west 3 0) takes action:
+Instruction 26: infect
+GB_s GB_w BN_n GB_s GB_e 
+GB_w GB_s BN_s GB_s GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX south 1 3) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_s GB_w BN_n GB_s GB_e 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX east 0 4) takes action:
+Instruction 8: go 16
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_s GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX south 0 0) takes action:
+Instruction 23: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_e SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (SORJGNFJ east 3 3) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_w 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (SORJGNFJ west 3 4) takes action:
+Instruction 4: go 6
+Instruction 6: left
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_s 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX south 1 1) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 22: infect
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_s 
+GB_n GB_w GB_e GB_e GB_w 
+Creature (GBPPGFX east 4 2) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (BNHG south 1 2) takes action:
+Instruction 26: infect
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX west 4 1) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 22: infect
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (BNHG north 0 2) takes action:
+Instruction 35: ifsame 36
+Instruction 36: go 1
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 18: ifenemy 23
+Instruction 19: hop
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_e SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Round 9
+Creature (SORJGNFJ east 3 2) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_e 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX east 1 4) takes action:
+Instruction 24: left
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX west 1 0) takes action:
+Instruction 2: infect
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX west 0 1) takes action:
+Instruction 22: infect
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_n GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX north 2 0) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX west 4 4) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_n GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX north 4 0) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_e SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (SORJGNFJ east 2 3) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX north 2 1) takes action:
+Instruction 25: infect
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_s 
+BN_w BN_s SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (SORJGNFJ south 2 4) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_s SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (BNHG south 3 1) takes action:
+Instruction 22: ifsame 36
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX east 4 3) takes action:
+Instruction 12: hop
+GB_w GB_w BN_n GB_s GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX south 0 3) takes action:
+Instruction 15: right
+GB_w GB_w BN_n GB_w GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (BNHG west 3 0) takes action:
+Instruction 27: ifsame 34
+Instruction 28: ifwall 31
+Instruction 31: infect
+GB_w GB_w BN_n GB_w GB_s 
+GB_w GB_s BN_s GB_w GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX west 1 3) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_w GB_w BN_n GB_w GB_s 
+GB_w GB_s BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX south 0 4) takes action:
+Instruction 20: ifempty 29
+Instruction 21: right
+GB_w GB_w BN_n GB_w GB_w 
+GB_w GB_s BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (GBPPGFX west 0 0) takes action:
+Instruction 24: left
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_s BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_n SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (SORJGNFJ north 3 3) takes action:
+Instruction 7: ifsame 11
+Instruction 11: ifenemy 12
+Instruction 12: ifsame 13
+Instruction 13: ifsame 15
+Instruction 15: go 1
+Instruction 1: right
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_s BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_w GB_s GB_e GB_w 
+Creature (SORJGNFJ south 3 4) takes action:
+Instruction 7: ifsame 11
+Instruction 8: infect
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_s BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_w GB_s GB_e SO_w 
+Creature (GBPPGFX south 1 1) takes action:
+Instruction 23: right
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_w GB_s GB_e SO_w 
+Creature (GBPPGFX south 4 2) takes action:
+Instruction 15: right
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_s GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_w GB_w GB_e SO_w 
+Creature (BNHG south 1 2) takes action:
+Instruction 27: ifsame 34
+Instruction 28: ifwall 31
+Instruction 29: ifempty 35
+Instruction 35: ifsame 36
+Instruction 36: go 1
+Instruction 1: ifempty 2
+Instruction 2: go 9
+Instruction 9: go 17
+Instruction 17: ifempty 23
+Instruction 23: ifenemy 24
+Instruction 24: ifsame 32
+Instruction 25: left
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_w GB_w GB_e SO_w 
+Creature (GBPPGFX west 4 1) takes action:
+Instruction 23: right
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Creature (BNHG north 0 2) takes action:
+Instruction 20: hop
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_s SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Round 10
+Creature (SORJGNFJ south 3 2) takes action:
+Instruction 2: right
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Creature (GBPPGFX north 1 4) takes action:
+Instruction 25: infect
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Creature (GBPPGFX west 1 0) takes action:
+Instruction 3: go 4
+Instruction 4: hop
+GB_s GB_w BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Creature (GBPPGFX west 0 1) takes action:
+Instruction 23: right
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Creature (GBPPGFX east 2 0) takes action:
+Instruction 22: infect
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_w 
+Creature (SORJGNFJ west 4 4) takes action:
+Instruction 1: right
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_n 
+Creature (GBPPGFX east 4 0) takes action:
+Instruction 22: infect
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_s SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_n 
+Creature (SORJGNFJ south 2 3) takes action:
+Instruction 2: right
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_n ____ SO_w SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_n 
+Creature (GBPPGFX north 2 1) takes action:
+Instruction 26: left
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_w 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_n 
+Creature (SORJGNFJ west 2 4) takes action:
+Instruction 2: right
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e SO_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_n 
+Creature (BNHG east 3 1) takes action:
+Instruction 26: infect
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_e SO_n 
+Creature (GBPPGFX east 4 3) takes action:
+Instruction 13: ifwall 29
+Instruction 14: right
+GB_s GB_n BN_n GB_w GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX west 0 3) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 18: ifsame 19
+Instruction 19: right
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (BNHG west 3 0) takes action:
+Instruction 32: hop
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX north 1 3) takes action:
+Instruction 22: infect
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX west 0 4) takes action:
+Instruction 22: infect
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX south 0 0) takes action:
+Instruction 25: infect
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_e SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (SORJGNFJ east 3 3) takes action:
+Instruction 2: right
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_s 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (SORJGNFJ south 3 4) takes action:
+Instruction 9: ifenemy 15
+Instruction 10: right
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_w BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_w 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX west 1 1) takes action:
+Instruction 24: left
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_s BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_w 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX west 4 2) takes action:
+Instruction 16: ifempty 29
+Instruction 17: ifsame 22
+Instruction 22: infect
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_s BN_e GB_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_w 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (BNHG east 1 2) takes action:
+Instruction 26: infect
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_s BN_e BN_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_w 
+GB_e GB_n GB_w GB_s SO_n 
+Creature (GBPPGFX north 4 1) takes action:
+Instruction 24: left
+GB_s GB_n BN_n GB_n GB_w 
+GB_w GB_s BN_e BN_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_w 
+GB_e GB_w GB_w GB_s SO_n 
+Creature (BNHG north 0 2) takes action:
+Instruction 21: left
+GB_s GB_n BN_w GB_n GB_w 
+GB_w GB_s BN_e BN_n GB_n 
+GB_e GB_w ____ SO_w SO_n 
+BN_w BN_e BN_w SO_s SO_w 
+GB_e GB_w GB_w GB_s SO_n 

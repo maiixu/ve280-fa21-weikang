@@ -1,0 +1,1987 @@
+Initial state
+FF_w FF_w BP_w BP_e ES_e 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_n 
+ES_w ES_e ES_e FF_s ES_n 
+Round 1
+Creature (ESCZYFFCWTSZQJP north 3 4) takes action:
+Instruction 1: right
+FF_w FF_w BP_w BP_e ES_e 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_w ES_e ES_e FF_s ES_n 
+Creature (ESCZYFFCWTSZQJP west 4 0) takes action:
+Instruction 1: right
+FF_w FF_w BP_w BP_e ES_e 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_e ES_e FF_s ES_n 
+Creature (BPMU west 0 2) takes action:
+Instruction 1: left
+FF_w FF_w BP_s BP_e ES_e 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_e ES_e FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE west 0 0) takes action:
+Instruction 1: right
+FF_n FF_w BP_s BP_e ES_e 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_e ES_e FF_s ES_n 
+Creature (ESCZYFFCWTSZQJP east 0 4) takes action:
+Instruction 1: right
+FF_n FF_w BP_s BP_e ES_s 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_e ES_e FF_s ES_n 
+Creature (ESCZYFFCWTSZQJP east 4 1) takes action:
+Instruction 1: right
+FF_n FF_w BP_s BP_e ES_s 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_e FF_s ES_n 
+Creature (ESCZYFFCWTSZQJP east 4 2) takes action:
+Instruction 1: right
+FF_n FF_w BP_s BP_e ES_s 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (BPMU north 1 0) takes action:
+Instruction 1: left
+FF_n FF_w BP_s BP_e ES_s 
+BP_w BP_n FF_w BP_e BP_s 
+FF_n ES_n BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (ESCZYFFCWTSZQJP north 2 1) takes action:
+Instruction 1: right
+FF_n FF_w BP_s BP_e ES_s 
+BP_w BP_n FF_w BP_e BP_s 
+FF_n ES_e BP_s FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (BPMU south 2 2) takes action:
+Instruction 1: left
+FF_n FF_w BP_s BP_e ES_s 
+BP_w BP_n FF_w BP_e BP_s 
+FF_n ES_e BP_e FF_n FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE north 2 3) takes action:
+Instruction 1: right
+FF_n FF_w BP_s BP_e ES_s 
+BP_w BP_n FF_w BP_e BP_s 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (BPMU north 1 1) takes action:
+Instruction 1: left
+FF_n FF_w BP_s BP_e ES_s 
+BP_w BP_w FF_w BP_e BP_s 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (BPMU south 1 4) takes action:
+Instruction 1: left
+FF_n FF_w BP_s BP_e ES_s 
+BP_w BP_w FF_w BP_e BP_e 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE west 0 1) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_e ES_s 
+BP_w BP_w FF_w BP_e BP_e 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_w ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE west 3 2) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_e ES_s 
+BP_w BP_w FF_w BP_e BP_e 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_n ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (BPMU east 1 3) takes action:
+Instruction 1: left
+FF_n FF_n BP_s BP_e ES_s 
+BP_w BP_w FF_w BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_n ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE west 1 2) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_e ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_n ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (BPMU east 0 3) takes action:
+Instruction 1: left
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_s 
+BP_w FF_n FF_n ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE south 2 4) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_w 
+BP_w FF_n FF_n ES_e ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (ESCZYFFCWTSZQJP east 3 3) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_w 
+BP_w FF_n FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE north 3 1) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_w 
+BP_w FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_s ES_n 
+Creature (FFLSEVYDBYFKQSANE south 4 3) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_w 
+BP_w FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_n 
+Creature (BPMU west 3 0) takes action:
+Instruction 1: left
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_n ES_e BP_e FF_e FF_w 
+BP_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_n 
+Creature (FFLSEVYDBYFKQSANE north 2 0) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e BP_e FF_e FF_w 
+BP_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_n 
+Creature (ESCZYFFCWTSZQJP north 4 4) takes action:
+Instruction 1: right
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e BP_e FF_e FF_w 
+BP_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Round 2
+Creature (ESCZYFFCWTSZQJP east 3 4) takes action:
+Instruction 2: infect
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e BP_e FF_e FF_w 
+BP_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 0) takes action:
+Instruction 2: infect
+FF_n FF_n BP_s BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (BPMU south 0 2) takes action:
+Instruction 2: go 7
+Instruction 7: right
+FF_n FF_n BP_w BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (FFLSEVYDBYFKQSANE north 0 0) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_n BP_w BP_n ES_s 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP south 0 4) takes action:
+Instruction 2: infect
+FF_w FF_n BP_w BP_n ES_s 
+BP_w BP_w FF_n BP_n ES_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 1) takes action:
+Instruction 2: infect
+FF_w FF_n BP_w BP_n ES_s 
+BP_w BP_w FF_n BP_n ES_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 2) takes action:
+Instruction 2: infect
+FF_w FF_n BP_w BP_n ES_s 
+BP_w BP_w FF_n BP_n ES_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (BPMU west 1 0) takes action:
+Instruction 2: go 7
+Instruction 7: right
+FF_w FF_n BP_w BP_n ES_s 
+BP_n BP_w FF_n BP_n ES_e 
+FF_e ES_e BP_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP east 2 1) takes action:
+Instruction 2: infect
+FF_w FF_n BP_w BP_n ES_s 
+BP_n BP_w FF_n BP_n ES_e 
+FF_e ES_e ES_e FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP east 2 2) takes action:
+Instruction 1: right
+FF_w FF_n BP_w BP_n ES_s 
+BP_n BP_w FF_n BP_n ES_e 
+FF_e ES_e ES_s FF_e FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (FFLSEVYDBYFKQSANE east 2 3) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_n BP_w BP_n ES_s 
+BP_n BP_w FF_n BP_n ES_e 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (BPMU west 1 1) takes action:
+Instruction 2: go 7
+Instruction 7: right
+FF_w FF_n BP_w BP_n ES_s 
+BP_n BP_n FF_n BP_n ES_e 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP east 1 4) takes action:
+Instruction 1: right
+FF_w FF_n BP_w BP_n ES_s 
+BP_n BP_n FF_n BP_n ES_s 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (FFLSEVYDBYFKQSANE north 0 1) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_w BP_w BP_n ES_s 
+BP_n BP_n FF_n BP_n ES_s 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_n ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (FFLSEVYDBYFKQSANE north 3 2) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_w BP_w BP_n ES_s 
+BP_n BP_n FF_n BP_n ES_s 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_w ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (BPMU north 1 3) takes action:
+Instruction 2: go 7
+Instruction 7: right
+FF_w FF_w BP_w BP_n ES_s 
+BP_n BP_n FF_n BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_w ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (FFLSEVYDBYFKQSANE north 1 2) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_w BP_w BP_n ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_w ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (BPMU north 0 3) takes action:
+Instruction 2: go 7
+Instruction 7: right
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_w 
+ES_s FF_e FF_w ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (FFLSEVYDBYFKQSANE west 2 4) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_s 
+ES_s FF_e FF_w ES_s ES_e 
+ES_n ES_s ES_s FF_w ES_e 
+Creature (ESCZYFFCWTSZQJP south 3 3) takes action:
+Instruction 2: infect
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_s 
+ES_s FF_e FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_w ES_e 
+Creature (FFLSEVYDBYFKQSANE east 3 1) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_s 
+ES_s FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_w ES_e 
+Creature (ESCZYFFCWTSZQJP west 4 3) takes action:
+Instruction 1: right
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_s 
+ES_s FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 3 0) takes action:
+Instruction 1: right
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_e ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE east 2 0) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 4 4) takes action:
+Instruction 2: infect
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Round 3
+Creature (ESCZYFFCWTSZQJP east 3 4) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 0) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+FF_w FF_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU west 0 2) takes action:
+Instruction 8: infect
+FF_w BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE west 0 0) takes action:
+Instruction 5: go 1
+Instruction 1: right
+FF_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 0 4) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+FF_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 1) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+FF_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 2) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+FF_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU north 1 0) takes action:
+Instruction 8: infect
+BP_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 2 1) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n FF_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 2 2) takes action:
+Instruction 2: infect
+BP_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_n FF_s 
+ES_w FF_n ES_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE north 2 3) takes action:
+Instruction 5: go 1
+Instruction 1: right
+BP_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_e FF_s 
+ES_w FF_n ES_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU north 1 1) takes action:
+Instruction 8: infect
+BP_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_e FF_s 
+ES_w FF_n ES_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 1 4) takes action:
+Instruction 2: infect
+BP_n BP_w BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_e ES_s 
+ES_w FF_n ES_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU west 0 1) takes action:
+Instruction 1: left
+BP_n BP_s BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_e ES_s 
+ES_w FF_n ES_w ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP west 3 2) takes action:
+Instruction 1: right
+BP_n BP_s BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e ES_s 
+FF_n ES_e ES_s FF_e ES_s 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU east 1 3) takes action:
+Instruction 8: infect
+BP_n BP_s BP_w BP_e ES_s 
+BP_n BP_n FF_w BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_s 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE west 1 2) takes action:
+Instruction 5: go 1
+Instruction 1: right
+BP_n BP_s BP_w BP_e ES_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_s 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU east 0 3) takes action:
+Instruction 8: infect
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_s 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 2 4) takes action:
+Instruction 1: right
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 3 3) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE north 3 1) takes action:
+Instruction 5: go 1
+Instruction 1: right
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 3) takes action:
+Instruction 2: infect
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP west 3 0) takes action:
+Instruction 2: infect
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_n ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE north 2 0) takes action:
+Instruction 5: go 1
+Instruction 1: right
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 4 4) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Round 4
+Creature (ESCZYFFCWTSZQJP east 3 4) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 0) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_s BP_w BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU west 0 2) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_n BP_s BP_s BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU north 0 0) takes action:
+Instruction 1: left
+BP_w BP_s BP_s BP_e BP_s 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU south 0 4) takes action:
+Instruction 1: left
+BP_w BP_s BP_s BP_e BP_e 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 1) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_w BP_s BP_s BP_e BP_e 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 2) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_w BP_s BP_s BP_e BP_e 
+BP_n BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU north 1 0) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_w BP_s BP_s BP_e BP_e 
+BP_w BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 2 1) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_w BP_s BP_s BP_e BP_e 
+BP_w BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 2 2) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_w BP_s BP_s BP_e BP_e 
+BP_w BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_e ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE east 2 3) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+BP_w BP_s BP_s BP_e BP_e 
+BP_w BP_n FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU north 1 1) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_w BP_s BP_s BP_e BP_e 
+BP_w BP_w FF_n BP_e BP_s 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU south 1 4) takes action:
+Instruction 1: left
+BP_w BP_s BP_s BP_e BP_e 
+BP_w BP_w FF_n BP_e BP_e 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU south 0 1) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_w BP_w BP_s BP_e BP_e 
+BP_w BP_w FF_n BP_e BP_e 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 3 2) takes action:
+Instruction 2: infect
+BP_w BP_w BP_s BP_e BP_e 
+BP_w BP_w FF_n BP_e BP_e 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU east 1 3) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_w BP_w BP_s BP_e BP_e 
+BP_w BP_w FF_n BP_n BP_e 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE north 1 2) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+BP_w BP_w BP_s BP_e BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (BPMU east 0 3) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s FF_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP west 2 4) takes action:
+Instruction 2: infect
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s ES_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 3 3) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s ES_n ES_w 
+ES_w FF_e ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE east 3 1) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 3) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP west 3 0) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_e ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE east 2 0) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 4 4) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_e 
+ES_n ES_s ES_s ES_n ES_e 
+Round 5
+Creature (ESCZYFFCWTSZQJP east 3 4) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_n ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 0) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w FF_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_s ES_s ES_n ES_e 
+Creature (BPMU south 0 2) takes action:
+Instruction 13: infect
+BP_w BP_w BP_s BP_n BP_e 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_s ES_s ES_n ES_e 
+Creature (BPMU west 0 0) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_n BP_w BP_s BP_n BP_e 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_s ES_s ES_n ES_e 
+Creature (BPMU east 0 4) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_s ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 1) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_s ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 4 2) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU west 1 0) takes action:
+Instruction 13: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_e ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 2 1) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 2 2) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_s ES_n ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 2 3) takes action:
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU west 1 1) takes action:
+Instruction 13: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU east 1 4) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU west 0 1) takes action:
+Instruction 8: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 3 2) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU north 1 3) takes action:
+Instruction 13: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_w BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU west 1 2) takes action:
+Instruction 1: left
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (BPMU north 0 3) takes action:
+Instruction 13: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP west 2 4) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_s ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP south 3 3) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_n ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE north 3 1) takes action:
+Instruction 5: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP north 4 3) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP west 3 0) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_n ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (FFLSEVYDBYFKQSANE north 2 0) takes action:
+Instruction 5: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_e 
+Creature (ESCZYFFCWTSZQJP east 4 4) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Round 6
+Creature (ESCZYFFCWTSZQJP south 3 4) takes action:
+Instruction 2: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 0) takes action:
+Instruction 2: infect
+BP_n BP_w BP_s BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU south 0 2) takes action:
+Instruction 14: ifsame 28
+Instruction 28: go 1
+Instruction 1: left
+BP_n BP_w BP_e BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU north 0 0) takes action:
+Instruction 8: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU south 0 4) takes action:
+Instruction 8: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 1) takes action:
+Instruction 2: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 2) takes action:
+Instruction 2: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_w BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU west 1 0) takes action:
+Instruction 14: ifsame 28
+Instruction 15: ifempty 25
+Instruction 16: ifwall 20
+Instruction 20: ifwall 27
+Instruction 27: left
+BP_n BP_w BP_e BP_n BP_s 
+BP_s BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w FF_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP south 2 1) takes action:
+Instruction 2: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_s BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_s ES_e ES_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP south 2 2) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_w BP_e BP_n BP_s 
+BP_s BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_w ES_e ES_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP east 2 3) takes action:
+Instruction 2: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_s BP_w BP_s BP_n BP_s 
+FF_e ES_s ES_w ES_e ES_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU west 1 1) takes action:
+Instruction 14: ifsame 28
+Instruction 28: go 1
+Instruction 1: left
+BP_n BP_w BP_e BP_n BP_s 
+BP_s BP_s BP_s BP_n BP_s 
+FF_e ES_s ES_w ES_e ES_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU south 1 4) takes action:
+Instruction 8: infect
+BP_n BP_w BP_e BP_n BP_s 
+BP_s BP_s BP_s BP_n BP_s 
+FF_e ES_s ES_w ES_e BP_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU west 0 1) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_n BP_s BP_e BP_n BP_s 
+BP_s BP_s BP_s BP_n BP_s 
+FF_e ES_s ES_w ES_e BP_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP north 3 2) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_s BP_e BP_n BP_s 
+BP_s BP_s BP_s BP_n BP_s 
+FF_e ES_s ES_w ES_e BP_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU north 1 3) takes action:
+Instruction 14: ifsame 28
+Instruction 28: go 1
+Instruction 1: left
+BP_n BP_s BP_e BP_n BP_s 
+BP_s BP_s BP_s BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU south 1 2) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_n BP_s BP_e BP_n BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU north 0 3) takes action:
+Instruction 14: ifsame 28
+Instruction 15: ifempty 25
+Instruction 16: ifwall 20
+Instruction 20: ifwall 27
+Instruction 27: left
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_w 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (BPMU west 2 4) takes action:
+Instruction 1: left
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_s 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP west 3 3) takes action:
+Instruction 2: infect
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_s 
+ES_w ES_e ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP east 3 1) takes action:
+Instruction 1: right
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_s 
+ES_w ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_n ES_s 
+Creature (ESCZYFFCWTSZQJP north 4 3) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_s 
+ES_w ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 3 0) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_e ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (FFLSEVYDBYFKQSANE east 2 0) takes action:
+Instruction 2: ifenemy 3
+Instruction 3: go 4
+Instruction 4: left
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 4 4) takes action:
+Instruction 2: infect
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Round 7
+Creature (ESCZYFFCWTSZQJP south 3 4) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 0) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_s BP_e BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU east 0 2) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_n BP_s BP_s BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU north 0 0) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 25: right
+BP_e BP_s BP_s BP_w BP_s 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 0 4) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_e BP_s BP_s BP_w BP_e 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 1) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_w BP_e 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 2) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_w BP_e 
+BP_s BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 1 0) takes action:
+Instruction 28: go 1
+Instruction 1: left
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 2 1) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 2 2) takes action:
+Instruction 2: infect
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 2 3) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_s BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 1 1) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_w BP_w BP_w BP_s 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 1 4) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_w BP_w BP_w BP_e 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 0 1) takes action:
+Instruction 13: infect
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_w BP_w BP_w BP_e 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_n ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP north 3 2) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_w BP_w BP_w BP_e 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU west 1 3) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU west 1 2) takes action:
+Instruction 8: infect
+BP_e BP_s BP_s BP_w BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU west 0 3) takes action:
+Instruction 28: go 1
+Instruction 1: left
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_s 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 2 4) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 3 3) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 3 1) takes action:
+Instruction 2: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 3) takes action:
+Instruction 2: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+FF_n ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP north 3 0) takes action:
+Instruction 2: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_n ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP north 2 0) takes action:
+Instruction 1: right
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 4 4) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Round 8
+Creature (ESCZYFFCWTSZQJP south 3 4) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 0) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 0 2) takes action:
+Instruction 8: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU east 0 0) takes action:
+Instruction 26: hop
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU east 0 4) takes action:
+Instruction 13: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 1) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 2) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_e BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU east 1 0) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_e BP_s BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 2 1) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 2 2) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_s BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_e BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 2 3) takes action:
+Instruction 5: ifenemy 8
+Instruction 8: go 1
+Instruction 1: right
+BP_e BP_s BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU west 1 1) takes action:
+Instruction 8: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU east 1 4) takes action:
+Instruction 13: infect
+BP_e BP_s BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 0 1) takes action:
+Instruction 14: ifsame 28
+Instruction 28: go 1
+Instruction 1: left
+BP_e BP_e BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 3 2) takes action:
+Instruction 2: infect
+BP_e BP_e BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU north 1 3) takes action:
+Instruction 8: infect
+BP_e BP_e BP_s BP_s BP_e 
+BP_s BP_w BP_w BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU west 1 2) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_e BP_e BP_s BP_s BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU south 0 3) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w ES_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (BPMU west 2 4) takes action:
+Instruction 8: infect
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 3 3) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 3 1) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 3) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP north 3 0) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 2 0) takes action:
+Instruction 2: infect
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 4 4) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_s 
+ES_e ES_w ES_w ES_e ES_s 
+Round 9
+Creature (ESCZYFFCWTSZQJP south 3 4) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_e ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 0) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_e BP_e BP_s BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_w ES_w ES_e ES_s 
+Creature (BPMU south 0 2) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_e BP_e BP_e BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_w ES_w ES_e ES_s 
+Creature (BPMU east 0 0) takes action:
+Instruction 27: left
+BP_n BP_e BP_e BP_w BP_e 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_w ES_w ES_e ES_s 
+Creature (BPMU east 0 4) takes action:
+Instruction 14: ifsame 28
+Instruction 15: ifempty 25
+Instruction 16: ifwall 20
+Instruction 20: ifwall 27
+Instruction 27: left
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_w ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 1) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_w ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 4 2) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+ES_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU south 1 0) takes action:
+Instruction 8: infect
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+BP_e ES_s ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 2 1) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+BP_e ES_w ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 2 2) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+BP_e ES_w ES_w BP_s BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU south 2 3) takes action:
+Instruction 1: left
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_w BP_s BP_n BP_e 
+BP_e ES_w ES_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU west 1 1) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_n BP_e 
+BP_e ES_w ES_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU east 1 4) takes action:
+Instruction 14: ifsame 28
+Instruction 15: ifempty 25
+Instruction 16: ifwall 20
+Instruction 20: ifwall 27
+Instruction 27: left
+BP_n BP_e BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_n BP_n 
+BP_e ES_w ES_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU east 0 1) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_n BP_n 
+BP_e ES_w ES_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 3 2) takes action:
+Instruction 3: ifempty 7
+Instruction 4: hop
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_n BP_n 
+BP_e ES_w ES_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU north 1 3) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w ES_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU south 1 2) takes action:
+Instruction 13: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU west 0 3) takes action:
+Instruction 8: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_w 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU west 2 4) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_s 
+ES_n ES_s ES_e ES_w ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP west 3 3) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_s 
+ES_n ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 3 1) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_s 
+ES_n ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP east 4 3) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_s 
+ES_n ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP north 3 0) takes action:
+Instruction 5: ifenemy 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_e ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (BPMU east 2 0) takes action:
+Instruction 1: left
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_s 
+Creature (ESCZYFFCWTSZQJP south 4 4) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Round 10
+Creature (ESCZYFFCWTSZQJP west 3 4) takes action:
+Instruction 2: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP south 4 0) takes action:
+Instruction 2: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU east 0 2) takes action:
+Instruction 13: infect
+BP_n BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU north 0 0) takes action:
+Instruction 28: go 1
+Instruction 1: left
+BP_w BP_s BP_e BP_w BP_n 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU north 0 4) takes action:
+Instruction 28: go 1
+Instruction 1: left
+BP_w BP_s BP_e BP_w BP_w 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP north 4 1) takes action:
+Instruction 2: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP north 4 2) takes action:
+Instruction 2: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_s BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU south 1 0) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_n 
+BP_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP west 2 1) takes action:
+Instruction 2: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_n 
+ES_n ES_w BP_w BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU west 2 2) takes action:
+Instruction 1: left
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_n 
+ES_n ES_w BP_s BP_e BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU east 2 3) takes action:
+Instruction 2: go 7
+Instruction 7: right
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_n 
+ES_n ES_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU south 1 1) takes action:
+Instruction 13: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_n 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU north 1 4) takes action:
+Instruction 28: go 1
+Instruction 1: left
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU south 0 1) takes action:
+Instruction 8: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP east 3 2) takes action:
+Instruction 5: ifenemy 8
+Instruction 6: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU west 1 3) takes action:
+Instruction 13: infect
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_s BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU south 1 2) takes action:
+Instruction 14: ifsame 28
+Instruction 28: go 1
+Instruction 1: left
+BP_w BP_s BP_e BP_w BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU west 0 3) takes action:
+Instruction 9: ifenemy 20
+Instruction 10: ifwall 25
+Instruction 11: ifempty 16
+Instruction 12: left
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n ES_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (BPMU south 2 4) takes action:
+Instruction 13: infect
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s BP_s BP_s 
+ES_e ES_s ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP north 3 3) takes action:
+Instruction 2: infect
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s ES_s BP_s 
+ES_e ES_s ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP south 3 1) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s ES_s BP_s 
+ES_e ES_w ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_e ES_w 
+Creature (ESCZYFFCWTSZQJP east 4 3) takes action:
+Instruction 7: ifwall 8
+Instruction 8: go 1
+Instruction 1: right
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s ES_s BP_s 
+ES_e ES_w ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_s ES_w 
+Creature (ESCZYFFCWTSZQJP east 3 0) takes action:
+Instruction 2: infect
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_n BP_w BP_s ES_s BP_s 
+ES_e ES_w ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_s ES_w 
+Creature (ESCZYFFCWTSZQJP north 2 0) takes action:
+Instruction 1: right
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_e BP_w BP_s ES_s BP_s 
+ES_e ES_w ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_s ES_w 
+Creature (ESCZYFFCWTSZQJP west 4 4) takes action:
+Instruction 2: infect
+BP_w BP_s BP_e BP_s BP_w 
+BP_e BP_s BP_e BP_w BP_w 
+ES_e BP_w BP_s ES_s BP_s 
+ES_e ES_w ES_e ES_n BP_w 
+ES_s ES_n ES_n ES_s ES_w 

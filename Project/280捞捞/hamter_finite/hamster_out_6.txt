@@ -1,0 +1,2143 @@
+Initial state
+MN_n MN_w YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_s ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Round 1
+Creature (MNDI west 0 1) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_s ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (MNDI south 2 2) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW east 2 3) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW east 4 0) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 0 2) takes action:
+Instruction 1: ifenemy 4
+Instruction 2: infect
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_n 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (MNDI north 2 4) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_n YL_e YL_e ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 0 3) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_n MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW east 1 1) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW west 4 4) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (YLHRZIIWDSGGQOAOK north 1 3) takes action:
+Instruction 1: ifenemy 4
+Instruction 2: infect
+MN_n MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW north 3 4) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (STOGKCMW south 3 1) takes action:
+Instruction 1: hop
+MN_n MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (MNDI north 0 0) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_n ST_s YL_e ST_w 
+Creature (MNDI north 4 1) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_e ST_w 
+Creature (STOGKCMW south 4 2) takes action:
+Instruction 1: hop
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_e ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 4 3) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 1: hop
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW south 2 0) takes action:
+Instruction 1: hop
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_e MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 2 1) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_n YL_n YL_s 
+ST_s YL_s MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (MNDI north 1 2) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_s 
+ST_s YL_s MN_w ST_e MN_e 
+MN_n ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (MNDI north 3 0) takes action:
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_s 
+ST_s YL_s MN_w ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW north 0 4) takes action:
+Instruction 1: hop
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_s 
+ST_s YL_s MN_w ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 1: hop
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_s 
+ST_s YL_s MN_w ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 1 4) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_e MN_n YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_w ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Round 2
+Creature (MNDI north 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_w ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (MNDI west 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW east 2 3) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW east 4 0) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 0 2) takes action:
+Instruction 3: hop
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_e 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (MNDI east 2 4) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_e YL_e YL_s ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 0 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: right
+MN_e MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW east 1 1) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW west 4 4) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK north 1 3) takes action:
+Instruction 3: hop
+MN_e MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW north 3 4) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (STOGKCMW south 3 1) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (MNDI east 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_e ST_s YL_s ST_w 
+Creature (MNDI east 4 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW south 4 2) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 4 3) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW south 2 0) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 2 1) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_e YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (MNDI east 1 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_e ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (MNDI east 3 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW north 0 4) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_w 
+ST_s YL_s MN_n ST_e MN_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK west 1 4) takes action:
+Instruction 5: ifsame 11
+Instruction 11: right
+MN_s MN_e YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_n ST_e MN_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Round 3
+Creature (MNDI east 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_s YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_n ST_e MN_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (MNDI north 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_s YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e MN_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW east 2 3) takes action:
+Instruction 4: infect
+MN_s MN_s YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_s YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e MN_s ST_s YL_s ST_w 
+Creature (STOGKCMW east 4 0) takes action:
+Instruction 4: infect
+MN_s MN_s YL_e YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 0 2) takes action:
+Instruction 4: right
+MN_s MN_s YL_s YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s YL_s ST_w 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 1: hop
+MN_s MN_s YL_s YL_w ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s YL_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK west 0 3) takes action:
+Instruction 12: ifempty 21
+Instruction 13: right
+MN_s MN_s YL_s YL_n ST_n 
+ST_e ST_e MN_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s YL_s ST_w 
+Creature (STOGKCMW east 1 1) takes action:
+Instruction 4: infect
+MN_s MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s YL_s ST_w 
+Creature (STOGKCMW west 4 4) takes action:
+Instruction 4: infect
+MN_s MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_n YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK north 1 3) takes action:
+Instruction 4: right
+MN_s MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW north 3 4) takes action:
+Instruction 4: infect
+MN_s MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 3 1) takes action:
+Instruction 4: infect
+MN_s MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (MNDI south 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 1) takes action:
+Instruction 1: hop
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 2) takes action:
+Instruction 4: infect
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 3) takes action:
+Instruction 1: hop
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+MN_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 2 0) takes action:
+Instruction 4: infect
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s ST_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 2 1) takes action:
+Instruction 7: infect
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 1 2) takes action:
+Instruction 1: hop
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 1: hop
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW north 0 4) takes action:
+Instruction 4: infect
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_n 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK north 1 4) takes action:
+Instruction 12: ifempty 21
+Instruction 13: right
+MN_w MN_s YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Round 4
+Creature (MNDI south 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_e ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (MNDI east 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 2 3) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 4 0) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 0 2) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_s YL_n ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK north 0 3) takes action:
+Instruction 14: ifenemy 21
+Instruction 15: left
+MN_w MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 1 1) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_w MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 4 4) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_w MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_e YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 1 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: right
+MN_w MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW north 3 4) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_w MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_s ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 3 1) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_w MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (MNDI west 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 1) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 2) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 3) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 2 0) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 2 1) takes action:
+Instruction 8: ifsame 21
+Instruction 21: go 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 2: infect
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 1 2) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW north 0 4) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s YL_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 4: infect
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_e 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK east 1 4) takes action:
+Instruction 14: ifenemy 21
+Instruction 15: left
+MN_n MN_w YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_n 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Round 5
+Creature (MNDI west 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_n 
+ST_s YL_s MN_s ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (MNDI south 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 2 3) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 4 0) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e ST_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 0 2) takes action:
+Instruction 7: infect
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e YL_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_n YL_s YL_w ST_n 
+ST_e ST_e YL_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK west 0 3) takes action:
+Instruction 16: ifenemy 20
+Instruction 17: left
+MN_n MN_n YL_s YL_s ST_n 
+ST_e ST_e YL_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 1 1) takes action:
+Instruction 16: ifenemy 18
+Instruction 18: right
+MN_n MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 4 4) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_n MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_s YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 1 3) takes action:
+Instruction 12: ifempty 21
+Instruction 13: right
+MN_n MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW north 3 4) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_n MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 1) takes action:
+Instruction 1: hop
+MN_n MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (MNDI north 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 1) takes action:
+Instruction 4: infect
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 2) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 4 3) takes action:
+Instruction 4: infect
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 2 0) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 2 1) takes action:
+Instruction 3: hop
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_s YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 1 2) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW north 0 4) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_n 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK north 1 4) takes action:
+Instruction 16: ifenemy 20
+Instruction 20: go 21
+Instruction 21: go 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_e MN_n YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Round 6
+Creature (MNDI north 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_w ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (MNDI west 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_e ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 2 3) takes action:
+Instruction 18: right
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_e ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW east 4 0) takes action:
+Instruction 18: right
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 0 2) takes action:
+Instruction 8: ifsame 21
+Instruction 21: go 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 2: infect
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_w 
+Creature (YLHRZIIWDSGGQOAOK south 0 3) takes action:
+Instruction 18: go 22
+Instruction 22: ifsame 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 2: infect
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s YL_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW south 1 1) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_w 
+Creature (STOGKCMW west 4 4) takes action:
+Instruction 18: right
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_w YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 3) takes action:
+Instruction 14: ifenemy 21
+Instruction 15: left
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_n 
+ST_s ST_s ST_s ST_s ST_n 
+Creature (STOGKCMW north 3 4) takes action:
+Instruction 18: right
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_s ST_s ST_n 
+Creature (STOGKCMW west 3 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_s ST_s ST_n 
+Creature (MNDI east 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_s ST_s ST_n 
+Creature (STOGKCMW south 4 1) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_s ST_s ST_n 
+Creature (STOGKCMW south 4 2) takes action:
+Instruction 18: right
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 3) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_s ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 0) takes action:
+Instruction 18: right
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 1) takes action:
+Instruction 1: hop
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 2) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_e YL_s YL_s ST_n 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW north 0 4) takes action:
+Instruction 18: right
+MN_s MN_e YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_s MN_e YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK east 1 4) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_s MN_e YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Round 7
+Creature (MNDI east 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_n ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (MNDI north 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 3) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 0) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK south 0 2) takes action:
+Instruction 3: hop
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK south 0 3) takes action:
+Instruction 3: hop
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 1 1) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW north 4 4) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_s YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK south 1 3) takes action:
+Instruction 16: ifenemy 20
+Instruction 20: go 21
+Instruction 21: go 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW east 3 4) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 3 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (MNDI south 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 1) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 4 2) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 3) takes action:
+Instruction 16: ifenemy 18
+Instruction 17: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 2 0) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_s YL_s YL_s ST_e 
+ST_e ST_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 2) takes action:
+Instruction 7: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_s YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW east 0 4) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_w ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 3 2) takes action:
+Instruction 18: right
+MN_w MN_s YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK east 1 4) takes action:
+Instruction 7: infect
+MN_w MN_s YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Round 8
+Creature (MNDI south 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_w MN_w YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_e ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (MNDI east 2 2) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_w MN_w YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 3) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_w MN_w YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 0) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_s YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK south 0 2) takes action:
+Instruction 4: right
+MN_w MN_w YL_w YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_w YL_s ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK south 0 3) takes action:
+Instruction 4: right
+MN_w MN_w YL_w YL_w ST_e 
+ST_e YL_s YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK south 1 1) takes action:
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_w MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW north 4 4) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_w YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: right
+MN_w MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW east 3 4) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW west 3 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_w MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (MNDI west 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_s ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 1) takes action:
+Instruction 18: right
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_s ST_n 
+Creature (STOGKCMW west 4 2) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_s ST_n 
+Creature (STOGKCMW south 4 3) takes action:
+Instruction 18: right
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 2 0) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 2) takes action:
+Instruction 8: ifsame 21
+Instruction 21: go 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 2: infect
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 0 4) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s MN_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW north 3 2) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK east 1 4) takes action:
+Instruction 8: ifsame 21
+Instruction 9: ifempty 16
+Instruction 10: go 16
+Instruction 16: ifenemy 20
+Instruction 17: left
+MN_n MN_w YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Round 9
+Creature (MNDI west 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_n MN_n YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 2) takes action:
+Instruction 1: hop
+MN_n MN_n YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_n YL_w YL_w ST_e 
+ST_e YL_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 4: infect
+MN_n MN_n YL_w YL_w ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 4 0) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_n MN_n YL_w YL_w ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 0 2) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_n MN_n YL_w YL_w ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_n YL_w YL_w ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 0 3) takes action:
+Instruction 5: ifsame 11
+Instruction 11: right
+MN_n MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 1 1) takes action:
+Instruction 1: hop
+MN_n MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW north 4 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_n YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK north 1 3) takes action:
+Instruction 12: ifempty 21
+Instruction 13: right
+MN_n MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 3 4) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_n MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 3 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_n MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (MNDI north 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 4 1) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 4 2) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 4 3) takes action:
+Instruction 19: ifempty 22
+Instruction 20: infect
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 2 0) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 2) takes action:
+Instruction 3: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 0 4) takes action:
+Instruction 2: ifsame 21
+Instruction 3: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW north 3 2) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_n 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK north 1 4) takes action:
+Instruction 18: go 22
+Instruction 22: ifsame 23
+Instruction 23: go 1
+Instruction 1: ifenemy 4
+Instruction 4: right
+MN_e MN_n YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Round 10
+Creature (MNDI north 0 1) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_e MN_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 2) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e MN_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 1 0) takes action:
+Instruction 5: go 15
+Instruction 15: hop
+MN_e MN_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 4 0) takes action:
+Instruction 4: infect
+MN_e MN_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 0 2) takes action:
+Instruction 7: infect
+MN_e YL_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e YL_e YL_w YL_n ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK north 0 3) takes action:
+Instruction 12: ifempty 21
+Instruction 13: right
+MN_e YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 1 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW north 4 4) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_e YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK east 1 3) takes action:
+Instruction 14: ifenemy 21
+Instruction 15: left
+MN_e YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 3 4) takes action:
+Instruction 4: infect
+MN_e YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 3 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_e YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (MNDI east 0 0) takes action:
+Instruction 3: go 4
+Instruction 4: go 1
+Instruction 1: go 2
+Instruction 2: right
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 4 1) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 4 2) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 4 3) takes action:
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 3 3) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW west 2 0) takes action:
+Instruction 4: infect
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 2 1) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_w YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK west 1 2) takes action:
+Instruction 4: right
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_n YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW south 3 0) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_n YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW east 0 4) takes action:
+Instruction 4: infect
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_n YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (STOGKCMW north 3 2) takes action:
+Instruction 2: ifsame 21
+Instruction 21: ifenemy 22
+Instruction 22: go 1
+Instruction 1: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_n YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 
+Creature (YLHRZIIWDSGGQOAOK east 1 4) takes action:
+Instruction 5: ifsame 11
+Instruction 6: hop
+MN_s YL_e YL_w YL_e ST_e 
+ST_e ST_w YL_n YL_n YL_e 
+ST_w ST_s ST_s ST_s ST_s 
+ST_s ST_w ST_n ST_w ST_e 
+ST_s ST_w ST_w ST_w ST_n 

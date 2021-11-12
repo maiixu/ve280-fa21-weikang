@@ -1,0 +1,316 @@
+Initial state
+WK_w QK_n RG_s WK_w QK_w 
+RG_e WK_w WK_s RG_e WK_e 
+WK_w RG_n WK_w QK_n QK_w 
+RG_e WK_w WK_w RG_n QK_n 
+QK_n WK_w QK_s QK_n WK_w 
+Round 1
+Creature (QKCYMKBYP north 3 4) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 0 0) takes action: left
+Creature (WKXNVXVEDXYVQUFY west 3 1) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP south 4 2) takes action: right
+Creature (WKXNVXVEDXYVQUFY west 2 0) takes action: left
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP north 4 0) takes action: right
+Creature (QKCYMKBYP north 2 3) takes action: right
+Creature (QKCYMKBYP west 0 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY west 3 2) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 1 2) takes action: left
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP north 4 3) takes action: right
+Creature (QKCYMKBYP west 2 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP north 0 1) takes action: right
+WK_s QK_e RG_s WK_w QK_n 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e QK_n 
+RG_e RG_w WK_s RG_n QK_n 
+QK_e WK_w QK_w QK_e WK_w 
+Round 2
+Creature (QKCYMKBYP north 3 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP west 4 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP east 4 0) takes action: hop
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP north 0 4) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP east 4 3) takes action: hop
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP east 0 1) takes action: hop
+WK_s QK_e RG_s WK_w QK_n 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_e 
+QK_e WK_w QK_w QK_e WK_w 
+Round 3
+Creature (QKCYMKBYP east 3 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP west 4 2) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP east 4 0) takes action: left
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP north 0 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP east 4 3) takes action: left
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP east 0 1) takes action: left
+WK_s QK_n RG_s WK_w QK_w 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_n 
+QK_n WK_w QK_s QK_n WK_w 
+Round 4
+Creature (QKCYMKBYP north 3 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP south 4 2) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP north 4 0) takes action: right
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP west 0 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP north 4 3) takes action: right
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP north 0 1) takes action: left
+WK_s QK_w RG_s WK_w QK_n 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_e 
+QK_e WK_w QK_e QK_e WK_w 
+Round 5
+Creature (QKCYMKBYP east 3 4) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP east 4 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP east 4 0) takes action: left
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP north 0 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP east 4 3) takes action: left
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP west 0 1) takes action: right
+WK_s QK_n RG_s WK_w QK_w 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_e 
+QK_n WK_w QK_e QK_n WK_w 
+Round 6
+Creature (QKCYMKBYP east 3 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP east 4 2) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP north 4 0) takes action: right
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP west 0 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP north 4 3) takes action: right
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP north 0 1) takes action: hop
+WK_s QK_n RG_s WK_w QK_n 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_n 
+QK_e WK_w QK_s QK_e WK_w 
+Round 7
+Creature (QKCYMKBYP north 3 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP south 4 2) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP east 4 0) takes action: hop
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP north 0 4) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP east 4 3) takes action: hop
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP north 0 1) takes action: left
+WK_s QK_w RG_s WK_w QK_n 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_e 
+QK_e WK_w QK_e QK_e WK_w 
+Round 8
+Creature (QKCYMKBYP east 3 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP east 4 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP east 4 0) takes action: left
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP north 0 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP east 4 3) takes action: left
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP west 0 1) takes action: right
+WK_s QK_n RG_s WK_w QK_w 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_n 
+QK_n WK_w QK_e QK_n WK_w 
+Round 9
+Creature (QKCYMKBYP north 3 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP east 4 2) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP north 4 0) takes action: right
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP west 0 4) takes action: right
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP north 4 3) takes action: right
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP north 0 1) takes action: left
+WK_s QK_w RG_s WK_w QK_n 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_e 
+QK_e WK_w QK_s QK_e WK_w 
+Round 10
+Creature (QKCYMKBYP east 3 4) takes action: hop
+Creature (WKXNVXVEDXYVQUFY south 0 0) takes action: hop
+Creature (RGJBNCUYC west 3 1) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 0 3) takes action: hop
+Creature (QKCYMKBYP south 4 2) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 2 0) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 2 2) takes action: hop
+Creature (WKXNVXVEDXYVQUFY west 4 4) takes action: hop
+Creature (RGJBNCUYC east 1 3) takes action: infect
+Creature (RGJBNCUYC east 1 0) takes action: infect
+Creature (QKCYMKBYP east 4 0) takes action: left
+Creature (RGJBNCUYC east 2 3) takes action: infect
+Creature (QKCYMKBYP north 0 4) takes action: left
+Creature (WKXNVXVEDXYVQUFY south 3 2) takes action: hop
+Creature (RGJBNCUYC east 1 2) takes action: infect
+Creature (RGJBNCUYC south 0 2) takes action: infect
+Creature (RGJBNCUYC east 3 0) takes action: infect
+Creature (RGJBNCUYC west 1 1) takes action: infect
+Creature (RGJBNCUYC north 3 3) takes action: infect
+Creature (RGJBNCUYC east 1 4) takes action: infect
+Creature (RGJBNCUYC north 2 1) takes action: infect
+Creature (QKCYMKBYP east 4 3) takes action: left
+Creature (RGJBNCUYC north 2 4) takes action: infect
+Creature (WKXNVXVEDXYVQUFY west 4 1) takes action: hop
+Creature (QKCYMKBYP west 0 1) takes action: right
+WK_s QK_n RG_s WK_w QK_w 
+RG_e RG_w RG_e RG_e RG_e 
+WK_s RG_n WK_w RG_e RG_n 
+RG_e RG_w WK_s RG_n QK_e 
+QK_n WK_w QK_e QK_n WK_w 

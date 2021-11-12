@@ -1,0 +1,2 @@
+Error: Too many instructions for species HOYTQGL!
+Maximal number of instructions is 40.

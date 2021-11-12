@@ -1,0 +1,2009 @@
+Initial state
+WV_w DU_s KK_w DU_e DU_s 
+DU_w DU_w DU_e DU_e KK_e 
+KK_e WV_w KK_w KK_s KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Round 1
+Creature (DUJLTUWHMPCYBTHR south 0 1) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_e DU_s 
+DU_w DU_w DU_e DU_e KK_e 
+KK_e WV_w KK_w KK_s KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (KKGJRPRYNDZBYSO east 1 4) takes action:
+Instruction 1: right
+WV_w DU_e KK_w DU_e DU_s 
+DU_w DU_w DU_e DU_e KK_s 
+KK_e WV_w KK_w KK_s KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (WVADJBAUMXTBS west 2 1) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_w DU_e KK_w DU_e DU_s 
+DU_w DU_w DU_e DU_e KK_s 
+KK_e WV_n KK_w KK_s KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (DUJLTUWHMPCYBTHR east 0 3) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_n DU_s 
+DU_w DU_w DU_e DU_e KK_s 
+KK_e WV_n KK_w KK_s KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (KKGJRPRYNDZBYSO south 2 3) takes action:
+Instruction 1: right
+WV_w DU_e KK_w DU_n DU_s 
+DU_w DU_w DU_e DU_e KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (DUJLTUWHMPCYBTHR east 1 3) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_n DU_s 
+DU_w DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (DUJLTUWHMPCYBTHR south 0 4) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_n DU_e 
+DU_w DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_w WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (KKGJRPRYNDZBYSO west 3 1) takes action:
+Instruction 1: right
+WV_w DU_e KK_w DU_n DU_e 
+DU_w DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_n WV_w DU_s WV_s 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (WVADJBAUMXTBS south 3 4) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_w DU_e KK_w DU_n DU_e 
+DU_w DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_e WV_w DU_w 
+Creature (WVADJBAUMXTBS west 4 3) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_w DU_e KK_w DU_n DU_e 
+DU_w DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_e WV_n DU_w 
+Creature (DUJLTUWHMPCYBTHR east 4 2) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_n DU_e 
+DU_w DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_n WV_n DU_w 
+Creature (DUJLTUWHMPCYBTHR west 1 0) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_n DU_e 
+DU_s DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_w KK_w KK_w 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_n WV_n DU_w 
+Creature (KKGJRPRYNDZBYSO west 2 2) takes action:
+Instruction 1: right
+WV_w DU_e KK_w DU_n DU_e 
+DU_s DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_w 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_n WV_n DU_w 
+Creature (KKGJRPRYNDZBYSO west 2 4) takes action:
+Instruction 1: right
+WV_w DU_e KK_w DU_n DU_e 
+DU_s DU_w DU_e DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_n WV_n DU_w 
+Creature (DUJLTUWHMPCYBTHR east 1 2) takes action:
+Instruction 1: left
+WV_w DU_e KK_w DU_n DU_e 
+DU_s DU_w DU_n DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_n WV_n DU_w 
+Creature (WVADJBAUMXTBS west 0 0) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e KK_w DU_n DU_e 
+DU_s DU_w DU_n DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_e DU_n WV_n DU_w 
+Creature (WVADJBAUMXTBS east 4 1) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e KK_w DU_n DU_e 
+DU_s DU_w DU_n DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_s DU_n WV_n DU_w 
+Creature (DUJLTUWHMPCYBTHR west 1 1) takes action:
+Instruction 1: left
+WV_n DU_e KK_w DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_s WV_w 
+WV_n WV_s DU_n WV_n DU_w 
+Creature (DUJLTUWHMPCYBTHR south 3 3) takes action:
+Instruction 1: left
+WV_n DU_e KK_w DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_w 
+Creature (KKGJRPRYNDZBYSO west 0 2) takes action:
+Instruction 1: right
+WV_n DU_e KK_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_e WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_w 
+Creature (KKGJRPRYNDZBYSO east 2 0) takes action:
+Instruction 1: right
+WV_n DU_e KK_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_w DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_w 
+Creature (WVADJBAUMXTBS west 3 2) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e KK_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_w 
+Creature (DUJLTUWHMPCYBTHR west 4 4) takes action:
+Instruction 1: left
+WV_n DU_e KK_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 0) takes action:
+Instruction 1: ifempty 5
+Instruction 5: infect
+WV_n DU_e KK_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Round 2
+Creature (DUJLTUWHMPCYBTHR east 0 1) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 1 4) takes action:
+Instruction 2: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s DU_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 2 1) takes action:
+Instruction 4: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 0 3) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO west 2 3) takes action:
+Instruction 2: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_n KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 1 3) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 14: left
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 0 4) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+KK_s WV_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 3 1) takes action:
+Instruction 2: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+KK_s KK_n KK_n KK_w KK_n 
+____ KK_n WV_n DU_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 3 4) takes action:
+Instruction 4: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+KK_s KK_n KK_n KK_w KK_n 
+____ KK_n WV_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 3) takes action:
+Instruction 4: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+KK_s KK_n KK_n KK_w KK_n 
+____ KK_n WV_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 4 2) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+KK_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 1 0) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s DU_n DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 2 2) takes action:
+Instruction 2: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s KK_n DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 2 4) takes action:
+Instruction 2: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s KK_n DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 1 2) takes action:
+Instruction 1: right
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s KK_e DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 0 0) takes action:
+Instruction 4: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s KK_e DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS south 4 1) takes action:
+Instruction 4: infect
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_s KK_e DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS south 1 1) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 3) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_n DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 0 2) takes action:
+Instruction 1: left
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_s KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 2 0) takes action:
+Instruction 1: left
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_e KK_n KK_n KK_w KK_n 
+____ KK_n DU_n WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 3 2) takes action:
+Instruction 1: left
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_e KK_n KK_n KK_w KK_n 
+____ KK_n DU_w WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 4 4) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_e KK_n KK_n KK_w KK_n 
+____ KK_n DU_w WV_e WV_w 
+WV_n WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 0) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_e KK_n KK_n KK_w KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Round 3
+Creature (DUJLTUWHMPCYBTHR east 0 1) takes action:
+Instruction 11: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_s 
+DU_e KK_n KK_n KK_w KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 1 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_n KK_n KK_w KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 2 1) takes action:
+Instruction 1: right
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_w KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 0 3) takes action:
+Instruction 11: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_w KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO west 2 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR west 1 3) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 0 4) takes action:
+Instruction 11: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 3 1) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 3 4) takes action:
+Instruction 5: infect
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 3) takes action:
+Instruction 5: infect
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 4 2) takes action:
+Instruction 11: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 1 0) takes action:
+Instruction 11: hop
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_n KK_n KK_n 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 2 2) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_e KK_n KK_n 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 2 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e DU_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 1 2) takes action:
+Instruction 2: infect
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e KK_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 0 0) takes action:
+Instruction 5: infect
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e KK_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS south 4 1) takes action:
+Instruction 5: infect
+WV_n DU_e DU_w DU_n DU_e 
+DU_s WV_w KK_e KK_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 1 1) takes action:
+Instruction 4: infect
+WV_n DU_e DU_w DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 3) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_w DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR west 0 2) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 14: left
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e KK_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 2 0) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e DU_e KK_e KK_n KK_e 
+WV_n KK_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR west 3 2) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e DU_e KK_e KK_n KK_e 
+WV_n DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 4 4) takes action:
+Instruction 11: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e DU_e KK_e KK_n KK_e 
+WV_n DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 3 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e DU_e KK_e KK_n KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Round 4
+Creature (DUJLTUWHMPCYBTHR east 0 1) takes action:
+Instruction 12: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_w 
+DU_e DU_e KK_e KK_n KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO west 1 4) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_n 
+DU_e DU_e KK_e KK_n KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 2 1) takes action:
+Instruction 1: left
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_n 
+DU_e DU_n KK_e KK_n KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 0 3) takes action:
+Instruction 12: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_n 
+DU_e DU_n KK_e KK_n KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 2 3) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_w KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO west 1 3) takes action:
+Instruction 1: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 0 4) takes action:
+Instruction 12: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 3 1) takes action:
+Instruction 1: left
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 3 4) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 3) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 4 2) takes action:
+Instruction 12: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_s WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS south 1 0) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_e KK_e KK_e 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 2 2) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_e 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 2 4) takes action:
+Instruction 16: ifwall 39
+Instruction 39: go 1
+Instruction 1: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_e KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 1 2) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 0 0) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS south 4 1) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 1 1) takes action:
+Instruction 5: infect
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 3) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 0 2) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 2 0) takes action:
+Instruction 11: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR west 3 2) takes action:
+Instruction 11: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 4 4) takes action:
+Instruction 12: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e DU_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 0) takes action:
+Instruction 4: infect
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Round 5
+Creature (DUJLTUWHMPCYBTHR east 0 1) takes action:
+Instruction 13: hop
+WV_n DU_e DU_s DU_n DU_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 1 4) takes action:
+Instruction 2: infect
+WV_n DU_e DU_s DU_n KK_e 
+WV_w WV_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 2 1) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_n DU_e DU_s DU_n KK_e 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 0 3) takes action:
+Instruction 13: hop
+WV_n DU_e DU_s DU_n KK_e 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 2 3) takes action:
+Instruction 2: infect
+WV_n DU_e DU_s DU_n KK_e 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 1 3) takes action:
+Instruction 2: infect
+WV_n DU_e DU_s KK_n KK_e 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 0 4) takes action:
+Instruction 1: right
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_n DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 3 1) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 3 4) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 3) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 4 2) takes action:
+Instruction 13: hop
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS west 1 0) takes action:
+Instruction 4: infect
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e DU_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 2 2) takes action:
+Instruction 2: infect
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_e WV_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 2 4) takes action:
+Instruction 2: infect
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_s KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_e KK_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 1 2) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_n DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_e KK_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 0 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_e KK_w 
+____ WV_s DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS south 4 1) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_w KK_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_e KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR west 1 1) takes action:
+Instruction 1: left
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s KK_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_e KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 3) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s KK_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 0 2) takes action:
+Instruction 31: ifsame 32
+Instruction 32: go 35
+Instruction 35: infect
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 2 0) takes action:
+Instruction 12: hop
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_w WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO west 3 2) takes action:
+Instruction 1: right
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 4 4) takes action:
+Instruction 13: hop
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 0) takes action:
+Instruction 5: infect
+WV_e DU_e DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Round 6
+Creature (DUJLTUWHMPCYBTHR east 0 1) takes action:
+Instruction 14: left
+WV_e DU_n DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_n 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 1 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e DU_n DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_e 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 2 1) takes action:
+Instruction 11: hop
+WV_e DU_n DU_s KK_n KK_s 
+WV_w DU_s DU_w KK_n KK_e 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 0 3) takes action:
+Instruction 1: right
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_n KK_e 
+DU_e DU_n KK_s KK_e KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO east 2 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_n KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 1 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 0 4) takes action:
+Instruction 2: infect
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e KK_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS east 3 1) takes action:
+Instruction 4: infect
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e WV_n WV_s KK_w 
+____ WV_w DU_n WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO west 3 4) takes action:
+Instruction 1: right
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e WV_n WV_s KK_n 
+____ WV_w DU_n WV_n DU_s 
+Creature (WVADJBAUMXTBS north 4 3) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e WV_n WV_s KK_n 
+____ WV_w DU_n WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR north 4 2) takes action:
+Instruction 14: left
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e WV_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (WVADJBAUMXTBS west 1 0) takes action:
+Instruction 5: infect
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e WV_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 2 2) takes action:
+Instruction 3: ifsame 15
+Instruction 4: infect
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_s 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO south 2 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_w KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR west 1 2) takes action:
+Instruction 1: left
+WV_e DU_n DU_s KK_e KK_s 
+WV_w DU_s DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (WVADJBAUMXTBS east 0 0) takes action:
+Instruction 4: infect
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_s DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (WVADJBAUMXTBS west 4 1) takes action:
+Instruction 4: infect
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_s DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 1 1) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 14: left
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (WVADJBAUMXTBS south 3 3) takes action:
+Instruction 4: infect
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 0 2) takes action:
+Instruction 36: infect
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR east 2 0) takes action:
+Instruction 13: hop
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_n WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (KKGJRPRYNDZBYSO north 3 2) takes action:
+Instruction 1: right
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_s 
+Creature (DUJLTUWHMPCYBTHR south 4 4) takes action:
+Instruction 14: left
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (WVADJBAUMXTBS east 3 0) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_n DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Round 7
+Creature (WVADJBAUMXTBS north 0 1) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_e 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (KKGJRPRYNDZBYSO east 1 4) takes action:
+Instruction 16: ifwall 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (DUJLTUWHMPCYBTHR north 2 1) takes action:
+Instruction 12: hop
+WV_e WV_e DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (KKGJRPRYNDZBYSO east 0 3) takes action:
+Instruction 2: infect
+WV_e WV_e DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e WV_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (KKGJRPRYNDZBYSO south 2 3) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 30: infect
+WV_e WV_e DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_e KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e KK_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (KKGJRPRYNDZBYSO east 1 3) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e DU_s KK_e KK_s 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e KK_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (KKGJRPRYNDZBYSO south 0 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e KK_e KK_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (WVADJBAUMXTBS east 3 1) takes action:
+Instruction 5: infect
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (KKGJRPRYNDZBYSO north 3 4) takes action:
+Instruction 2: infect
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_n DU_e 
+Creature (WVADJBAUMXTBS north 4 3) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR west 4 2) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS west 1 0) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO south 2 2) takes action:
+Instruction 5: ifempty 16
+Instruction 6: hop
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_w 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO west 2 4) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n KK_s KK_s KK_n 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR south 1 2) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS east 0 0) takes action:
+Instruction 5: infect
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS west 4 1) takes action:
+Instruction 5: infect
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR east 1 1) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_s KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO south 3 3) takes action:
+Instruction 1: right
+WV_e WV_e DU_s KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR south 0 2) takes action:
+Instruction 37: go 1
+Instruction 1: left
+WV_e WV_e DU_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_e DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR east 2 0) takes action:
+Instruction 14: left
+WV_e WV_e DU_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_e KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS east 3 2) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e DU_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR east 4 4) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_e WV_e DU_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS east 3 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e DU_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Round 8
+Creature (WVADJBAUMXTBS east 0 1) takes action:
+Instruction 4: infect
+WV_e WV_e WV_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO south 1 4) takes action:
+Instruction 2: infect
+WV_e WV_e WV_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (DUJLTUWHMPCYBTHR north 2 1) takes action:
+Instruction 13: hop
+WV_e WV_e WV_e KK_e KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO east 0 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e WV_e KK_s KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_s KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO south 2 3) takes action:
+Instruction 31: ifsame 38
+Instruction 38: ifempty 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e WV_e KK_s KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO south 1 3) takes action:
+Instruction 2: infect
+WV_e WV_e WV_e KK_s KK_w 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO west 0 4) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e WV_e KK_s KK_n 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS east 3 1) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e WV_e KK_s KK_n 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_n 
+____ WV_w DU_w WV_e DU_e 
+Creature (KKGJRPRYNDZBYSO north 3 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e WV_e KK_s KK_n 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ WV_w DU_w WV_e DU_e 
+Creature (WVADJBAUMXTBS east 4 3) takes action:
+Instruction 4: infect
+WV_e WV_e WV_e KK_s KK_n 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ WV_w DU_w WV_e WV_e 
+Creature (DUJLTUWHMPCYBTHR west 4 2) takes action:
+Instruction 31: ifsame 32
+Instruction 32: go 35
+Instruction 35: infect
+WV_e WV_e WV_e KK_s KK_n 
+WV_w DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_w DU_w WV_e WV_e 
+Creature (WVADJBAUMXTBS west 1 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_s KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_w DU_w WV_e WV_e 
+Creature (DUJLTUWHMPCYBTHR south 2 2) takes action:
+Instruction 1: left
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_w DU_w WV_e WV_e 
+Creature (KKGJRPRYNDZBYSO north 2 4) takes action:
+Instruction 2: infect
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_w DU_w WV_e WV_e 
+Creature (DUJLTUWHMPCYBTHR south 1 2) takes action:
+Instruction 11: hop
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_w DU_w WV_e WV_e 
+Creature (WVADJBAUMXTBS east 0 0) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_w DU_w WV_e WV_e 
+Creature (DUJLTUWHMPCYBTHR west 4 1) takes action:
+Instruction 1: left
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_s DU_w WV_e WV_e 
+Creature (DUJLTUWHMPCYBTHR east 1 1) takes action:
+Instruction 31: ifsame 32
+Instruction 32: go 35
+Instruction 35: infect
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e WV_s KK_w KK_e 
+____ DU_s DU_w WV_e WV_e 
+Creature (KKGJRPRYNDZBYSO west 3 3) takes action:
+Instruction 2: infect
+WV_e WV_e WV_e KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_s KK_w KK_e 
+____ DU_s DU_w WV_e WV_e 
+Creature (WVADJBAUMXTBS east 0 2) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_s KK_w KK_e 
+____ DU_s DU_w WV_e WV_e 
+Creature (DUJLTUWHMPCYBTHR north 2 0) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_s KK_w KK_e 
+____ DU_s DU_w WV_e WV_e 
+Creature (KKGJRPRYNDZBYSO south 3 2) takes action:
+Instruction 1: right
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_e 
+Creature (WVADJBAUMXTBS east 4 4) takes action:
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS east 3 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Round 9
+Creature (WVADJBAUMXTBS east 0 1) takes action:
+Instruction 5: infect
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_s 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO south 1 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_w 
+DU_n DU_n DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR north 2 1) takes action:
+Instruction 14: left
+WV_e WV_e WV_s KK_s KK_n 
+WV_n DU_e DU_s KK_s KK_w 
+DU_n DU_w DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO south 0 3) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_s KK_w 
+DU_n DU_w DU_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 2 3) takes action:
+Instruction 2: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_s KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO south 1 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO north 0 4) takes action:
+Instruction 2: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_e KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS east 3 1) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_s KK_w KK_w KK_e 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO east 3 4) takes action:
+Instruction 16: ifwall 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS east 4 3) takes action:
+Instruction 5: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR west 4 2) takes action:
+Instruction 36: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS north 1 0) takes action:
+Instruction 4: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_e KK_w KK_n 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO east 2 2) takes action:
+Instruction 1: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_n 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO north 2 4) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR south 1 2) takes action:
+Instruction 12: hop
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS east 0 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR south 4 1) takes action:
+Instruction 2: go 9
+Instruction 9: ifsame 14
+Instruction 10: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR east 1 1) takes action:
+Instruction 36: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_w KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 3 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e DU_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS south 0 2) takes action:
+Instruction 4: infect
+WV_e WV_e WV_s KK_w KK_n 
+WV_n DU_e WV_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR north 2 0) takes action:
+Instruction 31: ifsame 32
+Instruction 32: go 35
+Instruction 35: infect
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e WV_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 3 2) takes action:
+Instruction 2: infect
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS south 4 4) takes action:
+Instruction 4: infect
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_e KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (WVADJBAUMXTBS east 3 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 3: right
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Round 10
+Creature (WVADJBAUMXTBS east 0 1) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_w 
+DU_n DU_w KK_s KK_w KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 1 4) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_n 
+DU_n DU_w KK_s KK_w KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (DUJLTUWHMPCYBTHR west 2 1) takes action:
+Instruction 15: go 30
+Instruction 30: hop
+WV_e WV_e WV_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_n 
+DU_n DU_w KK_s KK_w KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 0 3) takes action:
+Instruction 2: infect
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_n 
+DU_n DU_w KK_s KK_w KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 2 3) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e WV_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO west 1 3) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 30: infect
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO north 0 4) takes action:
+Instruction 3: ifsame 15
+Instruction 4: infect
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_s KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO south 3 1) takes action:
+Instruction 1: right
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_w WV_e WV_s 
+Creature (KKGJRPRYNDZBYSO south 3 4) takes action:
+Instruction 2: infect
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_w WV_e KK_s 
+Creature (WVADJBAUMXTBS east 4 3) takes action:
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_w WV_e KK_s 
+Creature (DUJLTUWHMPCYBTHR west 4 2) takes action:
+Instruction 37: go 1
+Instruction 1: left
+WV_e WV_e KK_s KK_w KK_n 
+DU_n DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (DUJLTUWHMPCYBTHR north 1 0) takes action:
+Instruction 1: left
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO south 2 2) takes action:
+Instruction 2: infect
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_e 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO east 2 4) takes action:
+Instruction 16: ifwall 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_e KK_s KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO south 1 2) takes action:
+Instruction 1: right
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_e KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (WVADJBAUMXTBS east 0 0) takes action:
+Instruction 8: ifenemy 9
+Instruction 9: go 1
+Instruction 1: ifempty 5
+Instruction 2: ifsame 6
+Instruction 6: ifwall 7
+Instruction 7: hop
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_e KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (DUJLTUWHMPCYBTHR south 4 1) takes action:
+Instruction 11: hop
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_e KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (DUJLTUWHMPCYBTHR east 1 1) takes action:
+Instruction 37: go 1
+Instruction 1: left
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_n KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO north 3 3) takes action:
+Instruction 16: ifwall 39
+Instruction 17: ifwall 39
+Instruction 18: ifenemy 30
+Instruction 19: ifwall 23
+Instruction 20: ifwall 37
+Instruction 21: ifwall 29
+Instruction 22: ifenemy 25
+Instruction 23: go 33
+Instruction 33: ifwall 36
+Instruction 34: ifsame 39
+Instruction 39: go 1
+Instruction 1: right
+WV_e WV_e KK_s KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_e KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO south 0 2) takes action:
+Instruction 1: right
+WV_e WV_e KK_w KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_e KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (DUJLTUWHMPCYBTHR north 2 0) takes action:
+Instruction 36: infect
+WV_e WV_e KK_w KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_w KK_e KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO west 3 2) takes action:
+Instruction 3: ifsame 15
+Instruction 15: right
+WV_e WV_e KK_w KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_n KK_e KK_s 
+____ DU_s DU_s WV_e KK_s 
+Creature (KKGJRPRYNDZBYSO south 4 4) takes action:
+Instruction 1: right
+WV_e WV_e KK_w KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_n KK_e KK_s 
+____ DU_s DU_s WV_e KK_w 
+Creature (WVADJBAUMXTBS south 3 0) takes action:
+Instruction 4: infect
+WV_e WV_e KK_w KK_w KK_n 
+DU_w DU_n KK_w KK_w KK_n 
+DU_n DU_w KK_s KK_n KK_s 
+WV_s KK_w KK_n KK_e KK_s 
+____ DU_s DU_s WV_e KK_w 

@@ -1,0 +1,2090 @@
+Initial state
+PA_w PA_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_n 
+FM_w PA_e PA_w FM_e YN_e 
+FM_e FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Round 1
+Creature (FMPAQB east 3 0) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+PA_w PA_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_n 
+FM_w PA_e PA_w FM_e YN_e 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Creature (PAABKNEW north 1 4) takes action:
+Instruction 1: right
+PA_w PA_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e PA_w FM_e YN_e 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Creature (YNWZBQP west 0 2) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+PA_w YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e PA_w FM_e YN_e 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Creature (YNWZBQP east 2 4) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+PA_w YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e PA_w FM_e YN_s 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+PA_w YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e YN_w FM_e YN_s 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Creature (PAABKNEW west 0 0) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e YN_w FM_e YN_s 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_w PA_w PA_n 
+Creature (FMPAQB west 4 2) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+PA_n YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e YN_w FM_e YN_s 
+FM_n FM_n YN_n FM_n PA_s 
+PA_s YN_e FM_s PA_w PA_n 
+Creature (PAABKNEW south 4 0) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e YN_w FM_e YN_s 
+FM_n FM_n YN_n FM_n PA_s 
+PA_w YN_e FM_s PA_w PA_n 
+Creature (PAABKNEW south 3 4) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e YN_w FM_e YN_s 
+FM_n FM_n YN_n FM_n PA_w 
+PA_w YN_e FM_s PA_w PA_n 
+Creature (FMPAQB north 3 1) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+PA_n YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_e YN_w FM_e YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e FM_s PA_w PA_n 
+Creature (PAABKNEW east 2 1) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e FM_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_s YN_w FM_e YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e FM_s PA_w PA_n 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_s YN_w FM_e YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e FM_s PA_w PA_n 
+Creature (PAABKNEW north 4 4) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_s YN_w FM_e YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e FM_s PA_w PA_e 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_w PA_n PA_e 
+FM_w PA_s YN_w FM_e YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_w PA_e 
+Creature (PAABKNEW west 1 2) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_n PA_e 
+FM_w PA_s YN_w FM_e YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_w PA_e 
+Creature (FMPAQB east 2 3) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_n PA_e 
+FM_w PA_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_w PA_e 
+Creature (PAABKNEW west 4 3) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_n PA_e 
+FM_w PA_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_n PA_e 
+FM_w YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (PAABKNEW north 1 3) takes action:
+Instruction 1: right
+PA_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_e PA_e 
+FM_w YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP west 0 1) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_e PA_e 
+FM_w YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_n PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (FMPAQB north 3 3) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+YN_n YN_w YN_w YN_e YN_e 
+PA_e FM_e PA_n PA_e PA_e 
+FM_w YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (PAABKNEW east 1 0) takes action:
+Instruction 1: right
+YN_n YN_w YN_w YN_e YN_e 
+PA_s FM_e PA_n PA_e PA_e 
+FM_w YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (FMPAQB west 2 0) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 30: ifwall 33
+Instruction 33: left
+YN_n YN_w YN_w YN_e YN_e 
+PA_s FM_e PA_n PA_e PA_e 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (FMPAQB east 1 1) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+YN_n YN_w YN_w YN_e YN_e 
+PA_s FM_n PA_n PA_e PA_e 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP east 0 4) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_n YN_w YN_w YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_e 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Round 2
+Creature (FMPAQB north 3 0) takes action:
+Instruction 4: go 21
+Instruction 21: hop
+YN_n YN_w YN_w YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_e 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (PAABKNEW east 1 4) takes action:
+Instruction 2: right
+YN_n YN_w YN_w YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP west 0 2) takes action:
+Instruction 10: left
+YN_n YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w PA_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 9: infect
+YN_n YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_n FM_w YN_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 10: left
+YN_n YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_w FM_w YN_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP north 0 0) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_w FM_w YN_w 
+PA_w YN_e YN_s PA_n PA_e 
+Creature (YNWZBQP south 4 2) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_w FM_w YN_w 
+PA_w YN_e YN_w PA_n PA_e 
+Creature (PAABKNEW west 4 0) takes action:
+Instruction 2: right
+YN_e YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_w FM_w YN_w 
+PA_n YN_e YN_w PA_n PA_e 
+Creature (YNWZBQP west 3 4) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_w YN_w YN_w 
+PA_n YN_e YN_w PA_n PA_e 
+Creature (FMPAQB west 3 1) takes action:
+Instruction 4: go 21
+Instruction 21: hop
+YN_e YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n FM_w YN_w YN_w YN_w 
+PA_n YN_e YN_w PA_n PA_e 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_w YN_s YN_e YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_e YN_w PA_n PA_e 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 10: left
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_e YN_w PA_n PA_e 
+Creature (PAABKNEW east 4 4) takes action:
+Instruction 2: right
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_e YN_w PA_n PA_s 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 10: left
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_n PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_n PA_s 
+Creature (PAABKNEW north 1 2) takes action:
+Instruction 2: right
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_n PA_s 
+Creature (FMPAQB north 2 3) takes action:
+Instruction 4: go 21
+Instruction 21: hop
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_n PA_s 
+Creature (PAABKNEW north 4 3) takes action:
+Instruction 2: right
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_e PA_s 
+FM_s YN_s YN_w FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 10: left
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_e PA_s 
+FM_s YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (PAABKNEW east 1 3) takes action:
+Instruction 2: right
+YN_e YN_w YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_s PA_s 
+FM_s YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 0 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_s PA_s 
+FM_s YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_w YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 3 3) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+PA_s FM_n PA_e PA_s PA_s 
+FM_s YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (PAABKNEW south 1 0) takes action:
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n PA_e PA_s PA_s 
+FM_s YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (FMPAQB south 2 0) takes action:
+Instruction 34: left
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n PA_e PA_s PA_s 
+FM_e YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (FMPAQB north 1 1) takes action:
+Instruction 4: go 21
+Instruction 21: hop
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n PA_e PA_s PA_s 
+FM_e YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n PA_e PA_s YN_s 
+FM_e YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Round 3
+Creature (FMPAQB north 3 0) takes action:
+Instruction 22: infect
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n PA_e PA_s YN_s 
+FM_e YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP south 1 4) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n PA_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP south 0 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_s 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+FM_n YN_w YN_w YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 3 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+FM_n YN_w YN_n YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+FM_n YN_w YN_n YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+FM_n YN_w YN_n YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (PAABKNEW north 4 0) takes action:
+Instruction 3: infect
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+PA_n YN_w YN_n YN_n YN_w 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 3 4) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+PA_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP west 3 1) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_s YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP north 0 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (PAABKNEW south 4 4) takes action:
+Instruction 3: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w PA_e PA_s 
+Creature (YNWZBQP north 4 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e PA_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP east 1 2) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e YN_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (FMPAQB north 2 3) takes action:
+Instruction 22: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e FM_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (PAABKNEW east 4 3) takes action:
+Instruction 3: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e FM_s YN_w 
+FM_e YN_e YN_s FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP south 2 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e FM_s YN_w 
+FM_e YN_e YN_w FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (FMPAQB south 1 3) takes action:
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+YN_e YN_s YN_s YN_e YN_s 
+PA_w FM_n YN_e FM_e YN_w 
+FM_e YN_e YN_w FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP south 0 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w YN_n YN_e FM_e YN_w 
+FM_e YN_e YN_w FM_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP north 3 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w YN_n YN_e FM_e YN_w 
+FM_e YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (PAABKNEW west 1 0) takes action:
+Instruction 3: infect
+YN_e YN_s YN_s YN_e YN_s 
+PA_w YN_n YN_e FM_e YN_w 
+FM_e YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (FMPAQB east 2 0) takes action:
+Instruction 35: go 1
+Instruction 1: ifempty 26
+Instruction 2: ifwall 30
+Instruction 3: left
+YN_e YN_s YN_s YN_e YN_s 
+PA_w YN_n YN_e FM_e YN_w 
+FM_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP north 1 1) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+PA_w YN_e YN_e FM_e YN_w 
+FM_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_e YN_e 
+PA_w YN_e YN_e FM_e YN_w 
+FM_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Round 4
+Creature (YNWZBQP north 3 0) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_e 
+PA_w YN_e YN_e FM_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP west 1 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP south 0 2) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP east 2 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 5: infect
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 5: infect
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w PA_e PA_s 
+Creature (PAABKNEW north 4 0) takes action:
+Instruction 4: go 9
+Instruction 9: go 1
+Instruction 1: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e PA_s 
+Creature (YNWZBQP south 3 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_s 
+Creature (YNWZBQP west 3 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_s 
+Creature (YNWZBQP east 2 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_s 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_s 
+Creature (YNWZBQP south 4 4) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_w 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_w 
+Creature (YNWZBQP east 1 2) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_w 
+Creature (YNWZBQP north 2 3) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_e YN_w 
+Creature (PAABKNEW east 4 3) takes action:
+Instruction 4: go 9
+Instruction 9: go 1
+Instruction 1: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP east 1 3) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP south 0 1) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_n YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP north 3 3) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_e 
+PA_w YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (PAABKNEW west 1 0) takes action:
+Instruction 4: go 9
+Instruction 9: go 1
+Instruction 1: right
+YN_e YN_e YN_e YN_e YN_e 
+PA_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP north 2 0) takes action:
+Instruction 1: ifenemy 7
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_e YN_e YN_e 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP east 1 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_e YN_e YN_e 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP east 0 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_e YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Round 5
+Creature (YNWZBQP north 3 0) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP west 1 4) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP east 0 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w PA_s YN_w 
+Creature (PAABKNEW east 4 0) takes action:
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_s 
+PA_s YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP south 3 4) takes action:
+Instruction 10: left
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_s YN_n YN_w YN_e 
+PA_s YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP south 3 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w PA_s YN_w 
+Creature (YNWZBQP west 4 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 9: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP north 1 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 2 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 4 3) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 1 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 0 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_w YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 3 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 1 0) takes action:
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 2 0) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 1) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+YN_w YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Round 6
+Creature (YNWZBQP west 3 0) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 1 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 10: left
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 10: left
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_s YN_w YN_w 
+Creature (PAABKNEW south 4 0) takes action:
+Instruction 3: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_e 
+PA_s YN_e YN_s YN_w YN_w 
+Creature (YNWZBQP east 3 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_w 
+Creature (YNWZBQP west 3 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_w 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 5: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_w 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_w 
+Creature (YNWZBQP west 4 4) takes action:
+Instruction 10: left
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP east 1 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP east 2 3) takes action:
+Instruction 5: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP west 4 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP south 1 3) takes action:
+Instruction 5: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP south 0 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP north 3 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP east 1 0) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_w YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP west 2 0) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP east 1 1) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 5: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Round 7
+Creature (YNWZBQP north 3 0) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP west 1 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP south 0 2) takes action:
+Instruction 5: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 10: left
+YN_n YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP north 0 0) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_s YN_e YN_s YN_w YN_s 
+Creature (YNWZBQP south 4 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_s YN_e YN_w YN_w YN_s 
+Creature (PAABKNEW south 4 0) takes action:
+Instruction 4: go 9
+Instruction 9: go 1
+Instruction 1: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_e YN_w YN_w YN_s 
+Creature (YNWZBQP south 3 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_e YN_w YN_w YN_s 
+Creature (YNWZBQP west 3 1) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_e YN_w YN_w YN_s 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_e YN_w YN_w YN_s 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_e YN_w YN_w YN_s 
+Creature (YNWZBQP south 4 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 2) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP east 2 3) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 3) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 1 3) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 1) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP north 3 3) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 0) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP north 2 0) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_e YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Round 8
+Creature (YNWZBQP north 3 0) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 1 4) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 2) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_s 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_w YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 3 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_w YN_n YN_w YN_w YN_w 
+Creature (PAABKNEW west 4 0) takes action:
+Instruction 2: right
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 3 4) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 3 1) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_s YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_n YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP north 0 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_n YN_w YN_w YN_w 
+Creature (YNWZBQP north 4 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 2) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_e YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 2 3) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 3) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_s YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 2 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_s YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 1 3) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 1) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 3 3) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 0) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 2 0) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_n YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 1 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Round 9
+Creature (YNWZBQP north 3 0) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 1 4) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_s YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 2) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_e 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 2 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 5: infect
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 5: infect
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+YN_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (PAABKNEW north 4 0) takes action:
+Instruction 3: infect
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+PA_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 3 4) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+PA_n YN_w YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 3 1) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_e YN_w YN_n YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 2 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 4) takes action:
+Instruction 5: infect
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_e YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 2) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_n YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 2 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 4 3) takes action:
+Instruction 10: left
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_e YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 1 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 0 1) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_n YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP north 3 3) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_e 
+YN_e YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 1 0) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_e 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP north 2 0) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_e YN_e YN_e 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 1 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_e YN_e YN_e 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 0 4) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_e YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_n YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Round 10
+Creature (PAABKNEW north 3 0) takes action:
+Instruction 1: right
+YN_e YN_e YN_e YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_w 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP west 1 4) takes action:
+Instruction 10: left
+YN_e YN_e YN_e YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 0 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 2 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP north 3 2) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 0 0) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP west 4 2) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_n YN_e YN_w YN_s YN_w 
+Creature (PAABKNEW north 4 0) takes action:
+Instruction 4: go 9
+Instruction 9: go 1
+Instruction 1: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_s 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 3 4) takes action:
+Instruction 10: left
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_s YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 3 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 2 1) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 0 3) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP west 4 4) takes action:
+Instruction 6: ifwall 10
+Instruction 7: ifwall 10
+Instruction 8: ifwall 12
+Instruction 9: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 4 1) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_n YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP north 1 2) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP east 2 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_s YN_w 
+Creature (YNWZBQP south 4 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 2 2) takes action:
+Instruction 5: infect
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 1 3) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_e YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 0 1) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_w YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP west 3 3) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_n YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_n YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 1 0) takes action:
+Instruction 11: ifenemy 12
+Instruction 12: go 1
+Instruction 1: ifenemy 7
+Instruction 2: right
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_n YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_n YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP north 2 0) takes action:
+Instruction 10: left
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_n YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP east 1 1) takes action:
+Instruction 5: infect
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_n YN_e 
+PA_e YN_e YN_w YN_w YN_w 
+Creature (YNWZBQP south 0 4) takes action:
+Instruction 3: ifenemy 9
+Instruction 4: hop
+YN_e YN_s YN_s YN_e YN_s 
+YN_e YN_e YN_e YN_s YN_s 
+YN_w YN_s YN_w YN_e YN_s 
+PA_e YN_w YN_n YN_n YN_e 
+PA_e YN_e YN_w YN_w YN_w 

@@ -1,0 +1,626 @@
+Initial state
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ ____ ____ ____ ____ 
+____ IA_n IA_n MU_n JS_n 
+____ ____ ____ ____ JS_w 
+Round 1
+Creature (IAFGKBVWAKPJMFMP north 3 2) takes action:
+Instruction 1: hop
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_n JS_n 
+____ ____ ____ ____ JS_w 
+Creature (JS north 3 4) takes action:
+Instruction 1: right
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_n JS_e 
+____ ____ ____ ____ JS_w 
+Creature (JS east 1 3) takes action:
+Instruction 1: right
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_s ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_n JS_e 
+____ ____ ____ ____ JS_w 
+Creature (JS west 4 4) takes action:
+Instruction 1: right
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_s ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Creature (MUR north 3 3) takes action:
+Instruction 1: right
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_s ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_e JS_e 
+____ ____ ____ ____ JS_n 
+Creature (JS north 0 0) takes action:
+Instruction 1: right
+JS_e ____ ____ ____ ____ 
+____ JS_n ____ JS_s ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_e JS_e 
+____ ____ ____ ____ JS_n 
+Creature (JS north 1 1) takes action:
+Instruction 1: right
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ ____ IA_n ____ ____ 
+____ IA_n ____ MU_e JS_e 
+____ ____ ____ ____ JS_n 
+Creature (IAFGKBVWAKPJMFMP north 3 1) takes action:
+Instruction 1: hop
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_n IA_n ____ ____ 
+____ ____ ____ MU_e JS_e 
+____ ____ ____ ____ JS_n 
+Round 2
+Creature (IAFGKBVWAKPJMFMP north 2 2) takes action:
+Instruction 2: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_e JS_e 
+____ ____ ____ ____ JS_n 
+Creature (JS east 3 4) takes action:
+Instruction 2: right
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_e JS_s 
+____ ____ ____ ____ JS_n 
+Creature (JS south 1 3) takes action:
+Instruction 2: right
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_w ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_e JS_s 
+____ ____ ____ ____ JS_n 
+Creature (JS north 4 4) takes action:
+Instruction 2: right
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_w ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_e JS_s 
+____ ____ ____ ____ JS_e 
+Creature (MUR east 3 3) takes action:
+Instruction 2: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_w ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_n JS_s 
+____ ____ ____ ____ JS_e 
+Creature (JS east 0 0) takes action:
+Instruction 2: right
+JS_s ____ ____ ____ ____ 
+____ JS_e ____ JS_w ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_n JS_s 
+____ ____ ____ ____ JS_e 
+Creature (JS east 1 1) takes action:
+Instruction 2: right
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_w ____ 
+____ IA_n IA_w ____ ____ 
+____ ____ ____ MU_n JS_s 
+____ ____ ____ ____ JS_e 
+Creature (IAFGKBVWAKPJMFMP north 2 1) takes action:
+Instruction 2: left
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_w ____ 
+____ IA_w IA_w ____ ____ 
+____ ____ ____ MU_n JS_s 
+____ ____ ____ ____ JS_e 
+Round 3
+Creature (IAFGKBVWAKPJMFMP west 2 2) takes action:
+Instruction 3: ifempty 25
+Instruction 4: left
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_w ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_s 
+____ ____ ____ ____ JS_e 
+Creature (JS south 3 4) takes action:
+Instruction 3: left
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_w ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_e 
+Creature (JS west 1 3) takes action:
+Instruction 3: left
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_s ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_e 
+Creature (JS east 4 4) takes action:
+Instruction 3: left
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_s ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Creature (MUR north 3 3) takes action:
+Instruction 3: infect
+JS_s ____ ____ ____ ____ 
+____ JS_s ____ JS_s ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Creature (JS south 0 0) takes action:
+Instruction 3: left
+JS_e ____ ____ ____ ____ 
+____ JS_s ____ JS_s ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Creature (JS south 1 1) takes action:
+Instruction 3: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Creature (IAFGKBVWAKPJMFMP west 2 1) takes action:
+Instruction 3: ifempty 25
+Instruction 25: right
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_n IA_s ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Round 4
+Creature (IAFGKBVWAKPJMFMP south 2 2) takes action:
+Instruction 5: ifempty 14
+Instruction 14: ifenemy 23
+Instruction 15: go 26
+Instruction 26: ifenemy 27
+Instruction 27: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_n JS_e 
+____ ____ ____ ____ JS_n 
+Creature (JS east 3 4) takes action:
+Instruction 4: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_s ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_n JS_n 
+____ ____ ____ ____ JS_n 
+Creature (JS south 1 3) takes action:
+Instruction 4: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_e ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_n JS_n 
+____ ____ ____ ____ JS_n 
+Creature (JS north 4 4) takes action:
+Instruction 4: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_e ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_n JS_n 
+____ ____ ____ ____ JS_w 
+Creature (MUR north 3 3) takes action:
+Instruction 4: left
+JS_e ____ ____ ____ ____ 
+____ JS_e ____ JS_e ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_w JS_n 
+____ ____ ____ ____ JS_w 
+Creature (JS east 0 0) takes action:
+Instruction 4: left
+JS_n ____ ____ ____ ____ 
+____ JS_e ____ JS_e ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_w JS_n 
+____ ____ ____ ____ JS_w 
+Creature (JS east 1 1) takes action:
+Instruction 4: left
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ IA_n IA_e ____ ____ 
+____ ____ ____ MU_w JS_n 
+____ ____ ____ ____ JS_w 
+Creature (IAFGKBVWAKPJMFMP north 2 1) takes action:
+Instruction 26: ifenemy 27
+Instruction 27: left
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ IA_w IA_e ____ ____ 
+____ ____ ____ MU_w JS_n 
+____ ____ ____ ____ JS_w 
+Round 5
+Creature (IAFGKBVWAKPJMFMP east 2 2) takes action:
+Instruction 28: ifenemy 29
+Instruction 29: right
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ IA_w IA_s ____ ____ 
+____ ____ ____ MU_w JS_n 
+____ ____ ____ ____ JS_w 
+Creature (JS north 3 4) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ JS_e ____ 
+____ IA_w IA_s ____ JS_n 
+____ ____ ____ MU_w ____ 
+____ ____ ____ ____ JS_w 
+Creature (JS east 1 3) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ ____ JS_e 
+____ IA_w IA_s ____ JS_n 
+____ ____ ____ MU_w ____ 
+____ ____ ____ ____ JS_w 
+Creature (JS west 4 4) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ ____ JS_e 
+____ IA_w IA_s ____ JS_n 
+____ ____ ____ MU_w ____ 
+____ ____ ____ JS_w ____ 
+Creature (MUR west 3 3) takes action:
+Instruction 5: left
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ ____ JS_e 
+____ IA_w IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Creature (JS north 0 0) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n ____ ____ ____ ____ 
+____ JS_n ____ ____ JS_e 
+____ IA_w IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Creature (JS north 1 1) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_e 
+____ IA_w IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Creature (IAFGKBVWAKPJMFMP west 2 1) takes action:
+Instruction 28: ifenemy 29
+Instruction 29: right
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_e 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Round 6
+Creature (IAFGKBVWAKPJMFMP south 2 2) takes action:
+Instruction 30: infect
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_e 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Creature (JS north 2 4) takes action:
+Instruction 12: ifwall 15
+Instruction 13: hop
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_e 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Creature (JS east 1 4) takes action:
+Instruction 12: ifwall 15
+Instruction 15: go 1
+Instruction 1: right
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ ____ JS_w ____ 
+Creature (JS west 4 3) takes action:
+Instruction 12: ifwall 15
+Instruction 13: hop
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (MUR south 3 3) takes action:
+Instruction 6: infect
+JS_n JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (JS north 0 0) takes action:
+Instruction 12: ifwall 15
+Instruction 15: go 1
+Instruction 1: right
+JS_e JS_n ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (JS north 0 1) takes action:
+Instruction 12: ifwall 15
+Instruction 15: go 1
+Instruction 1: right
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (IAFGKBVWAKPJMFMP north 2 1) takes action:
+Instruction 30: infect
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n IA_s ____ JS_n 
+____ ____ ____ MU_s ____ 
+____ ____ JS_w ____ ____ 
+Round 7
+Creature (IAFGKBVWAKPJMFMP south 2 2) takes action:
+Instruction 31: ifwall 32
+Instruction 32: go 1
+Instruction 1: hop
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n ____ ____ JS_n 
+____ ____ IA_s MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (JS north 2 4) takes action:
+Instruction 14: right
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_s 
+____ IA_n ____ ____ JS_e 
+____ ____ IA_s MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (JS south 1 4) takes action:
+Instruction 2: right
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_w 
+____ IA_n ____ ____ JS_e 
+____ ____ IA_s MU_s ____ 
+____ ____ JS_w ____ ____ 
+Creature (JS west 4 2) takes action:
+Instruction 14: right
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_w 
+____ IA_n ____ ____ JS_e 
+____ ____ IA_s MU_s ____ 
+____ ____ JS_n ____ ____ 
+Creature (MUR south 3 3) takes action:
+Instruction 7: right
+JS_e JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_w 
+____ IA_n ____ ____ JS_e 
+____ ____ IA_s MU_w ____ 
+____ ____ JS_n ____ ____ 
+Creature (JS east 0 0) takes action:
+Instruction 2: right
+JS_s JS_e ____ ____ ____ 
+____ ____ ____ ____ JS_w 
+____ IA_n ____ ____ JS_e 
+____ ____ IA_s MU_w ____ 
+____ ____ JS_n ____ ____ 
+Creature (JS east 0 1) takes action:
+Instruction 2: right
+JS_s JS_s ____ ____ ____ 
+____ ____ ____ ____ JS_w 
+____ IA_n ____ ____ JS_e 
+____ ____ IA_s MU_w ____ 
+____ ____ JS_n ____ ____ 
+Creature (IAFGKBVWAKPJMFMP north 2 1) takes action:
+Instruction 31: ifwall 32
+Instruction 32: go 1
+Instruction 1: hop
+JS_s JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_w 
+____ ____ ____ ____ JS_e 
+____ ____ IA_s MU_w ____ 
+____ ____ JS_n ____ ____ 
+Round 8
+Creature (IAFGKBVWAKPJMFMP south 3 2) takes action:
+Instruction 2: left
+JS_s JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_w 
+____ ____ ____ ____ JS_e 
+____ ____ IA_e MU_w ____ 
+____ ____ JS_n ____ ____ 
+Creature (JS east 2 4) takes action:
+Instruction 15: go 1
+Instruction 1: right
+JS_s JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_w 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_w ____ 
+____ ____ JS_n ____ ____ 
+Creature (JS west 1 4) takes action:
+Instruction 3: left
+JS_s JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_w ____ 
+____ ____ JS_n ____ ____ 
+Creature (JS north 4 2) takes action:
+Instruction 15: go 1
+Instruction 1: right
+JS_s JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_w ____ 
+____ ____ JS_e ____ ____ 
+Creature (MUR west 3 3) takes action:
+Instruction 8: ifwall 13
+Instruction 9: ifempty 15
+Instruction 10: go 11
+Instruction 11: ifwall 15
+Instruction 12: right
+JS_s JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS south 0 0) takes action:
+Instruction 3: left
+JS_e JS_s ____ ____ ____ 
+____ IA_n ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS south 0 1) takes action:
+Instruction 3: left
+JS_e JS_e ____ ____ ____ 
+____ IA_n ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (IAFGKBVWAKPJMFMP north 1 1) takes action:
+Instruction 2: left
+JS_e JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_e MU_n ____ 
+____ ____ JS_e ____ ____ 
+Round 9
+Creature (IAFGKBVWAKPJMFMP east 3 2) takes action:
+Instruction 3: ifempty 25
+Instruction 4: left
+JS_e JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_s 
+____ ____ ____ ____ JS_s 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS south 2 4) takes action:
+Instruction 2: right
+JS_e JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_s 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS south 1 4) takes action:
+Instruction 4: left
+JS_e JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS east 4 2) takes action:
+Instruction 2: right
+JS_e JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (MUR north 3 3) takes action:
+Instruction 13: infect
+JS_e JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (JS east 0 0) takes action:
+Instruction 4: left
+JS_n JS_e ____ ____ ____ 
+____ IA_w ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (JS east 0 1) takes action:
+Instruction 4: left
+JS_n JS_n ____ ____ ____ 
+____ IA_w ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (IAFGKBVWAKPJMFMP west 1 1) takes action:
+Instruction 3: ifempty 25
+Instruction 25: right
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_n MU_n ____ 
+____ ____ JS_s ____ ____ 
+Round 10
+Creature (IAFGKBVWAKPJMFMP north 3 2) takes action:
+Instruction 5: ifempty 14
+Instruction 14: ifenemy 23
+Instruction 15: go 26
+Instruction 26: ifenemy 27
+Instruction 27: left
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_w 
+____ ____ IA_w MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (JS west 2 4) takes action:
+Instruction 3: left
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (JS east 1 4) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_n ____ 
+____ ____ JS_s ____ ____ 
+Creature (JS south 4 2) takes action:
+Instruction 3: left
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_n ____ 
+____ ____ JS_e ____ ____ 
+Creature (MUR north 3 3) takes action:
+Instruction 14: right
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_e ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS north 0 0) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_e ____ 
+____ ____ JS_e ____ ____ 
+Creature (JS north 0 1) takes action:
+Instruction 5: go 10
+Instruction 10: ifenemy 14
+Instruction 11: hop
+JS_n JS_n ____ ____ ____ 
+____ IA_n ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_e ____ 
+____ ____ JS_e ____ ____ 
+Creature (IAFGKBVWAKPJMFMP north 1 1) takes action:
+Instruction 26: ifenemy 27
+Instruction 27: left
+JS_n JS_n ____ ____ ____ 
+____ IA_w ____ ____ JS_e 
+____ ____ ____ ____ JS_s 
+____ ____ IA_w MU_e ____ 
+____ ____ JS_e ____ ____ 
