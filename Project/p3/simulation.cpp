@@ -1,7 +1,7 @@
 /*
  * @Author: Mai Xu
  * @Date: 2021-10-30 11:25:12
- * @LastEditTime: 2021-11-12 22:07:27
+ * @LastEditTime: 2021-11-12 23:18:03
  * @Description: 2021 Fall VE280 Project 3
  * @FilePath: \p3\simulation.cpp
  */
@@ -271,8 +271,8 @@ void Simulation::initCreature(string *creatureFile, int &i, string line) {
     } catch (bool exception) {
         throw false;
     }
-    is >> world->creatures[i].location.r; // r是height
-    is >> world->creatures[i].location.c; // c是width
+    is >> world->creatures[i].location.r; // r is height
+    is >> world->creatures[i].location.c; // c is width
     if (!ifInside(world->creatures[i].location)) {
         errorInBound(world->creatures[i].species->name, world->creatures[i].location, world->grid.height, world->grid.width, getDirection(world->creatures[i]));
         throw false;
@@ -312,7 +312,7 @@ void Simulation::initWorld(string worldFile) {
     }
     worldStream.close();
     world->numCreatures = i;
-    judgeOverlap();
+    judgeOverlap(); // Judge overlap error
 }
 
 void Simulation::printGrid() {
@@ -474,7 +474,7 @@ void Simulation::go(creature_t *creature, int n) {
 
 void Simulation::operation(creature_t *creature, instruction_t instr) {
     if (ifVerbose)
-        cout << "Instruction " << (creature->programID + 1) << ": ";
+        cout << "Instruction " << (creature->programID + 1) << ": "; // Judge whether to print verbose instructions
     switch (instr.op) {
     case HOP:
         cout << "hop" << endl;
