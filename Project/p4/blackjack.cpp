@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-13 11:42:12
- * @LastEditTime: 2021-11-17 18:58:51
+ * @LastEditTime: 2021-11-17 19:02:34
  * @Description: VE280 2021 Fall Project 4
  * @FilePath: \p4\blackjack.cpp
  */
@@ -161,3 +161,9 @@ int main(int argc, char *argv[]) {
     cout << "Player has " << bankroll << " after " << (thishand - 1) << " hands\n";
     delete player;
 }
+
+// TODO:
+// 1. 拆函数
+// 2. 写testcase
+// 3. 对拍答案
+// 4. 写注释, 修虚拟机 && 查coding style
