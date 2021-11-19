@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-13 11:42:12
- * @LastEditTime: 2021-11-17 19:02:34
+ * @LastEditTime: 2021-11-19 21:47:44
  * @Description: VE280 2021 Fall Project 4
  * @FilePath: \p4\blackjack.cpp
  */
@@ -65,6 +65,84 @@ bool judgeHandValue(int handValue, int &bankroll, int pType, int wager) {
     }
 }
 
+void initDeal(Player *player, Hand &hand, Card temp, int pType) {
+    if (pType == 1) {
+        player->expose(temp);
+        hand.addCard(temp);
+        printCard(temp, PLAYER);
+    }
+    else {
+        player->expose(temp);
+        hand.addCard(temp);
+        printCard(temp, DEALER);
+    }
+}
+
+void oneHand(Deck &myDeck, Deck &save, int &thishand, int &bankroll, Player *player, Hand &playerHand, Hand &dealerHand) {
+    Card temp1, temp2;
+    cout << "Hand " << thishand << " bankroll " << bankroll << endl;
+    if (myDeck.cardsLeft() < 20) {
+        shuffle(save, player);
+        myDeck = save;
+    }
+    int wager = player->bet(bankroll, MINIMUM_BET);
+    cout << "Player bets " << wager << endl;
+    temp1 = myDeck.deal();
+    initDeal(player, playerHand, temp1, PLAYER); // Deal the first card
+    temp1 = myDeck.deal();
+    initDeal(player, dealerHand, temp1, DEALER); // Deal the second card
+    temp2 = myDeck.deal();
+    initDeal(player, playerHand, temp2, PLAYER); // Deal the third card
+    temp2 = myDeck.deal();
+    dealerHand.addCard(temp2); // Deal the fourth card
+    if (playerHand.handValue().count == 21) {
+        cout << "Player dealt natural 21\n";
+        bankroll += wager * 3 / 2;
+        dealerHand.discardAll();
+        playerHand.discardAll();
+    }
+    else {
+        while (1) {
+            if (player->draw(temp1, playerHand)) {
+                Card dealt = myDeck.deal();
+                initDeal(player, playerHand, dealt, PLAYER);
+            }
+            else
+                break;
+        }
+        if (judgeHandValue(playerHand.handValue().count, bankroll, PLAYER, wager)) {
+            player->expose(temp2);
+            cout << "Dealer's hole card is " << SpotNames[temp2.spot] << " of " << SuitNames[temp2.suit] << endl;
+            while (dealerHand.handValue().count < 17) {
+                Card dealt = myDeck.deal();
+                initDeal(player, dealerHand, dealt, DEALER);
+            }
+            if (judgeHandValue(dealerHand.handValue().count, bankroll, DEALER, wager)) {
+                if (playerHand.handValue().count == dealerHand.handValue().count)
+                    cout << "Push\n";
+                else if (playerHand.handValue().count > dealerHand.handValue().count) {
+                    cout << "Player wins\n";
+                    bankroll += wager;
+                }
+                else {
+                    cout << "Dealer wins\n";
+                    bankroll -= wager;
+                }
+                dealerHand.discardAll();
+                playerHand.discardAll();
+            }
+            else {
+                dealerHand.discardAll();
+                playerHand.discardAll();
+            }
+        }
+        else {
+            dealerHand.discardAll();
+            playerHand.discardAll();
+        }
+    }
+}
+
 int main(int argc, char *argv[]) {
     int bankroll = stoi(argv[1]);
     int hands = stoi(argv[2]);
@@ -76,89 +154,14 @@ int main(int argc, char *argv[]) {
         player = get_Simple();
     else
         player = get_Counting();
-    shuffle(myDeck, player);
+    shuffle(myDeck, player); // Shuffle my deck
     Deck save = myDeck;
-    int thishand = 1;
+    int thishand = 1; // Initialize all parameters
     while (bankroll >= MINIMUM_BET && thishand < hands + 1) {
-        Card temp1, temp2;
-        cout << "Hand " << thishand << " bankroll " << bankroll << endl;
-        if (myDeck.cardsLeft() < 20) {
-            shuffle(save, player);
-            myDeck = save;
-        }
-        int wager = player->bet(bankroll, MINIMUM_BET);
-        cout << "Player bets " << wager << endl;
-        temp1 = myDeck.deal();
-        player->expose(temp1);
-        playerHand.addCard(temp1);
-        printCard(temp1, PLAYER);
-
-        temp1 = myDeck.deal();
-        player->expose(temp1);
-        dealerHand.addCard(temp1);
-        printCard(temp1, DEALER);
-
-        temp2 = myDeck.deal();
-        player->expose(temp2);
-        playerHand.addCard(temp2);
-        printCard(temp2, PLAYER);
-
-        temp2 = myDeck.deal();
-        dealerHand.addCard(temp2);
-        if (playerHand.handValue().count == 21) {
-            cout << "Player dealt natural 21\n";
-            bankroll += wager * 3 / 2;
-            dealerHand.discardAll();
-            playerHand.discardAll();
-        }
-        else {
-            while (1) {
-                if (player->draw(temp1, playerHand)) {
-                    Card dealt = myDeck.deal();
-                    player->expose(dealt);
-                    playerHand.addCard(dealt);
-                    printCard(dealt, PLAYER);
-                }
-                else
-                    break;
-            }
-            if (judgeHandValue(playerHand.handValue().count, bankroll, PLAYER, wager)) {
-                player->expose(temp2);
-                cout << "Dealer's hole card is " << SpotNames[temp2.spot] << " of " << SuitNames[temp2.suit] << endl;
-                while (dealerHand.handValue().count < 17) {
-                    Card dealt = myDeck.deal();
-                    player->expose(dealt);
-                    dealerHand.addCard(dealt);
-                    printCard(dealt, DEALER);
-                }
-                if (judgeHandValue(dealerHand.handValue().count, bankroll, DEALER, wager)) {
-                    if (playerHand.handValue().count == dealerHand.handValue().count)
-                        cout << "Push\n";
-                    else if (playerHand.handValue().count > dealerHand.handValue().count) {
-                        cout << "Player wins\n";
-                        bankroll += wager;
-                    }
-                    else {
-                        cout << "Dealer wins\n";
-                        bankroll -= wager;
-                    }
-                    dealerHand.discardAll();
-                    playerHand.discardAll();
-                }
-                else {
-                    dealerHand.discardAll();
-                    playerHand.discardAll();
-                }
-            }
-            else {
-                dealerHand.discardAll();
-                playerHand.discardAll();
-            }
-        }
-
+        oneHand(myDeck, save, thishand, bankroll, player, playerHand, dealerHand);
         thishand++;
-    }
-    cout << "Player has " << bankroll << " after " << (thishand - 1) << " hands\n";
+    }                                                                               // Play one hand for each loop
+    cout << "Player has " << bankroll << " after " << (thishand - 1) << " hands\n"; // Print results
     delete player;
 }
 
