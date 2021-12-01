@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-13 11:42:12
- * @LastEditTime: 2021-11-19 21:47:44
+ * @LastEditTime: 2021-11-19 22:15:58
  * @Description: VE280 2021 Fall Project 4
  * @FilePath: \p4\blackjack.cpp
  */
@@ -166,7 +166,6 @@ int main(int argc, char *argv[]) {
 }
 
 // TODO:
-// 1. 拆函数
-// 2. 写testcase
-// 3. 对拍答案
-// 4. 写注释, 修虚拟机 && 查coding style
+// 1. 写testcase
+// 2. 对拍答案
+// 3. 写注释, 修虚拟机 && 查coding style

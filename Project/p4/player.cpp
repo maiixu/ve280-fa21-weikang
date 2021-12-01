@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-13 11:41:28
- * @LastEditTime: 2021-11-17 18:52:46
+ * @LastEditTime: 2021-11-21 12:02:59
  * @Description: VE280 2021 Fall Project 4
  * @FilePath: \p4\player.cpp
  */
@@ -72,7 +72,7 @@ class countingPlayer : public Player {
 public:
     int bet(unsigned int bankroll, unsigned int minimum) override {
         if (count >= 2 && bankroll >= 2 * minimum) {
-            return 2 * minimum;
+            return (int)2 * minimum;
         }
         return (int)minimum;
     }
