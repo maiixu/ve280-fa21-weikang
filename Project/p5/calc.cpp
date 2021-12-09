@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-28 10:56:40
- * @LastEditTime: 2021-12-09 03:09:47
+ * @LastEditTime: 2021-12-09 11:10:56
  * @Description: VE280 2021 Fall Project 5
  * @FilePath: \p5\calc.cpp
  */
@@ -19,7 +19,6 @@ using namespace std;
 void twoOperand(char c, Dlist<int> *stack) {
     int *temp1;
     int *temp2;
-    int *result = new int;
     if (stack->isEmpty()) {
         cout << "Not enough operands\n";
     }
@@ -38,15 +37,14 @@ void twoOperand(char c, Dlist<int> *stack) {
                 delete temp1;
                 break;
             case '-':
-                *result = *temp2 - *temp1;
-                stack->insertFront(result);
+                *temp2 = *temp2 - *temp1;
+                stack->insertFront(temp2);
                 delete temp1;
-                delete temp2;
                 break;
             case '*':
-                stack->insertFront(new int(*temp1 * *temp2));
+                *temp2 = *temp1 * *temp2;
+                stack->insertFront(temp2);
                 delete temp1;
-                delete temp2;
                 break;
             case '/':
                 if (*temp1 == 0) {
@@ -55,9 +53,9 @@ void twoOperand(char c, Dlist<int> *stack) {
                     cout << "Divide by zero\n";
                 }
                 else {
-                    stack->insertFront(new int(*temp2 / *temp1));
+                    *temp2 = *temp2 / *temp1;
+                    stack->insertFront(temp2);
                     delete temp1;
-                    delete temp2;
                 }
                 break;
             case 'r':
@@ -104,11 +102,9 @@ void oneOperand(char c, Dlist<int> *stack) {
 // MODIFIES: stack
 // EFFECTS: Clear the stack.
 void clearStack(Dlist<int> *stack) {
-    try {
-        while (1) {
-            stack->removeFront();
-        }
-    } catch (emptyList) {}
+    while (!(stack->isEmpty())) {
+        delete (stack->removeFront());
+    }
 }
 
 // MODIFIES: stack
