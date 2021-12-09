@@ -1,17 +1,15 @@
 #include <iostream>
 #include "dlist.h"
-#include "dlist.cpp"
+#include "dlist_impl.h"
 
 using namespace std;
 
-void test_copy(Dlist<int> l)
-{
+void test_copy(Dlist<int> l) {
     int *ip = new int(1);
     l.insertFront(ip);
 }
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     int result = 0;
 
     Dlist<int> ilist;
@@ -27,9 +25,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(!ilist.isEmpty()) {
+    if (!ilist.isEmpty()) {
         cout << "Not Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Empty" << endl;
     }
 
@@ -37,7 +36,7 @@ int main(int argc, char *argv[])
 
     ip = new int(4);
     ilist.insertFront(ip);
-    
+
     // Now ilist should be (4)
 
     ip = new int(5);
@@ -69,9 +68,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist.isEmpty()){
+    if (ilist.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 
@@ -81,9 +81,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist.isEmpty()){
+    if (ilist.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 
@@ -98,9 +99,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist.isEmpty()){
+    if (ilist.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 
@@ -110,9 +112,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist.isEmpty()){
+    if (ilist.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 
@@ -122,9 +125,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist.isEmpty()){
+    if (ilist.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 
@@ -134,9 +138,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist.isEmpty()){
+    if (ilist.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 
@@ -146,9 +151,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(!ilist.isEmpty()){
+    if (!ilist.isEmpty()) {
         cout << "Not Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Empty" << endl;
     }
 
@@ -156,7 +162,7 @@ int main(int argc, char *argv[])
 
     ip = new int(4);
     ilist.insertFront(ip);
-    
+
     // Now ilist should be (4)
 
     ip = new int(5);
@@ -176,9 +182,10 @@ int main(int argc, char *argv[])
     cout << *ip << endl;
     delete ip;
 
-    if(ilist_copy.isEmpty()){
+    if (ilist_copy.isEmpty()) {
         cout << "Empty" << endl;
-    } else {
+    }
+    else {
         cout << "Not Empty" << endl;
     }
 

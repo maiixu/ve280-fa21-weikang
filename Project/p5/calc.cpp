@@ -1,12 +1,13 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-28 10:56:40
- * @LastEditTime: 2021-12-04 13:06:12
+ * @LastEditTime: 2021-12-09 03:09:47
  * @Description: VE280 2021 Fall Project 5
  * @FilePath: \p5\calc.cpp
  */
 
 #include "dlist.h"
+#include "dlist_impl.h"
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -16,64 +17,87 @@ using namespace std;
 // MODIFIES: stack
 // EFFECTS: Apply operands involving two numbers.
 void twoOperand(char c, Dlist<int> *stack) {
-    int temp1, temp2;
-    try {
-        temp1 = *stack->removeFront();
-    } catch (emptyList) {
-        throw;
+    int *temp1;
+    int *temp2;
+    int *result = new int;
+    if (stack->isEmpty()) {
+        cout << "Not enough operands\n";
     }
-    try {
-        temp2 = *stack->removeFront();
-    } catch (emptyList) {
-        stack->insertFront(&temp1);
-        throw;
-    }
-    switch (c) {
-    case '+':
-        int result = temp1 + temp2;
-        stack->insertFront(&result);
-    case '-':
-        int result = temp2 - temp1;
-        stack->insertFront(&result);
-    case '*':
-        int result = temp1 * temp2;
-        stack->insertFront(&result);
-    case '/':
-        if (temp1 == 0) {
-            stack->insertFront(&temp1);
-            cout << "Divide by zero\n";
+    else {
+        temp1 = stack->removeFront();
+        if (stack->isEmpty()) {
+            cout << "Not enough operands\n";
+            stack->insertFront(temp1);
         }
         else {
-            int result = temp2 / temp1;
-            stack->insertFront(&result);
+            temp2 = stack->removeFront();
+            switch (c) {
+            case '+':
+                *temp2 = *temp2 + *temp1;
+                stack->insertFront(temp2);
+                delete temp1;
+                break;
+            case '-':
+                *result = *temp2 - *temp1;
+                stack->insertFront(result);
+                delete temp1;
+                delete temp2;
+                break;
+            case '*':
+                stack->insertFront(new int(*temp1 * *temp2));
+                delete temp1;
+                delete temp2;
+                break;
+            case '/':
+                if (*temp1 == 0) {
+                    stack->insertFront(temp2);
+                    stack->insertFront(temp1);
+                    cout << "Divide by zero\n";
+                }
+                else {
+                    stack->insertFront(new int(*temp2 / *temp1));
+                    delete temp1;
+                    delete temp2;
+                }
+                break;
+            case 'r':
+                stack->insertFront(temp1);
+                stack->insertFront(temp2);
+                break;
+            default:
+                delete temp1;
+                delete temp2;
+                break;
+            }
         }
-    case 'r':
-        stack->insertFront(&temp2);
-        stack->insertFront(&temp1);
-    default:
     }
 }
 
 // MODIFIES: stack
 // EFFECTS: Apply operands involving one number.
 void oneOperand(char c, Dlist<int> *stack) {
-    int temp;
-    try {
-        temp = *stack->removeFront();
-    } catch (emptyList) {
-        throw;
+    int *temp;
+    if (stack->isEmpty()) {
+        cout << "Not enough operands\n";
     }
-    switch (c) {
-    case 'n':
-        temp = temp * (-1);
-        stack->insertFront(&temp);
-    case 'd':
-        stack->insertFront(&temp);
-        stack->insertFront(&temp);
-    case 'p':
-        cout << temp << endl;
-        stack->insertFront(&temp);
-    default:
+    else {
+        temp = stack->removeFront();
+        switch (c) {
+        case 'n':
+            stack->insertFront(new int(*temp * (-1)));
+            delete temp;
+            break;
+        case 'd':
+            stack->insertFront(temp);
+            stack->insertFront(new int(*temp));
+            break;
+        case 'p':
+            cout << *temp << endl;
+            stack->insertFront(temp);
+            break;
+        default:
+            break;
+        }
     }
 }
 
@@ -90,39 +114,48 @@ void clearStack(Dlist<int> *stack) {
 // MODIFIES: stack
 // EFFECTS: Print all items of the stack.
 void printStack(Dlist<int> *stack) {
-    Dlist<int> *temp = new Dlist<int>(*stack);
-    try {
-        while (1) {
-            cout << temp->removeFront() << " ";
-        }
-    } catch (emptyList) {
-        cout << endl;
+    Dlist<int> cc(*stack);
+    while (!cc.isEmpty()) {
+        int *tmp = cc.removeFront();
+        cout << *tmp << " ";
+        delete tmp;
     }
-    delete temp;
+    cout << endl;
     //FIXME: delete or not?
 }
 
 // MODIFIES: stack
 // EFFECTS: Insert an integer into the stack.
 void insertInt(string input, Dlist<int> *stack) {
-    int integer = stoi(input);
-    stack->insertFront(new int(integer));
+    int sign = 1;
+    int value = 0;
+    for (int i = 0; i < (int)input.length(); i++) {
+        if (i == 0 && input[i] == '-') {
+            sign = -1;
+            continue;
+        }
+        int digit = input[i] - '0';
+        value = value * 10 + digit;
+    }
+    int *result = new int(sign * value);
+    stack->insertFront(result);
 }
 
 // EFFECTS: Check whether an input string is a valid integer.
 bool checkInt(string input) {
-    bool returnVal = true;
-    for (int i = 0; i < input.length(); i++) {
-        if (input[i] > '9' || input[i] < '0') returnVal = false;
+    for (int i = 0; i < (int)input.length(); i++) {
+        if (i == 0 && input[i] == '-' && input.length() > 1) continue;
+        if (input[i] > '9' || input[i] < '0') {
+            return false;
+        }
     }
-    return returnVal;
+    return true;
 }
 
 // MODIFIES: stack
 // EFFECTS: Check input and apply respective functions according to the input.
 bool checkInput(string input, Dlist<int> *stack) {
-    bool checkInteger = checkInt(input);
-    if (checkInteger) {
+    if (checkInt(input)) {
         insertInt(input, stack);
         return true;
     }
@@ -130,33 +163,28 @@ bool checkInput(string input, Dlist<int> *stack) {
         cout << "Bad input\n";
         return true;
     }
-    try {
-        switch (input[0]) {
-        case 'q': return false;
-        case '+':
-        case '-':
-        case '*':
-        case '/':
-        case 'r':
-            twoOperand(input[0], stack);
-            return true;
-        case 'n':
-        case 'd':
-        case 'p':
-            oneOperand(input[0], stack);
-            return true;
-        case 'c':
-            clearStack(stack);
-            return true;
-        case 'a':
-            printStack(stack);
-            return true;
-        default:
-            cout << "Bad input\n";
-            return true;
-        }
-    } catch (emptyList) {
-        cout << "Not enough operands\n";
+    switch (input[0]) {
+    case 'q': return false;
+    case '+':
+    case '-':
+    case '*':
+    case '/':
+    case 'r':
+        twoOperand(input[0], stack);
+        return true;
+    case 'n':
+    case 'd':
+    case 'p':
+        oneOperand(input[0], stack);
+        return true;
+    case 'c':
+        clearStack(stack);
+        return true;
+    case 'a':
+        printStack(stack);
+        return true;
+    default:
+        cout << "Bad input\n";
         return true;
     }
 }
@@ -164,6 +192,7 @@ bool checkInput(string input, Dlist<int> *stack) {
 int main() {
     string input;
     Dlist<int> *stack = new Dlist<int>;
+    cin >> input;
     while (checkInput(input, stack))
         cin >> input;
     delete stack;

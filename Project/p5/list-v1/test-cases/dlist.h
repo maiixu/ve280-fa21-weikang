@@ -15,7 +15,7 @@ class Dlist
 
     // Operational methods
 
-    bool isEmpty();
+    bool isEmpty() const;
     // EFFECTS: returns true if list is empy, false otherwise
 
     void insertFront(T *op);
@@ -64,5 +64,14 @@ class Dlist
     // EFFECT: called by copy constructor/operator= to copy elements
     //         from a source instance l to this instance
 };
+
+/*
+Note: as we have shown in the lecture, for template, we also need
+to include the method implementation in the .h file. For this
+purpose, we include dlist_impl.h below. Please provide the method
+implementation in this file.
+*/
+
+#include "dlist_impl.h"
 
 #endif /* __DLIST_H__ */

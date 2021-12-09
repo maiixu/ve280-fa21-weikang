@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-11-28 09:11:17
+ * @LastEditTime: 2021-12-05 13:03:57
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \p5\list-v1\answer\call.cpp
+ */
 //
 // Created by liu on 2016/7/19.
 //
@@ -9,51 +17,45 @@
 
 using namespace std;
 
-enum STATUS
-{
-    PLATINUM, GOLD, SILVER, REGULAR,
+enum STATUS {
+    PLATINUM,
+    GOLD,
+    SILVER,
+    REGULAR,
 };
 
 const char *STATUS_STR[] = {"platinum", "gold", "silver", "regular"};
 
-struct Customer
-{
+struct Customer {
     int timestamp;
     string name;
     int duration;
 };
 
-STATUS getStatus(string str)
-{
-    for (int i = 0; i < 4; i++)
-    {
-        if (str == STATUS_STR[i])
-        {
+STATUS getStatus(string str) {
+    for (int i = 0; i < 4; i++) {
+        if (str == STATUS_STR[i]) {
             return STATUS(i);
         }
     }
+    return PLATINUM;
 }
 
-int main()
-{
+int main() {
     int num, time_next = 0;
     auto customer = new Dlist<Customer>[4];
     cin >> num;
-    if (num > 0)
-    {
+    if (num > 0) {
         num--;
         cin >> time_next;
     }
-    else
-    {
+    else {
         time_next = -1;
     }
     int time = 0, end = 0;
-    while (true)
-    {
+    while (true) {
         cout << "Starting tick #" << time << endl;
-        while (time == time_next && num >= 0)
-        {
+        while (time == time_next && num >= 0) {
             auto temp = new Customer;
             temp->timestamp = time_next;
             cin >> temp->name;
@@ -64,42 +66,33 @@ int main()
             customer[status].insertBack(temp);
             cout << "Call from " << temp->name << " a " << STATUS_STR[status] << " member" << endl;
             num--;
-            if (num >= 0)
-            {
+            if (num >= 0) {
                 cin >> time_next;
             }
         }
-        if (end > time)
-        {
+        if (end > time) {
             time++;
             continue;
         }
         bool count = 0;
-        for (int i = 0; i < 4; i++)
-        {
-            try
-            {
+        for (int i = 0; i < 4; i++) {
+            try {
                 auto temp = customer[i].removeFront();
-                count++;
-                if (temp->timestamp <= time)
-                {
+                count = 1;
+                if (temp->timestamp <= time) {
                     cout << "Answering call from " << temp->name << endl;
                     end += temp->duration;
                     delete temp;
                     break;
                 }
-                else
-                {
+                else {
                     customer[i].insertFront(temp);
                 }
-            }
-            catch (emptyList)
-            {
+            } catch (emptyList) {
                 continue;
             }
         }
-        if (count == 0 && time == end)
-        {
+        if (count == 0 && time == end) {
             break;
         }
         time++;

@@ -6,7 +6,7 @@ DEFS =
 LIBS =
 INCLUDES = -I.
 HEADERS = dlist.h
-TEMPLATES = dlist.cpp
+TEMPLATES = dlist_impl.h
 MAINSRCS = call.cpp calc.cpp test-all.cpp test-exception.cpp
 OTHSRCS =
 SRCS = $(MAINSRCS) $(OTHSRCS)
@@ -46,4 +46,4 @@ clean:
 .PHONY: all depend memcheck tags clean 
 # DO NOT DELETE
 
-testl.o: dlist.h dlist.cpp 
+testl.o: dlist.h dlist_impl.h
