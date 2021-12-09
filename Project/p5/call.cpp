@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-28 10:56:52
- * @LastEditTime: 2021-12-09 08:55:54
+ * @LastEditTime: 2021-12-09 09:10:16
  * @Description: VE280 2021 Fall Project 5
  * @FilePath: \p5\call.cpp
  */
@@ -150,3 +150,5 @@ int main() {
     delete[] queue;
     return 0;
 }
+
+//输入空文件会咋样？需要检测么？
