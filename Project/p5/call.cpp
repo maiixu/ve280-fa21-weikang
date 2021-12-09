@@ -1,7 +1,7 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-28 10:56:52
- * @LastEditTime: 2021-12-08 00:27:19
+ * @LastEditTime: 2021-12-09 08:55:54
  * @Description: VE280 2021 Fall Project 5
  * @FilePath: \p5\call.cpp
  */
@@ -96,7 +96,6 @@ int main() {
     int customerNum;
     cin >> customerNum;
     int tick = 0, dur = 0, next = 0, end = 0;
-
     if (customerNum > 0) {
         customerNum--;
         cin >> next;
@@ -105,6 +104,7 @@ int main() {
         next = -1;
     }
 
+    bool isOccupied = false;
     while (1) {
         cout << "Starting tick #" << tick << endl;
         while (customerNum >= 0 && tick == next) {
@@ -123,6 +123,8 @@ int main() {
             tick++;
             continue;
         }
+        else
+            isOccupied = false;
         bool judge = true;
         for (int i = NUM_STATUS - 1; i >= 0; i--) {
             if (!queue[i].isEmpty()) {
@@ -132,6 +134,7 @@ int main() {
                     cout << "Answering call from " << temp->getName() << endl;
                     end += temp->getDuration();
                     delete temp;
+                    isOccupied = true;
                     break;
                 }
                 else {
@@ -139,79 +142,11 @@ int main() {
                 }
             }
         }
-        if (judge == true && tick == end) break;
+        if (judge == true && tick == end && customerNum <= 0 && tick >= next) break;
         tick++;
+        if (isOccupied == false) end++;
     }
 
-    /*
-    for (int i = 0; i < customerNum; i++) {
-        int duration, status;
-        string name, statusName;
-        cin >> tick;
-        cin >> name;
-        cin >> statusName;
-        cin >> duration;
-        switch (statusName[0]) {
-        case 'r': {
-            status = 0;
-            Customer tempr = Customer(duration, name, status, tick);
-            queue[status].insertFront(&tempr); // FIXME: why 不是 pointer
-            cout << "Call from " << tempr.getName() << " a " << STATUS[status] << " member" << endl;
-            break;
-        }
-        case 's': {
-            status = 1;
-            Customer temps = Customer(duration, name, status, tick);
-            queue[status].insertFront(&temps);
-            break;
-        }
-        case 'g': {
-            status = 2;
-            Customer tempg = Customer(duration, name, status, tick);
-            queue[status].insertFront(&tempg);
-            break;
-        }
-        case 'p': {
-            status = 3;
-            Customer tempp = Customer(duration, name, status, tick);
-            queue[status].insertFront(&tempp);
-            break;
-        }
-        default: status = -1; break;
-        }
-    }
-    for (int i = 0; i < tick; i++) {
-        cout << "Starting tick #" << i << endl;
-        for (int status = NUM_STATUS; status > 0; status--) {
-            if (!queue[status].isEmpty()) {
-                auto tempCustomer = new Customer;
-                tempCustomer = queue[status].removeBack();
-                if (tempCustomer->getTick() == i) {
-                    wlist[status].insertFront(tempCustomer);
-                    cout << "Call from " << tempCustomer->getName() << " a " << STATUS[status] << " member" << endl;
-                }
-                else {
-                    queue[status].insertBack(tempCustomer);
-                } // 可能有多个同样class打进来
-            }
-        }
-        if (dur == 0) {
-            for (int status = NUM_STATUS; status > 0; status--) {
-                if (!wlist[status].isEmpty()) {
-                    Customer tempCustomer = *queue[status].removeBack();
-                    cout << "Answering call from " << tempCustomer.getName() << endl;
-                    dur = tempCustomer.getDuration();
-                }
-            }
-        }
-        else
-            dur--;
-    }
-    for (int i = 0; i < dur; i++) {
-        cout << "Starting tick #" << tick << endl;
-    }
-    */
-    // delete temp;
     delete[] queue;
     return 0;
 }
