@@ -1,13 +1,12 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-28 10:56:40
- * @LastEditTime: 2021-12-09 11:10:56
- * @Description: VE280 2021 Fall Project 5
+ * @LastEditTime: 2021-12-09 14:11:08
+ * @Description: VE280 2021 Fall Project 5 RPN Calculator
  * @FilePath: \p5\calc.cpp
  */
 
 #include "dlist.h"
-#include "dlist_impl.h"
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -17,17 +16,15 @@ using namespace std;
 // MODIFIES: stack
 // EFFECTS: Apply operands involving two numbers.
 void twoOperand(char c, Dlist<int> *stack) {
-    int *temp1;
-    int *temp2;
-    if (stack->isEmpty()) {
+    int *temp1, *temp2;
+    if (stack->isEmpty())
         cout << "Not enough operands\n";
-    }
     else {
         temp1 = stack->removeFront();
         if (stack->isEmpty()) {
             cout << "Not enough operands\n";
             stack->insertFront(temp1);
-        }
+        } //Insert temp1 back to the stack.
         else {
             temp2 = stack->removeFront();
             switch (c) {
@@ -75,15 +72,15 @@ void twoOperand(char c, Dlist<int> *stack) {
 // EFFECTS: Apply operands involving one number.
 void oneOperand(char c, Dlist<int> *stack) {
     int *temp;
-    if (stack->isEmpty()) {
+    // Always check for input errors first.
+    if (stack->isEmpty())
         cout << "Not enough operands\n";
-    }
     else {
         temp = stack->removeFront();
         switch (c) {
         case 'n':
-            stack->insertFront(new int(*temp * (-1)));
-            delete temp;
+            *temp = *temp * (-1);
+            stack->insertFront(temp);
             break;
         case 'd':
             stack->insertFront(temp);
@@ -94,6 +91,7 @@ void oneOperand(char c, Dlist<int> *stack) {
             stack->insertFront(temp);
             break;
         default:
+            delete temp;
             break;
         }
     }
@@ -110,21 +108,19 @@ void clearStack(Dlist<int> *stack) {
 // MODIFIES: stack
 // EFFECTS: Print all items of the stack.
 void printStack(Dlist<int> *stack) {
-    Dlist<int> cc(*stack);
-    while (!cc.isEmpty()) {
-        int *tmp = cc.removeFront();
-        cout << *tmp << " ";
-        delete tmp;
+    Dlist<int> temp(*stack);
+    while (!temp.isEmpty()) {
+        int *val = temp.removeFront();
+        cout << *val << " ";
+        delete val;
     }
     cout << endl;
-    //FIXME: delete or not?
 }
 
 // MODIFIES: stack
 // EFFECTS: Insert an integer into the stack.
 void insertInt(string input, Dlist<int> *stack) {
-    int sign = 1;
-    int value = 0;
+    int sign = 1, value = 0;
     for (int i = 0; i < (int)input.length(); i++) {
         if (i == 0 && input[i] == '-') {
             sign = -1;
@@ -140,6 +136,7 @@ void insertInt(string input, Dlist<int> *stack) {
 // EFFECTS: Check whether an input string is a valid integer.
 bool checkInt(string input) {
     for (int i = 0; i < (int)input.length(); i++) {
+        // It's OK to have '-' at the beginning.
         if (i == 0 && input[i] == '-' && input.length() > 1) continue;
         if (input[i] > '9' || input[i] < '0') {
             return false;
@@ -154,7 +151,7 @@ bool checkInput(string input, Dlist<int> *stack) {
     if (checkInt(input)) {
         insertInt(input, stack);
         return true;
-    }
+    } // First check if the input is an integer.
     if (input.length() > 1) {
         cout << "Bad input\n";
         return true;

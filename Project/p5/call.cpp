@@ -1,8 +1,8 @@
 /*
  * @Author: Maize
  * @Date: 2021-11-28 10:56:52
- * @LastEditTime: 2021-12-09 09:10:16
- * @Description: VE280 2021 Fall Project 5
+ * @LastEditTime: 2021-12-09 15:24:08
+ * @Description: VE280 2021 Fall Project 5 Call Center Simulation
  * @FilePath: \p5\call.cpp
  */
 
@@ -17,19 +17,24 @@ const string STATUS[] = {"regular", "silver", "gold", "platinum"};
 
 const int NUM_STATUS = 4;
 class Customer {
+    //OVERVIEW: A class that contains information about a customer.
     string name;
     int status;
     int tick;
     int duration;
 
 public:
-    Customer(int duration, string name, int status, int tick) {
-        this->duration = duration;
-        this->name = name;
-        this->status = status;
-        this->tick = tick;
+    // MODIFIES: this.
+    // EFFECTS: Default constructor.
+    Customer(int duration_, string name_, int status_, int tick_) {
+        this->duration = duration_;
+        this->name = name_;
+        this->status = status_;
+        this->tick = tick_;
     };
 
+    // MODIFIES: this.
+    // EFFECTS: Default constructor.
     Customer() {
         this->duration = -1;
         this->name = "";
@@ -37,56 +42,34 @@ public:
         this->tick = -1;
     }
 
-    void setVal(int duration, string name, int status, int tick) {
-        this->duration = duration;
-        this->name = name;
-        this->status = status;
-        this->tick = tick;
-    };
-
-    int getStatus() {
+    // EFFECTS: Return Status.
+    int getStatus() const {
         return status;
     }
-    void setStatus(int status) {
-        this->status = status;
-    }
 
-    int getDuration() {
+    // EFFECTS: Return Duration.
+    int getDuration() const {
         return duration;
     }
-    void setDuration(int d) {
-        duration = d;
-    }
 
-    string getName() {
+    // EFFECTS: Return Name.
+    string getName() const {
         return name;
     }
-    void setName(string name) {
-        this->name = name;
-    }
 
-    int getTick() {
+    // EFFECTS: Return Tick.
+    int getTick() const {
         return tick;
-    }
-    void setTick(int tick) {
-        this->tick = tick;
     }
 };
 
+// EFFECTS: Return int that is translated from a string.
 int trans_str(string str) {
     switch (str[0]) {
-    case 'r': {
-        return 0;
-    }
-    case 's': {
-        return 1;
-    }
-    case 'g': {
-        return 2;
-    }
-    case 'p': {
-        return 3;
-    }
+    case 'r': return 0;
+    case 's': return 1;
+    case 'g': return 2;
+    case 'p': return 3;
     default: return -1;
     }
 }
@@ -95,16 +78,12 @@ int main() {
     Dlist<Customer> *queue = new Dlist<Customer>[4]; // Storaging customer number
     int customerNum;
     cin >> customerNum;
-    int tick = 0, dur = 0, next = 0, end = 0;
+    int tick = 0, dur = 0, next = -1, end = 0;
     if (customerNum > 0) {
         customerNum--;
         cin >> next;
     }
-    else {
-        next = -1;
-    }
-
-    bool isOccupied = false;
+    bool isOccupied = false; // Represent whether the operator is occupied.
     while (1) {
         cout << "Starting tick #" << tick << endl;
         while (customerNum >= 0 && tick == next) {
@@ -115,21 +94,18 @@ int main() {
             queue[status].insertBack(temp);
             cout << "Call from " << temp->getName() << " a " << STATUS[status] << " member" << endl;
             customerNum--;
-            if (customerNum >= 0) {
+            if (customerNum >= 0)
                 cin >> next;
-            }
         }
         if (end > tick) {
             tick++;
             continue;
-        }
+        } // The operator is occupied.
         else
             isOccupied = false;
-        bool judge = true;
         for (int i = NUM_STATUS - 1; i >= 0; i--) {
             if (!queue[i].isEmpty()) {
-                auto temp = queue[i].removeFront();
-                judge = false;
+                Customer *temp = queue[i].removeFront();
                 if (temp->getTick() <= tick) {
                     cout << "Answering call from " << temp->getName() << endl;
                     end += temp->getDuration();
@@ -137,16 +113,14 @@ int main() {
                     isOccupied = true;
                     break;
                 }
-                else {
+                else
                     queue[i].insertFront(temp);
-                }
             }
         }
-        if (judge == true && tick == end && customerNum <= 0 && tick >= next) break;
+        if (tick == end && customerNum <= 0 && tick >= next) break;
+        if (isOccupied == false) end++; //If not occupied, the current end iterates along with tick.
         tick++;
-        if (isOccupied == false) end++;
     }
-
     delete[] queue;
     return 0;
 }
