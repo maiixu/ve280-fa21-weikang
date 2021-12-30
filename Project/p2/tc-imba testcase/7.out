@@ -1,4 +1,0 @@
-Append listB after listA is ( 1 2 3 4 5 11 12 13 14 15 )
-Append listZero after listA is ( 1 2 3 4 5 )
-Append listB after listZero is ( 11 12 13 14 15 )
-Append listZero after listZero is ( )

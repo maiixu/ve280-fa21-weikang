@@ -1,3 +1,3 @@
 ## VE280-2021-Fall-Weikang
 
-Course materials and projects for VE280 2021 Fall section
+Projects for VE280 2021 Fall Weikang section. The author is a noob, so trusting him only leads to HC and low grade, it's not worth it:)
