@@ -1,0 +1,4 @@
+*.exe
+*.clang-format
+
+.DS_Store
