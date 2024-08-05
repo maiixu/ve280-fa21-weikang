@@ -2,4 +2,5 @@
 
 Project material and source code for VE280 2021 Fall Weikang section. 
 
-You are welcome to refer to the code but don't copy, which will only lead to HC, it's not worth it:)
+Feel free to take advantage of this repo for your grades, but be smart. Apparently last time someone copied the code, they didn't even bother to change the comments :)
+
